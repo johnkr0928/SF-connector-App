@@ -1,0 +1,112 @@
+﻿@using System.Web.UI.WebControls
+@model SalesforceCon.Models.FBConfigurationModels
+
+@{
+    ViewBag.Title = "Edit";
+}
+@*<link href="~/Content/Salesforce.css" rel="stylesheet" />*@
+
+<link href="~/Content/SalesforceCustomer.css" rel="stylesheet" />
+<div class="registration_form">
+    <h2>Edit</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        if (ViewBag.AddressMessage == "FBConfiguration Updated Successfully")
+        {
+            <script type="text/javascript">
+                alert('@ViewBag.AddressMessage');
+            </script>
+        }
+        else if (ViewBag.AddressMessage == "FBConfiguration Updated UnSuccessfully")
+        {
+            <script type="text/javascript">
+                alert('@ViewBag.AddressMessage');
+            </script>
+        }
+        @Html.ValidationSummary(true)
+
+        <div>
+            @Html.ValidationSummary()
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.FBDataSource)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    @Html.EditorFor(model => model.FBDataSource)
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.FBInitialCatalog)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    @Html.TextBoxFor(model => model.FBInitialCatalog)
+                </div>
+            </div>
+
+
+
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.FBClientId)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    @Html.TextBoxFor(model => model.FBClientId, new { autofocus = "autofocus" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.FBClientPassword)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    @Html.PasswordFor(model => model.FBClientPassword)
+                </div>
+            </div>
+
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.FBPort)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    @Html.TextBoxFor(model => model.FBPort)
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.FBConnection)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    @Html.TextBoxFor(model => model.FBConnection, new { @placeholder = "Eg:abc@gmail.com" })
+
+                </div>
+            </div>
+           
+
+            
+
+
+            <div class="clearStyle"></div>
+            <div class="buttonContainer">
+                <button>Save</button>
+            </div>
+        </div>
+    }
+</div> 

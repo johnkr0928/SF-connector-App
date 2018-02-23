@@ -1,0 +1,148 @@
+﻿.formRowContainer
+{
+      width: 100%;
+      padding-top: 10px;
+}
+.labelContainer {
+    padding-top: 2px;
+    float: left;
+    min-width: 200px;
+    padding-bottom: 10px;
+    margin-right: -47px;
+}
+.buttonContainerconfig 
+{
+    color:#000;
+    margin-left: 2%;
+}
+.valueContainerconfig >input
+{
+    border:1px solid black;
+    /*float:left;*/
+    width:200px;
+    margin-left:10%;
+}
+.error {
+    color:red;
+}
+textarea 
+{
+    border:1px solid black;
+    font-family: inherit;
+    width: 202px;
+    margin-left: 10%;
+}
+input#IsActive {
+    margin-left: 3px;
+}
+.clearStyle
+{
+    clear: both;
+}
+.buttonContainer {
+    padding-top: 8px;
+    margin-left: 715px;
+    margin-bottom: 49px;
+}
+button 
+{
+    width: 81px;
+    height: 38px;
+    color: #000;
+    margin-left: 154px;
+   margin-bottom: 19px;
+}
+.important-mark 
+{
+    color: red;
+    padding: 5px 1px;
+    float: left;
+}
+.labelContainer label {
+    float: left;
+}
+.validation-summary-errors 
+{
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 632px !important;
+}
+.float-left 
+{
+    float: right;
+    margin-right: 40%;
+}
+#body
+{
+min-height: 600px;
+}
+input.input-validation-error 
+{
+    border: 1px solid #e80c4d;
+}
+textarea.input-validation-error 
+{
+    border: 1px solid #e80c4d;
+}
+.Emailformat {
+    display: table;
+    margin-left: 21%;
+    margin-top: -24px;
+}
+.LeadSettings {
+    margin-left: 23px;
+}
+.LeadSettings > input {
+    margin-left: 10%;
+}
+.common-c 
+{
+    width:35%;
+    float:left;
+    padding:116px;
+}
+.right 
+{
+    margin-right: -18%;
+    border-left:solid;
+}
+.left 
+{
+    margin-left: 271px;
+}
+.labelContainer.add 
+{
+    min-width: 255px;
+}
+label.lblBilling 
+{
+    margin-left: 116px;
+}
+button.btnsave 
+{
+    margin-left: 51%;
+}
+.bodywidth 
+{
+    max-width:1436px;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 7px -101px 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    margin-left: 0px;
+    margin-bottom:-147px;
+    zoom:1.5;
+}
+select#BillingCountry {
+    width: 175px;
+    height: 26px;
+}
+select#ShippingCountry {
+    width: 175px;
+    height: 26px;
+}
+.validationErrorsaddr{
+    margin-left:50%;
+}

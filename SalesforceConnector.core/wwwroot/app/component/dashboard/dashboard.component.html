@@ -1,0 +1,21 @@
+﻿<div layout="row" layout-padding="100">
+    <div flex="98" flex-xs="100">
+        <md-card>
+            <md-card-title color="primary">
+                <span>Dashboard</span>
+            </md-card-title>
+            <!--<md-card-content>
+                <p>
+                    Dashboard..
+                </p>
+            </md-card-content>-->
+            <md-card-actions layout="row" layout-align="end center">
+            </md-card-actions>
+        </md-card>
+        <md-card>
+            <md-card-content>
+                <google-chart [data]="pieChartOptions"></google-chart>
+            </md-card-content>
+        </md-card>        
+    </div>
+</div>

@@ -1,0 +1,65 @@
+﻿<form name="userForm" #userForm="ngForm">
+    <div layout="row" layout-padding="80">
+        <div flex></div>
+        <div flex="40" flex-xs="100">
+            <md-card>
+                <md-card-title color="primary">
+                    <span>Login</span>
+                </md-card-title>
+                <md-card-content>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" type="email" placeholder="Enter Username" #email="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" [(ngModel)]="login.Email" name="Email" required Email>
+                            <md-hint [hidden]="email.pristine || email.valid">
+                                <span [hidden]="!email.errors?.pattern || email.errors?.required" class="red">Incorrect Email Address</span>
+                                <span [hidden]="!email.errors?.required" class="red">Email is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" type="password" placeholder="Enter Password" #Password="ngModel" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$" [(ngModel)]="login.Password" name="Password" required Password>
+                            <md-hint [hidden]="Password.pristine || Password.valid">
+                                <span [hidden]="!Password.errors?.pattern || Password.errors?.required" class="red">
+                                    Password should be atleast 8 characters long and should contain one number,one character and one special character
+                                </span>
+                                <span [hidden]="!Password.errors?.required" class="red">Password is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <button md-raised-button color="primary" type="submit" (click)="validateUser(login);" [disabled]="!userForm.form.valid">Sign In</button>
+                    <button md-raised-button type="reset" ng-click="">Reset</button>
+                </md-card-actions>
+            </md-card>
+        </div>
+        <div flex></div>
+    </div>
+    <div *ngIf="color" class="background"></div>
+    <div *ngIf="edited" class="spin" >
+            <md-spinner id="size" mode="indeterminate" color="warn"></md-spinner>
+    </div>
+</form>
+<style>
+    /*#size {
+    height:200%;
+    width:200%;
+    }*/
+    .red{
+        color:red;
+    }
+    .spin{position: absolute;top: 28%;left: 47%;right: 50%;
+    }
+    .background {
+     width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+    }
+</style>
+

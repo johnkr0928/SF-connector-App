@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SalesforceConnectorModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Address1" Type="varchar" MaxLength="255" />
+    <Property Name="Address2" Type="varchar" MaxLength="255" />
+    <Property Name="Country" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="State" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="PostalCode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Configuration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="bigint" Nullable="false" />
+    <Property Name="ConsumerId" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ConsumerSecretKey" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SalesForceUserName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SalesForceUserPassword" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SecurityToken" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LeadSettings" Type="bit" Nullable="false" />
+    <Property Name="CampaignSettings" Type="bit" Nullable="false" />
+    <Property Name="SalesforceTokenURL" Type="varchar" MaxLength="200" />
+    <Property Name="CallBackURL" Type="varchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Company" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="BillingAddressId" Type="bigint" />
+    <Property Name="ShippingAddressId" Type="bigint" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" Nullable="false" />
+    <Property Name="Admin" Type="bit" Nullable="false" />
+    <Property Name="ApplicationId" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="bigint" />
+    <Property Name="OrderId" Type="nvarchar" MaxLength="50" />
+    <Property Name="MethodName" Type="nvarchar(max)" />
+    <Property Name="ErrorMessage" Type="nvarchar(max)" />
+    <Property Name="ActivityStatus" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="FBConfiguration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FBDataSource" Type="varchar(max)" Nullable="false" />
+    <Property Name="FBInitialCatalog" Type="varchar(max)" Nullable="false" />
+    <Property Name="FBClientId" Type="varchar(max)" Nullable="false" />
+    <Property Name="FBClientPassword" Type="varchar(max)" Nullable="false" />
+    <Property Name="FBPort" Type="varchar(max)" Nullable="false" />
+    <Property Name="FBConnection" Type="varchar(max)" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MemberShipLogin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="bigint" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SaltKey" Type="varchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SalesforceConnectorRequestLog">
+    <Key>
+      <PropertyRef Name="RequestId" />
+    </Key>
+    <Property Name="RequestId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="bigint" />
+    <Property Name="RequestModel" Type="nvarchar(max)" />
+    <Property Name="CreatedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SalesforceConnectorResponseLog">
+    <Key>
+      <PropertyRef Name="ResponseId" />
+    </Key>
+    <Property Name="ResponseId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SFOrderResponse" Type="nvarchar(max)" />
+    <Property Name="CustomerId" Type="bigint" />
+    <Property Name="StatusCode" Type="varchar" MaxLength="50" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="RequestId" Type="int" />
+  </EntityType>
+  <Association Name="FK__Customer__Billin__1273C1CD">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="BillingAddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__Shippi__1367E606">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="ShippingAddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ErrorLog__Custom__2E1BDC42">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="ErrorLog" Type="Self.ErrorLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ErrorLog">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MemberShi__Custo__164452B1">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="MemberShipLogin" Type="Self.MemberShipLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MemberShipLogin">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Salesforc__Custo__300424B4">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="SalesforceConnectorRequestLog" Type="Self.SalesforceConnectorRequestLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SalesforceConnectorRequestLog">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Salesforc__Custo__30F848ED">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="SalesforceConnectorResponseLog" Type="Self.SalesforceConnectorResponseLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SalesforceConnectorResponseLog">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesforceConnectorRequest_SalesforceConnectorResponse">
+    <End Role="SalesforceConnectorRequestLog" Type="Self.SalesforceConnectorRequestLog" Multiplicity="0..1" />
+    <End Role="SalesforceConnectorResponseLog" Type="Self.SalesforceConnectorResponseLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesforceConnectorRequestLog">
+        <PropertyRef Name="RequestId" />
+      </Principal>
+      <Dependent Role="SalesforceConnectorResponseLog">
+        <PropertyRef Name="RequestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="aspdnsf_AddItemToCart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerID" Type="int" Mode="In" />
+    <Parameter Name="ProductID" Type="int" Mode="In" />
+    <Parameter Name="VariantID" Type="int" Mode="In" />
+    <Parameter Name="Quantity" Type="int" Mode="In" />
+    <Parameter Name="ShippingAddressID" Type="int" Mode="In" />
+    <Parameter Name="BillingAddressID" Type="int" Mode="In" />
+    <Parameter Name="ChosenColor" Type="nvarchar" Mode="In" />
+    <Parameter Name="ChosenColorSKUModifier" Type="varchar" Mode="In" />
+    <Parameter Name="ChosenSize" Type="nvarchar" Mode="In" />
+    <Parameter Name="ChosenSizeSKUModifier" Type="varchar" Mode="In" />
+    <Parameter Name="CleanColorOption" Type="nvarchar" Mode="In" />
+    <Parameter Name="CleanSizeOption" Type="nvarchar" Mode="In" />
+    <Parameter Name="ColorAndSizePriceDelta" Type="money" Mode="In" />
+    <Parameter Name="TextOption" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CartType" Type="int" Mode="In" />
+    <Parameter Name="CustomerEnteredPrice" Type="money" Mode="In" />
+    <Parameter Name="CustomerLevelID" Type="int" Mode="In" />
+    <Parameter Name="RequiresCount" Type="int" Mode="In" />
+    <Parameter Name="IsKit2" Type="tinyint" Mode="In" />
+    <Parameter Name="NewShoppingCartRecID" Type="int" Mode="InOut" />
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+    <Parameter Name="IsAGift" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_AdjustInventory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ordernumber" Type="int" Mode="In" />
+    <Parameter Name="direction" Type="smallint" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_CloneProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="productID" Type="int" Mode="In" />
+    <Parameter Name="userid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_CloneStore" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+    <Parameter Name="NewStoreName" Type="nvarchar" Mode="In" />
+    <Parameter Name="NewStoreID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_CloneVariant" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="variantId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_CreateFeed" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="DisplayOrder" Type="int" Mode="In" />
+    <Parameter Name="XmlPackage" Type="nvarchar" Mode="In" />
+    <Parameter Name="CanAutoFTP" Type="tinyint" Mode="In" />
+    <Parameter Name="FTPUsername" Type="nvarchar" Mode="In" />
+    <Parameter Name="FTPPassword" Type="nvarchar" Mode="In" />
+    <Parameter Name="FTPServer" Type="nvarchar" Mode="In" />
+    <Parameter Name="FTPPort" Type="int" Mode="In" />
+    <Parameter Name="FTPFilename" Type="nvarchar" Mode="In" />
+    <Parameter Name="ExtensionData" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="FeedID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_CreateGiftCard" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SerialNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="PurchasedByCustomerID" Type="int" Mode="In" />
+    <Parameter Name="OrderNumber" Type="int" Mode="In" />
+    <Parameter Name="ShoppingCartRecID" Type="int" Mode="In" />
+    <Parameter Name="ProductID" Type="int" Mode="In" />
+    <Parameter Name="VariantID" Type="int" Mode="In" />
+    <Parameter Name="InitialAmount" Type="money" Mode="In" />
+    <Parameter Name="Balance" Type="money" Mode="In" />
+    <Parameter Name="ExpirationDate" Type="datetime" Mode="In" />
+    <Parameter Name="GiftCardTypeID" Type="int" Mode="In" />
+    <Parameter Name="EMailName" Type="nvarchar" Mode="In" />
+    <Parameter Name="EMailTo" Type="nvarchar" Mode="In" />
+    <Parameter Name="EMailMessage" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ValidForCustomers" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ValidForProducts" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ValidForManufacturers" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ValidForCategories" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ValidForSections" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ExtensionData" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="GiftCardID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_CreateIndexes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="aspdnsf_Get404Suggestions" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="storeId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_GetCustomerByEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="FilterCustomer" Type="bit" Mode="In" />
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+    <Parameter Name="AdminOnly" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_GetCustomerByGUID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerGUID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_GetCustomerByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_GetFeaturedProducts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumHomePageFeaturedProducts" Type="int" Mode="In" />
+    <Parameter Name="CustomerLevelID" Type="int" Mode="In" />
+    <Parameter Name="InventoryFilter" Type="int" Mode="In" />
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+    <Parameter Name="FilterProduct" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_getOrder" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ordernumber" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_GetProducts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="categoryID" Type="int" Mode="In" />
+    <Parameter Name="sectionID" Type="int" Mode="In" />
+    <Parameter Name="manufacturerID" Type="int" Mode="In" />
+    <Parameter Name="distributorID" Type="int" Mode="In" />
+    <Parameter Name="genreID" Type="int" Mode="In" />
+    <Parameter Name="vectorID" Type="int" Mode="In" />
+    <Parameter Name="localeID" Type="int" Mode="In" />
+    <Parameter Name="CustomerLevelID" Type="int" Mode="In" />
+    <Parameter Name="affiliateID" Type="int" Mode="In" />
+    <Parameter Name="ProductTypeID" Type="int" Mode="In" />
+    <Parameter Name="ViewType" Type="bit" Mode="In" />
+    <Parameter Name="sortEntity" Type="int" Mode="In" />
+    <Parameter Name="pagenum" Type="int" Mode="In" />
+    <Parameter Name="pagesize" Type="int" Mode="In" />
+    <Parameter Name="StatsFirst" Type="tinyint" Mode="In" />
+    <Parameter Name="searchstr" Type="nvarchar" Mode="In" />
+    <Parameter Name="extSearch" Type="tinyint" Mode="In" />
+    <Parameter Name="publishedonly" Type="tinyint" Mode="In" />
+    <Parameter Name="ExcludeKits" Type="tinyint" Mode="In" />
+    <Parameter Name="ExcludeSysProds" Type="tinyint" Mode="In" />
+    <Parameter Name="InventoryFilter" Type="int" Mode="In" />
+    <Parameter Name="sortEntityName" Type="varchar" Mode="In" />
+    <Parameter Name="localeName" Type="varchar" Mode="In" />
+    <Parameter Name="OnSaleOnly" Type="tinyint" Mode="In" />
+    <Parameter Name="storeID" Type="int" Mode="In" />
+    <Parameter Name="filterProduct" Type="bit" Mode="In" />
+    <Parameter Name="sortby" Type="varchar" Mode="In" />
+    <Parameter Name="since" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_GetShoppingCart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CartType" Type="tinyint" Mode="In" />
+    <Parameter Name="CustomerID" Type="int" Mode="In" />
+    <Parameter Name="OriginalRecurringOrderNumber" Type="int" Mode="In" />
+    <Parameter Name="OnlyLoadRecurringItemsThatAreDue" Type="tinyint" Mode="In" />
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_GetUpsellProductsForCart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerId" Type="int" Mode="In" />
+    <Parameter Name="customerlevelId" Type="int" Mode="In" />
+    <Parameter Name="invFilter" Type="int" Mode="In" />
+    <Parameter Name="storeId" Type="int" Mode="In" />
+    <Parameter Name="upsellProductsLimitNumberOnCart" Type="int" Mode="In" />
+    <Parameter Name="filterProduct" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_ImportProductPricing_XML" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="document" Type="xml" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_insAffiliate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EMail" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="Notes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="IsOnline" Type="tinyint" Mode="In" />
+    <Parameter Name="FirstName" Type="nvarchar" Mode="In" />
+    <Parameter Name="LastName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Company" Type="nvarchar" Mode="In" />
+    <Parameter Name="Address1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Address2" Type="nvarchar" Mode="In" />
+    <Parameter Name="Suite" Type="nvarchar" Mode="In" />
+    <Parameter Name="City" Type="nvarchar" Mode="In" />
+    <Parameter Name="State" Type="nvarchar" Mode="In" />
+    <Parameter Name="Zip" Type="nvarchar" Mode="In" />
+    <Parameter Name="Country" Type="nvarchar" Mode="In" />
+    <Parameter Name="Phone" Type="nvarchar" Mode="In" />
+    <Parameter Name="WebSiteName" Type="nvarchar" Mode="In" />
+    <Parameter Name="WebSiteDescription" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="URL" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="DefaultSkinID" Type="int" Mode="In" />
+    <Parameter Name="ParentAffiliateID" Type="int" Mode="In" />
+    <Parameter Name="DisplayOrder" Type="int" Mode="In" />
+    <Parameter Name="ExtensionData" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SEName" Type="nvarchar" Mode="In" />
+    <Parameter Name="SETitle" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SEAltText" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SEKeywords" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SEDescription" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Wholesale" Type="tinyint" Mode="In" />
+    <Parameter Name="SaltKey" Type="int" Mode="In" />
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+    <Parameter Name="AffiliateID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insAppconfig" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ConfigValue" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="GroupName" Type="nvarchar" Mode="In" />
+    <Parameter Name="SuperOnly" Type="tinyint" Mode="In" />
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+    <Parameter Name="ValueType" Type="nvarchar" Mode="In" />
+    <Parameter Name="AllowableValues" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="AppConfigID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insBadWord" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LocaleSetting" Type="nvarchar" Mode="In" />
+    <Parameter Name="Word" Type="nvarchar" Mode="In" />
+    <Parameter Name="BadWordID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insCountryTaxRate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CountryID" Type="int" Mode="In" />
+    <Parameter Name="TaxClassID" Type="int" Mode="In" />
+    <Parameter Name="TaxRate" Type="money" Mode="In" />
+    <Parameter Name="CountryTaxID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insEventHandler" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EventName" Type="nvarchar" Mode="In" />
+    <Parameter Name="CalloutURL" Type="varchar" Mode="In" />
+    <Parameter Name="XmlPackage" Type="varchar" Mode="In" />
+    <Parameter Name="Active" Type="bit" Mode="In" />
+    <Parameter Name="Debug" Type="bit" Mode="In" />
+    <Parameter Name="EventID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insGiftCardUsage" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="GiftCardID" Type="int" Mode="In" />
+    <Parameter Name="UsageTypeID" Type="int" Mode="In" />
+    <Parameter Name="UsedByCustomerID" Type="int" Mode="In" />
+    <Parameter Name="OrderNumber" Type="int" Mode="In" />
+    <Parameter Name="Amount" Type="money" Mode="In" />
+    <Parameter Name="ExtensionData" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="GiftCardUsageID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insProductType" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="ProductTypeID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insStateTaxRate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StateID" Type="int" Mode="In" />
+    <Parameter Name="TaxClassID" Type="int" Mode="In" />
+    <Parameter Name="TaxRate" Type="money" Mode="In" />
+    <Parameter Name="StateTaxID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_insTaxclass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="TaxCode" Type="nvarchar" Mode="In" />
+    <Parameter Name="DisplayOrder" Type="int" Mode="In" />
+    <Parameter Name="TaxClassID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_MoveToShoppingCart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ShoppingCartRecId" Type="int" Mode="In" />
+    <Parameter Name="CartType" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_NukeProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProductID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_PABPEraseCCInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CartType" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_ProductInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProductID" Type="int" Mode="In" />
+    <Parameter Name="CustomerLevelID" Type="int" Mode="In" />
+    <Parameter Name="DefaultVariantOnly" Type="tinyint" Mode="In" />
+    <Parameter Name="InvFilter" Type="int" Mode="In" />
+    <Parameter Name="AffiliateID" Type="int" Mode="In" />
+    <Parameter Name="PublishedOnly" Type="tinyint" Mode="In" />
+    <Parameter Name="IsAdmin" Type="tinyint" Mode="In" />
+    <Parameter Name="StoreID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_ReloadCart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CartXML" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_SaveKitGroup" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="KitGroupID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Summary" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ProductID" Type="int" Mode="In" />
+    <Parameter Name="DisplayOrder" Type="int" Mode="In" />
+    <Parameter Name="KitGroupTypeID" Type="int" Mode="In" />
+    <Parameter Name="IsRequired" Type="bit" Mode="In" />
+    <Parameter Name="IsReadOnly" Type="bit" Mode="In" />
+    <Parameter Name="SavedID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_SaveKitItem" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="KitItemID" Type="int" Mode="In" />
+    <Parameter Name="KitGroupID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PriceDelta" Type="money" Mode="In" />
+    <Parameter Name="WeightDelta" Type="money" Mode="In" />
+    <Parameter Name="IsDefault" Type="bit" Mode="In" />
+    <Parameter Name="DisplayOrder" Type="int" Mode="In" />
+    <Parameter Name="InventoryVariantID" Type="int" Mode="In" />
+    <Parameter Name="InventoryQuantityDelta" Type="int" Mode="In" />
+    <Parameter Name="InventoryVariantColor" Type="nvarchar" Mode="In" />
+    <Parameter Name="InventoryVariantSize" Type="nvarchar" Mode="In" />
+    <Parameter Name="SavedID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_SecurityLogInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SecurityAction" Type="nvarchar" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CustomerUpdated" Type="int" Mode="In" />
+    <Parameter Name="UpdatedBy" Type="int" Mode="In" />
+    <Parameter Name="CustomerSessionID" Type="int" Mode="In" />
+    <Parameter Name="logid" Type="bigint" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_SessionAge" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerID" Type="int" Mode="In" />
+    <Parameter Name="storeId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspdnsf_SessionInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerID" Type="int" Mode="In" />
+    <Parameter Name="SessionValue" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ipaddr" Type="varchar" Mode="In" />
+    <Parameter Name="CustomerSessionID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspdnsf_UpdateIndexes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="aspdnsf_UpdateStatistics" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="aspdnsf_updOrders" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="OrderNumber" Type="int" Mode="In" />
+    <Parameter Name="ParentOrderNumber" Type="int" Mode="In" />
+    <Parameter Name="StoreVersion" Type="nvarchar" Mode="In" />
+    <Parameter Name="QuoteCheckout" Type="tinyint" Mode="In" />
+    <Parameter Name="IsNew" Type="tinyint" Mode="In" />
+    <Parameter Name="ShippedOn" Type="datetime" Mode="In" />
+    <Parameter Name="CustomerID" Type="int" Mode="In" />
+    <Parameter Name="CustomerGUID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Referrer" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SkinID" Type="int" Mode="In" />
+    <Parameter Name="LastName" Type="nvarchar" Mode="In" />
+    <Parameter Name="FirstName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="Notes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="BillingEqualsShipping" Type="tinyint" Mode="In" />
+    <Parameter Name="BillingLastName" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingFirstName" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingCompany" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingAddress1" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingAddress2" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingSuite" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingCity" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingState" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingZip" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingCountry" Type="nvarchar" Mode="In" />
+    <Parameter Name="BillingPhone" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingLastName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingFirstName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingCompany" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingResidenceType" Type="int" Mode="In" />
+    <Parameter Name="ShippingAddress1" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingAddress2" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingSuite" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingCity" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingState" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingZip" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingCountry" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingMethodID" Type="int" Mode="In" />
+    <Parameter Name="ShippingMethod" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ShippingPhone" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippingCalculationID" Type="int" Mode="In" />
+    <Parameter Name="Phone" Type="nvarchar" Mode="In" />
+    <Parameter Name="RegisterDate" Type="datetime" Mode="In" />
+    <Parameter Name="AffiliateID" Type="int" Mode="In" />
+    <Parameter Name="CouponCode" Type="nvarchar" Mode="In" />
+    <Parameter Name="CouponType" Type="int" Mode="In" />
+    <Parameter Name="CouponDescription" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CouponDiscountAmount" Type="money" Mode="In" />
+    <Parameter Name="CouponDiscountPercent" Type="money" Mode="In" />
+    <Parameter Name="CouponIncludesFreeShipping" Type="tinyint" Mode="In" />
+    <Parameter Name="OkToEmail" Type="tinyint" Mode="In" />
+    <Parameter Name="Deleted" Type="tinyint" Mode="In" />
+    <Parameter Name="CardType" Type="nvarchar" Mode="In" />
+    <Parameter Name="CardName" Type="nvarchar" Mode="In" />
+    <Parameter Name="CardNumber" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CardExpirationMonth" Type="nvarchar" Mode="In" />
+    <Parameter Name="CardExpirationYear" Type="nvarchar" Mode="In" />
+    <Parameter Name="OrderSubtotal" Type="money" Mode="In" />
+    <Parameter Name="OrderTax" Type="money" Mode="In" />
+    <Parameter Name="OrderShippingCosts" Type="money" Mode="In" />
+    <Parameter Name="OrderTotal" Type="money" Mode="In" />
+    <Parameter Name="PaymentGateway" Type="nvarchar" Mode="In" />
+    <Parameter Name="AuthorizationCode" Type="nvarchar" Mode="In" />
+    <Parameter Name="AuthorizationResult" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="AuthorizationPNREF" Type="nvarchar" Mode="In" />
+    <Parameter Name="TransactionCommand" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="OrderDate" Type="datetime" Mode="In" />
+    <Parameter Name="LevelID" Type="int" Mode="In" />
+    <Parameter Name="LevelName" Type="nvarchar" Mode="In" />
+    <Parameter Name="LevelDiscountPercent" Type="money" Mode="In" />
+    <Parameter Name="LevelDiscountAmount" Type="money" Mode="In" />
+    <Parameter Name="LevelHasFreeShipping" Type="tinyint" Mode="In" />
+    <Parameter Name="LevelAllowsQuantityDiscounts" Type="tinyint" Mode="In" />
+    <Parameter Name="LevelHasNoTax" Type="tinyint" Mode="In" />
+    <Parameter Name="LevelAllowsCoupons" Type="tinyint" Mode="In" />
+    <Parameter Name="LevelDiscountsApplyToExtendedPrices" Type="tinyint" Mode="In" />
+    <Parameter Name="LastIPAddress" Type="varchar" Mode="In" />
+    <Parameter Name="PaymentMethod" Type="nvarchar" Mode="In" />
+    <Parameter Name="OrderNotes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PONumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="DownloadEmailSentOn" Type="datetime" Mode="In" />
+    <Parameter Name="ReceiptEmailSentOn" Type="datetime" Mode="In" />
+    <Parameter Name="DistributorEmailSentOn" Type="datetime" Mode="In" />
+    <Parameter Name="ShippingTrackingNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="ShippedVIA" Type="nvarchar" Mode="In" />
+    <Parameter Name="CustomerServiceNotes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RTShipRequest" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RTShipResponse" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="TransactionState" Type="nvarchar" Mode="In" />
+    <Parameter Name="AVSResult" Type="nvarchar" Mode="In" />
+    <Parameter Name="CaptureTXCommand" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CaptureTXResult" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="VoidTXCommand" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="VoidTXResult" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RefundTXCommand" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RefundTXResult" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CardinalLookupResult" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CardinalAuthenticateResult" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CardinalGatewayParms" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="AffiliateCommissionRecorded" Type="tinyint" Mode="In" />
+    <Parameter Name="OrderOptions" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="OrderWeight" Type="money" Mode="In" />
+    <Parameter Name="CarrierReportedRate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CarrierReportedWeight" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="LocaleSetting" Type="nvarchar" Mode="In" />
+    <Parameter Name="FinalizationData" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ExtensionData" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="AlreadyConfirmed" Type="tinyint" Mode="In" />
+    <Parameter Name="CartType" Type="int" Mode="In" />
+    <Parameter Name="THUB_POSTED_TO_ACCOUNTING" Type="char" Mode="In" />
+    <Parameter Name="THUB_POSTED_DATE" Type="datetime" Mode="In" />
+    <Parameter Name="THUB_ACCOUNTING_REF" Type="char" Mode="In" />
+    <Parameter Name="Last4" Type="nvarchar" Mode="In" />
+    <Parameter Name="ReadyToShip" Type="tinyint" Mode="In" />
+    <Parameter Name="IsPrinted" Type="tinyint" Mode="In" />
+    <Parameter Name="AuthorizedOn" Type="datetime" Mode="In" />
+    <Parameter Name="CapturedOn" Type="datetime" Mode="In" />
+    <Parameter Name="RefundedOn" Type="datetime" Mode="In" />
+    <Parameter Name="VoidedOn" Type="datetime" Mode="In" />
+    <Parameter Name="InventoryWasReduced" Type="int" Mode="In" />
+    <Parameter Name="MaxMindFraudScore" Type="decimal" Mode="In" />
+    <Parameter Name="MaxMindDetails" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CardStartDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="CardIssueNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="TransactionType" Type="int" Mode="In" />
+    <Parameter Name="Crypt" Type="int" Mode="In" />
+    <Parameter Name="VATRegistrationID" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="FraudedOn" Type="tinyint" Mode="In" />
+    <Parameter Name="RefundReason" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="FindQtyDiscountID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="entityid" Type="int" Mode="In" />
+    <Parameter Name="entitytype" Type="varchar" Mode="In" />
+    <Parameter Name="nestedLevel" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetQtyDiscountID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="productid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="USP_ActivityLog_CustomerId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_ActivityLog_OrderId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_ActivityLog_SelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_Address_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+    <Parameter Name="Address1" Type="varchar" Mode="In" />
+    <Parameter Name="Address2" Type="varchar" Mode="In" />
+    <Parameter Name="Country" Type="varchar" Mode="In" />
+    <Parameter Name="State" Type="varchar" Mode="In" />
+    <Parameter Name="City" Type="varchar" Mode="In" />
+    <Parameter Name="PostalCode" Type="varchar" Mode="In" />
+    <Parameter Name="PhoneNumber" Type="varchar" Mode="In" />
+    <Parameter Name="AddressType" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Address_SelectByBillingAddressId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Address_SelectByShippingAddressId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Address_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+    <Parameter Name="Address1" Type="varchar" Mode="In" />
+    <Parameter Name="Address2" Type="varchar" Mode="In" />
+    <Parameter Name="Country" Type="varchar" Mode="In" />
+    <Parameter Name="State" Type="varchar" Mode="In" />
+    <Parameter Name="City" Type="varchar" Mode="In" />
+    <Parameter Name="PostalCode" Type="varchar" Mode="In" />
+    <Parameter Name="PhoneNumber" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Configuration_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Configuration_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="varchar" Mode="InOut" />
+    <Parameter Name="ConsumerId" Type="varchar" Mode="In" />
+    <Parameter Name="ConsumerSecretKey" Type="varchar" Mode="In" />
+    <Parameter Name="SalesForceUserName" Type="varchar" Mode="In" />
+    <Parameter Name="SalesForceUserPassword" Type="varchar" Mode="In" />
+    <Parameter Name="SecurityToken" Type="varchar" Mode="In" />
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+    <Parameter Name="LeadSettings" Type="bit" Mode="In" />
+    <Parameter Name="CampaignSettings" Type="bit" Mode="In" />
+    <Parameter Name="SalesforceTokenURL" Type="varchar" Mode="In" />
+    <Parameter Name="CallBackURL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Configuration_Salesforce" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Configuration_SelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_Configuration_SelectByApplicationId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Configuration_SelectByCustomerId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Configuration_SelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Configuration_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+    <Parameter Name="ConsumerId" Type="varchar" Mode="In" />
+    <Parameter Name="ConsumerSecretKey" Type="varchar" Mode="In" />
+    <Parameter Name="SalesForceUserName" Type="varchar" Mode="In" />
+    <Parameter Name="SalesForceUserPassword" Type="varchar" Mode="In" />
+    <Parameter Name="SecurityToken" Type="varchar" Mode="In" />
+    <Parameter Name="SalesforceTokenURL" Type="varchar" Mode="In" />
+    <Parameter Name="LeadSettings" Type="bit" Mode="In" />
+    <Parameter Name="CallBackURL" Type="varchar" Mode="In" />
+    <Parameter Name="CampaignSettings" Type="bit" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="USP_Custmer_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Customer_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="varchar" Mode="InOut" />
+    <Parameter Name="FirstName" Type="varchar" Mode="In" />
+    <Parameter Name="LastName" Type="varchar" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="Company" Type="varchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="SaltKey" Type="varchar" Mode="In" />
+    <Parameter Name="ApplicationId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Customer_Login" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="varchar" Mode="InOut" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Customer_SelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_Customer_SelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Customer_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+    <Parameter Name="FirstName" Type="varchar" Mode="In" />
+    <Parameter Name="LastName" Type="varchar" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="Company" Type="varchar" Mode="In" />
+    <Parameter Name="BillingAddressId" Type="bigint" Mode="In" />
+    <Parameter Name="ShippingAddressId" Type="bigint" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="SaltKey" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_CustomerActivity_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+    <Parameter Name="ActivityLog" Type="varchar" Mode="In" />
+    <Parameter Name="ActivityStatus" Type="char" Mode="In" />
+  </Function>
+  <Function Name="USP_CustomerName_SelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_FBConfiguration_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_FBConfiguration_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="varchar" Mode="InOut" />
+    <Parameter Name="FBDataSource" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBInitialCatalog" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBClientId" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBClientPassword" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBPort" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBConnection" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="USP_FBConfiguration_SelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_FBConfiguration_SelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_FBConfiguration_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+    <Parameter Name="FBDataSource" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBInitialCatalog" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBClientId" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBClientPassword" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBPort" Type="varchar(max)" Mode="In" />
+    <Parameter Name="FBConnection" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="USP_GetCustomerId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SalesForceUserName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Request_SelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_Request_SelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_Responce_SelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_Responce_SelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_SalesforceConnectorRequestLog_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RequestId" Type="int" Mode="InOut" />
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+    <Parameter Name="RequestModel" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="USP_SalesforceConnectorResponseLog_GetApiByAdmin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="USP_SalesforceConnectorResponseLog_GetApiByCustomerId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="USP_SalesforceConnectorResponseLog_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SFOrderResponse" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CustomerId" Type="bigint" Mode="In" />
+    <Parameter Name="RequestId" Type="int" Mode="In" />
+    <Parameter Name="StatusCode" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="SalesforceConnectorModelStoreContainer">
+    <EntitySet Name="Address" EntityType="Self.Address" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Configuration" EntityType="Self.Configuration" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ErrorLog" EntityType="Self.ErrorLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FBConfiguration" EntityType="Self.FBConfiguration" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MemberShipLogin" EntityType="Self.MemberShipLogin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SalesforceConnectorRequestLog" EntityType="Self.SalesforceConnectorRequestLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SalesforceConnectorResponseLog" EntityType="Self.SalesforceConnectorResponseLog" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Customer__Billin__1273C1CD" Association="Self.FK__Customer__Billin__1273C1CD">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__Shippi__1367E606" Association="Self.FK__Customer__Shippi__1367E606">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ErrorLog__Custom__2E1BDC42" Association="Self.FK__ErrorLog__Custom__2E1BDC42">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="ErrorLog" EntitySet="ErrorLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MemberShi__Custo__164452B1" Association="Self.FK__MemberShi__Custo__164452B1">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="MemberShipLogin" EntitySet="MemberShipLogin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Salesforc__Custo__300424B4" Association="Self.FK__Salesforc__Custo__300424B4">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="SalesforceConnectorRequestLog" EntitySet="SalesforceConnectorRequestLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Salesforc__Custo__30F848ED" Association="Self.FK__Salesforc__Custo__30F848ED">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="SalesforceConnectorResponseLog" EntitySet="SalesforceConnectorResponseLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesforceConnectorRequest_SalesforceConnectorResponse" Association="Self.FK_SalesforceConnectorRequest_SalesforceConnectorResponse">
+      <End Role="SalesforceConnectorRequestLog" EntitySet="SalesforceConnectorRequestLog" />
+      <End Role="SalesforceConnectorResponseLog" EntitySet="SalesforceConnectorResponseLog" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,125 @@
+﻿.formRowContainer
+{
+      width: 100%;
+      padding-top: 10px;
+}
+.labelContainer
+{
+    padding-top: 2px; 
+    float: left;
+    min-width: 200px;
+    padding-bottom:10px;
+}
+.valueContainer >input
+{ 
+   
+    border:1px solid black;
+    float:left;
+    width:180px;
+}
+.error {
+    color:red;
+}
+.clearStyle
+{
+    clear: both;
+}
+.buttonContainer 
+{
+    padding-top: 10px;
+}
+button {
+    width: 81px;
+    height: 38px;
+    color: #000;
+    margin-left: 203px !important;
+}
+.important-mark 
+{
+    color: red;
+    padding: 5px 1px;
+    float: left;
+}
+.labelContainer label {
+    float: left;
+}
+.validation-summary-errors 
+{
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 178px !important;
+}
+.float-left 
+{
+    float: right;
+    margin-right: 40%;
+}
+#body
+{
+min-height: 600px;
+}
+input.input-validation-error
+{
+    border: 1px solid #e80c4d;
+}
+.Emailformat 
+{
+    display: table;
+    padding: 6px;
+}
+button 
+{
+    width:81px;
+}
+button.btnSubmit {
+    margin-left: 202px !important;
+}
+.customerlist_table > thead > tr > th
+{
+padding:5px 15px;
+background-color:teal;
+color:white;
+}
+.customerlist_tabledata  tr  td 
+{
+padding:5px 15px;
+}
+ul.pagination li {
+    /* display: inline; */
+    /* padding: 5px; */
+    /* background:white; */
+    /* margin: 79px; */
+    /* border:1px solid; */
+}
+.pagination-container {
+    /* margin-top: 10px; */
+    float:right;
+    /* margin-right:-80px; */
+    /* margin-top:-6px; */
+    /* display: table; */
+    /* width: 100%; */
+}
+.customerlist_table  td,.customerlist_table  th
+{
+border:1px solid;
+}
+div#pro_pag2 {
+    margin-top: 20px;
+    margin-right: 96%;
+}
+.LeadSettings {
+    margin-left: 317px;
+}
+
+.textbox {
+ width: 223px;
+}
+
+
+p.productlink {
+    float: right;
+    margin-top: 41px;
+    margin-right: 16px;
+}
+

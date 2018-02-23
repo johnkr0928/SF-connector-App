@@ -1,0 +1,56 @@
+﻿<md-toolbar color="primary">
+    <button md-icon-button (click)="start.open()">
+        <md-icon>menu</md-icon>
+    </button>
+    <span>Salesforce Connector</span>
+    <span flex></span>
+    <span>
+        <button md-button *ngIf="IsAdmin() && IsAuthenticated()" [routerLink]="['/profile']">Customer List</button>
+    </span>    
+    <span class="dashboard">
+        <button md-button *ngIf="!IsAdmin() && IsAuthenticated()" [routerLink]="['/dashboard']">Dashboard</button>
+    </span>
+    <span class="update">
+        <button md-button *ngIf="!IsAdmin() && IsAuthenticated()" [routerLink]="['/update',GetId()]">Profile</button>
+    </span>
+    <span class="update">
+        <button md-button *ngIf="!IsAdmin() && IsAuthenticated()" [routerLink]="['/sfconfigurationupdate',GetId()]">SF Configuration</button>
+    </span>
+    <span class="sfconfiguration">
+        <button md-button *ngIf="IsAdmin() && IsAuthenticated()" [routerLink]="['/sfconfigurationprofile']">SalesForce Configuration</button>
+    </span>
+    <span class="activity">
+        <button md-button *ngIf="IsAdmin() && IsAuthenticated()" [routerLink]="['/activity']">Activity Log</button>
+    </span>    
+    <span flex="50"></span>   
+    <button md-icon-button *ngIf="IsAuthenticated()&&IsAdmin()||IsAuthenticated()&&!IsAdmin()" [md-menu-trigger-for]="menu">
+        <md-icon>more_vert</md-icon>
+    </button>
+    <md-menu #menu="mdMenu" x-position="before">
+        <button md-menu-item> Refresh </button>
+        <button md-menu-item> Settings </button>
+        <button md-menu-item> Help </button>
+        <button md-menu-item onclick="location.href ='/index.html'"> Sign Out </button>
+    </md-menu>
+</md-toolbar>
+<md-sidenav-layout style="height:86%;">
+    <md-sidenav #start style="width: 200px;">
+        <md-list>
+            <md-list-item><button md-button style="width: 170px; text-align:left;" [routerLink]="['/home']">Home</button></md-list-item>
+            <!--<md-list-item><button md-button style="width: 170px; text-align:left;">Api</button></md-list-item>
+            <md-list-item><button md-button style="width: 170px; text-align:left;">Profile</button></md-list-item>-->
+            <md-list-item>  </md-list-item>
+            <md-list-item><button md-button style="width: 170px; text-align:left;" *ngIf="!IsAuthenticated()" (click)="start.close()" [routerLink]="['/login']">Login</button></md-list-item>
+            <md-list-item><button md-button style="width: 170px; text-align:left;" *ngIf="!IsAuthenticated()" (click)="start.close()" [routerLink]="['/register']">Register</button></md-list-item>
+        </md-list>
+    </md-sidenav>
+    <router-outlet></router-outlet>
+</md-sidenav-layout>
+<footer>
+    <md-toolbar class="md-scroll-shrink" color="primary">
+        <div layout="row" layout-align="center center" flex>
+            &copy; Synergy Frameworks
+        </div>
+    </md-toolbar>
+</footer>
+

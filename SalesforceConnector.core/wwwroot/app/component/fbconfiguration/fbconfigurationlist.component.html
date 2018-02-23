@@ -1,0 +1,47 @@
+﻿<div layout="row" layout-padding="100">
+
+    <div flex="98" flex-xs="100">
+        <md-card>
+
+            <md-card-title color="primary">
+                <span>Home</span>
+            </md-card-title>
+            <md-card-content>
+                <md-data-table layout-fill>
+                    <thead>
+                        <tr>
+                            <th sortable class="md-text-cell">FBDataSource</th>
+                            <th sortable class="md-text-cell">FBInitialCatalog</th>
+                            <th sortable class="md-text-cell">FBClientId</th>
+                            <th sortable class="md-text-cell">FBClientPassword</th>
+                            <th sortable class="md-text-cell">FBPort</th>
+                            <th sortable class="md-text-cell">FBConnection</th>
+
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let material of profiles">
+                            <td class="md-text-cell">{{ material.FBDataSource }}</td>
+                            <td class="md-text-cell">{{ material.FBInitialCatalog }}</td>
+                            <td class="md-text-cell">{{ material.FBClientId }}</td>
+                            <td class="md-text-cell">{{ material.FBClientPassword }}</td>
+                            <td class="md-text-cell">{{ material.FBPort }}</td>
+                            <td class="md-text-cell">{{ material.FBConnection }}</td>
+
+                            <td class="md-text-cell"><div layout="row"><md-icon>edit</md-icon><md-divider></md-divider><md-icon>address</md-icon><md-divider></md-divider><md-icon>delete</md-icon></div></td>
+                        </tr>
+                    </tbody>
+                </md-data-table>
+                <!--<swui-datatable [rows]="profiles"
+                                [columns]="columns">
+                </swui-datatable>-->
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+            </md-card-actions>
+        </md-card>
+    </div>
+
+</div>
+
+

@@ -1,0 +1,189 @@
+﻿@model SalesforceCon.Models.FBConfigurationModels
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Html.EnableClientValidation(true);
+}
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<link href="~/Content/SalesforceCustomer.css" rel="stylesheet" />
+<form ng-submit="submitForm()" name="frmFBConfig">
+    <h2>FBConfiguration</h2>
+    <div class="registration_form" ng-controller="FBConfigurationCtrl">
+        <div class="validationFBConfig">
+            <ul>
+                <li class="error" ng-show="frmFBConfig.fbclientid.$touched && frmFBConfig.fbclientid.$invalid">The FBClientId is required.</li>
+                <li class="error" ng-show="frmFBConfig.fbclientid.$error.pattern">Use numbers only</li>
+                <li class="error" ng-show="frmFBConfig.fbclientpassword.$touched && frmFBConfig.fbclientpassword.$invalid">The FBClient Password is required.</li>
+                <li class="error" ng-show="frmFBConfig.fbconnection.$touched && frmFBConfig.fbconnection.$invalid">The FB Connection is required.</li>
+                <li class="error" ng-show="frmFBConfig.fbdatasource.$touched && frmFBConfig.fbdatasource.$invalid">The FBDataSource is required.</li>
+                <li class="error" ng-show="frmFBConfig.fbinitialcatalog.$touched && frmFBConfig.fbinitialcatalog.$invalid">The FBInitial Catalog is required.</li>
+                <li class="error" ng-show="frmFBConfig.fbport.$touched && frmFBConfig.fbport.$invalid">The FB Port is required.</li>
+            </ul>
+        </div>
+
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.FBDataSource)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Data Source" name="fbdatasource" ng-model="FBDataSource" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.FBInitialCatalog)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Initial Catalog" name="fbinitialcatalog" ng-model="FBInitialCatalog" required />
+            </div>
+        </div>
+
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.FBClientId)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Client Id" name="fbclientid" ng-model="FBClientId" ng-pattern="/^[0-9]{1,7}$/" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.FBClientPassword)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Client Password" name="fbclientpassword" ng-model="FBClientPassword" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.FBPort)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Port" name="fbport" ng-model="FBPort" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.FBConnection)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Connection" name="fbconnection" ng-model="FBConnection" required />
+            </div>
+        </div>
+       
+
+        
+
+      
+
+        <div class="clearStyle"></div>
+        <div class="buttonContainerReg">
+            <input type="submit" value="Save" ng-click="SaveFBConfiguration();" class="btn btn-success" ng-disabled="frmFBConfig.$invalid" />
+            <input type="button" class="btn btn-danger" value="Cancel" ng-click="CreateCancel()" />
+        </div>
+    </div>
+</form>
+
+
+
+@*<form ng-submit="submitForm()" name="frmlistFBConfig">
+    <p>
+        <h2>FB Configuration Edit</h2>
+    </p>
+    <div class="registration_form">
+        <link href="~/Content/SalesforceCustomer.css" rel="stylesheet" />
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">FB Client Id</font>
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Client Id" name="fbclientid" ng-model="FBClientId" required autofocus />
+                <span class="error" ng-show="frmlistFBConfig.fbclientid.$touched && frmlistFBConfig.fbclientid.$invalid">The FBClientId is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">FB Client Password</font>
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Client Password" name="fbclientpassword" ng-model="FBClientPassword" required autofocus />
+                <span class="error" ng-show="frmlistFBConfig.fbclientpassword.$touched && frmlistFBConfig.fbclientpassword.$invalid">The FBClient Password is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">FB Connection</font>
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Connection" name="fbconnection" ng-model="FBConnection" required autofocus />
+                <span class="error" ng-show="frmlistFBConfig.fbconnection.$touched && frmlistFBConfig.fbconnection.$invalid">The FB Connection is required.</span>
+            </div>
+        </div>
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">FB Data Source</font>
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Data Source" name="fbdatasource" ng-model="FBDataSource" required autofocus />
+                <span class="error" ng-show="frmlistFBConfig.fbdatasource.$touched && frmlistFBConfig.fbdatasource.$invalid">The FBDataSource is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">FB Initial Catalog</font>
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Initial Catalog" name="fbinitialcatalog" ng-model="FBInitialCatalog" required autofocus />
+                <span class="error" ng-show="frmlistFBConfig.fbinitialcatalog.$touched && frmlistFBConfig.fbinitialcatalog.$invalid">The FBInitial Catalog is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">FB Port</font>
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="FB Port" name="fbport" ng-model="FBPort" required autofocus />
+                <span class="error" ng-show="frmlistFBConfig.fbport.$touched && frmlistFBConfig.fbport.$invalid">The FB Port is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="buttonContainerReg">
+            <input type="submit" value="Save" ng-click="UpdateFBConfiguration();" class="btn btn-success" ng-disabled="frmlistFBConfig.$invalid" />
+            <input type="button" class="btn btn-danger" value="Cancel" ng-click="Cancel()" />
+        </div>
+    </div>
+</form>*@

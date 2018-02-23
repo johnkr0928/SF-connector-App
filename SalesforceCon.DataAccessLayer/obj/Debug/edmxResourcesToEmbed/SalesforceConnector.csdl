@@ -1,0 +1,1058 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SalesforceConnectorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SalesforceConnectorEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Addresses" EntityType="SalesforceConnectorModel.Address" />
+    <EntitySet Name="Configurations" EntityType="SalesforceConnectorModel.Configuration" />
+    <EntitySet Name="Customers" EntityType="SalesforceConnectorModel.Customer" />
+    <EntitySet Name="ErrorLogs" EntityType="SalesforceConnectorModel.ErrorLog" />
+    <EntitySet Name="FBConfigurations" EntityType="SalesforceConnectorModel.FBConfiguration" />
+    <EntitySet Name="MemberShipLogins" EntityType="SalesforceConnectorModel.MemberShipLogin" />
+    <EntitySet Name="SalesforceConnectorRequestLogs" EntityType="SalesforceConnectorModel.SalesforceConnectorRequestLog" />
+    <EntitySet Name="SalesforceConnectorResponseLogs" EntityType="SalesforceConnectorModel.SalesforceConnectorResponseLog" />
+    <AssociationSet Name="FK__Customer__Billin__1273C1CD" Association="SalesforceConnectorModel.FK__Customer__Billin__1273C1CD">
+      <End Role="Address" EntitySet="Addresses" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__Shippi__1367E606" Association="SalesforceConnectorModel.FK__Customer__Shippi__1367E606">
+      <End Role="Address" EntitySet="Addresses" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ErrorLog__Custom__2E1BDC42" Association="SalesforceConnectorModel.FK__ErrorLog__Custom__2E1BDC42">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="ErrorLog" EntitySet="ErrorLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MemberShi__Custo__164452B1" Association="SalesforceConnectorModel.FK__MemberShi__Custo__164452B1">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="MemberShipLogin" EntitySet="MemberShipLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Salesforc__Custo__300424B4" Association="SalesforceConnectorModel.FK__Salesforc__Custo__300424B4">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="SalesforceConnectorRequestLog" EntitySet="SalesforceConnectorRequestLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Salesforc__Custo__30F848ED" Association="SalesforceConnectorModel.FK__Salesforc__Custo__30F848ED">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="SalesforceConnectorResponseLog" EntitySet="SalesforceConnectorResponseLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesforceConnectorRequest_SalesforceConnectorResponse" Association="SalesforceConnectorModel.FK_SalesforceConnectorRequest_SalesforceConnectorResponse">
+      <End Role="SalesforceConnectorRequestLog" EntitySet="SalesforceConnectorRequestLogs" />
+      <End Role="SalesforceConnectorResponseLog" EntitySet="SalesforceConnectorResponseLogs" />
+    </AssociationSet>
+    <FunctionImport Name="aspdnsf_AddItemToCart">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="VariantID" Mode="In" Type="Int32" />
+      <Parameter Name="Quantity" Mode="In" Type="Int32" />
+      <Parameter Name="ShippingAddressID" Mode="In" Type="Int32" />
+      <Parameter Name="BillingAddressID" Mode="In" Type="Int32" />
+      <Parameter Name="ChosenColor" Mode="In" Type="String" />
+      <Parameter Name="ChosenColorSKUModifier" Mode="In" Type="String" />
+      <Parameter Name="ChosenSize" Mode="In" Type="String" />
+      <Parameter Name="ChosenSizeSKUModifier" Mode="In" Type="String" />
+      <Parameter Name="CleanColorOption" Mode="In" Type="String" />
+      <Parameter Name="CleanSizeOption" Mode="In" Type="String" />
+      <Parameter Name="ColorAndSizePriceDelta" Mode="In" Type="Decimal" />
+      <Parameter Name="TextOption" Mode="In" Type="String" />
+      <Parameter Name="CartType" Mode="In" Type="Int32" />
+      <Parameter Name="CustomerEnteredPrice" Mode="In" Type="Decimal" />
+      <Parameter Name="CustomerLevelID" Mode="In" Type="Int32" />
+      <Parameter Name="RequiresCount" Mode="In" Type="Int32" />
+      <Parameter Name="IsKit2" Mode="In" Type="Byte" />
+      <Parameter Name="NewShoppingCartRecID" Mode="InOut" Type="Int32" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="IsAGift" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_AdjustInventory">
+      <Parameter Name="ordernumber" Mode="In" Type="Int32" />
+      <Parameter Name="direction" Mode="In" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_CloneProduct">
+      <Parameter Name="productID" Mode="In" Type="Int32" />
+      <Parameter Name="userid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_CloneStore">
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="NewStoreName" Mode="In" Type="String" />
+      <Parameter Name="NewStoreID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_CloneVariant">
+      <Parameter Name="variantId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_CreateFeed">
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="DisplayOrder" Mode="In" Type="Int32" />
+      <Parameter Name="XmlPackage" Mode="In" Type="String" />
+      <Parameter Name="CanAutoFTP" Mode="In" Type="Byte" />
+      <Parameter Name="FTPUsername" Mode="In" Type="String" />
+      <Parameter Name="FTPPassword" Mode="In" Type="String" />
+      <Parameter Name="FTPServer" Mode="In" Type="String" />
+      <Parameter Name="FTPPort" Mode="In" Type="Int32" />
+      <Parameter Name="FTPFilename" Mode="In" Type="String" />
+      <Parameter Name="ExtensionData" Mode="In" Type="String" />
+      <Parameter Name="FeedID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_CreateGiftCard">
+      <Parameter Name="SerialNumber" Mode="In" Type="String" />
+      <Parameter Name="PurchasedByCustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="OrderNumber" Mode="In" Type="Int32" />
+      <Parameter Name="ShoppingCartRecID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="VariantID" Mode="In" Type="Int32" />
+      <Parameter Name="InitialAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="Balance" Mode="In" Type="Decimal" />
+      <Parameter Name="ExpirationDate" Mode="In" Type="DateTime" />
+      <Parameter Name="GiftCardTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="EMailName" Mode="In" Type="String" />
+      <Parameter Name="EMailTo" Mode="In" Type="String" />
+      <Parameter Name="EMailMessage" Mode="In" Type="String" />
+      <Parameter Name="ValidForCustomers" Mode="In" Type="String" />
+      <Parameter Name="ValidForProducts" Mode="In" Type="String" />
+      <Parameter Name="ValidForManufacturers" Mode="In" Type="String" />
+      <Parameter Name="ValidForCategories" Mode="In" Type="String" />
+      <Parameter Name="ValidForSections" Mode="In" Type="String" />
+      <Parameter Name="ExtensionData" Mode="In" Type="String" />
+      <Parameter Name="GiftCardID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_CreateIndexes" />
+    <FunctionImport Name="aspdnsf_Get404Suggestions">
+      <Parameter Name="storeId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_GetCustomerByEmail">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="FilterCustomer" Mode="In" Type="Boolean" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="AdminOnly" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_GetCustomerByGUID">
+      <Parameter Name="CustomerGUID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_GetCustomerByID">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_GetFeaturedProducts">
+      <Parameter Name="NumHomePageFeaturedProducts" Mode="In" Type="Int32" />
+      <Parameter Name="CustomerLevelID" Mode="In" Type="Int32" />
+      <Parameter Name="InventoryFilter" Mode="In" Type="Int32" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="FilterProduct" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_getOrder">
+      <Parameter Name="ordernumber" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_GetProducts">
+      <Parameter Name="categoryID" Mode="In" Type="Int32" />
+      <Parameter Name="sectionID" Mode="In" Type="Int32" />
+      <Parameter Name="manufacturerID" Mode="In" Type="Int32" />
+      <Parameter Name="distributorID" Mode="In" Type="Int32" />
+      <Parameter Name="genreID" Mode="In" Type="Int32" />
+      <Parameter Name="vectorID" Mode="In" Type="Int32" />
+      <Parameter Name="localeID" Mode="In" Type="Int32" />
+      <Parameter Name="CustomerLevelID" Mode="In" Type="Int32" />
+      <Parameter Name="affiliateID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="ViewType" Mode="In" Type="Boolean" />
+      <Parameter Name="sortEntity" Mode="In" Type="Int32" />
+      <Parameter Name="pagenum" Mode="In" Type="Int32" />
+      <Parameter Name="pagesize" Mode="In" Type="Int32" />
+      <Parameter Name="StatsFirst" Mode="In" Type="Byte" />
+      <Parameter Name="searchstr" Mode="In" Type="String" />
+      <Parameter Name="extSearch" Mode="In" Type="Byte" />
+      <Parameter Name="publishedonly" Mode="In" Type="Byte" />
+      <Parameter Name="ExcludeKits" Mode="In" Type="Byte" />
+      <Parameter Name="ExcludeSysProds" Mode="In" Type="Byte" />
+      <Parameter Name="InventoryFilter" Mode="In" Type="Int32" />
+      <Parameter Name="sortEntityName" Mode="In" Type="String" />
+      <Parameter Name="localeName" Mode="In" Type="String" />
+      <Parameter Name="OnSaleOnly" Mode="In" Type="Byte" />
+      <Parameter Name="storeID" Mode="In" Type="Int32" />
+      <Parameter Name="filterProduct" Mode="In" Type="Boolean" />
+      <Parameter Name="sortby" Mode="In" Type="String" />
+      <Parameter Name="since" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_GetShoppingCart">
+      <Parameter Name="CartType" Mode="In" Type="Byte" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="OriginalRecurringOrderNumber" Mode="In" Type="Int32" />
+      <Parameter Name="OnlyLoadRecurringItemsThatAreDue" Mode="In" Type="Byte" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_GetUpsellProductsForCart">
+      <Parameter Name="customerId" Mode="In" Type="Int32" />
+      <Parameter Name="customerlevelId" Mode="In" Type="Int32" />
+      <Parameter Name="invFilter" Mode="In" Type="Int32" />
+      <Parameter Name="storeId" Mode="In" Type="Int32" />
+      <Parameter Name="upsellProductsLimitNumberOnCart" Mode="In" Type="Int32" />
+      <Parameter Name="filterProduct" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_ImportProductPricing_XML">
+      <Parameter Name="document" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insAffiliate">
+      <Parameter Name="EMail" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="Notes" Mode="In" Type="String" />
+      <Parameter Name="IsOnline" Mode="In" Type="Byte" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Company" Mode="In" Type="String" />
+      <Parameter Name="Address1" Mode="In" Type="String" />
+      <Parameter Name="Address2" Mode="In" Type="String" />
+      <Parameter Name="Suite" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="State" Mode="In" Type="String" />
+      <Parameter Name="Zip" Mode="In" Type="String" />
+      <Parameter Name="Country" Mode="In" Type="String" />
+      <Parameter Name="Phone" Mode="In" Type="String" />
+      <Parameter Name="WebSiteName" Mode="In" Type="String" />
+      <Parameter Name="WebSiteDescription" Mode="In" Type="String" />
+      <Parameter Name="URL" Mode="In" Type="String" />
+      <Parameter Name="DefaultSkinID" Mode="In" Type="Int32" />
+      <Parameter Name="ParentAffiliateID" Mode="In" Type="Int32" />
+      <Parameter Name="DisplayOrder" Mode="In" Type="Int32" />
+      <Parameter Name="ExtensionData" Mode="In" Type="String" />
+      <Parameter Name="SEName" Mode="In" Type="String" />
+      <Parameter Name="SETitle" Mode="In" Type="String" />
+      <Parameter Name="SEAltText" Mode="In" Type="String" />
+      <Parameter Name="SEKeywords" Mode="In" Type="String" />
+      <Parameter Name="SEDescription" Mode="In" Type="String" />
+      <Parameter Name="Wholesale" Mode="In" Type="Byte" />
+      <Parameter Name="SaltKey" Mode="In" Type="Int32" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="AffiliateID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insAppconfig">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="ConfigValue" Mode="In" Type="String" />
+      <Parameter Name="GroupName" Mode="In" Type="String" />
+      <Parameter Name="SuperOnly" Mode="In" Type="Byte" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="ValueType" Mode="In" Type="String" />
+      <Parameter Name="AllowableValues" Mode="In" Type="String" />
+      <Parameter Name="AppConfigID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insBadWord">
+      <Parameter Name="LocaleSetting" Mode="In" Type="String" />
+      <Parameter Name="Word" Mode="In" Type="String" />
+      <Parameter Name="BadWordID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insCountryTaxRate">
+      <Parameter Name="CountryID" Mode="In" Type="Int32" />
+      <Parameter Name="TaxClassID" Mode="In" Type="Int32" />
+      <Parameter Name="TaxRate" Mode="In" Type="Decimal" />
+      <Parameter Name="CountryTaxID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insEventHandler">
+      <Parameter Name="EventName" Mode="In" Type="String" />
+      <Parameter Name="CalloutURL" Mode="In" Type="String" />
+      <Parameter Name="XmlPackage" Mode="In" Type="String" />
+      <Parameter Name="Active" Mode="In" Type="Boolean" />
+      <Parameter Name="Debug" Mode="In" Type="Boolean" />
+      <Parameter Name="EventID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insGiftCardUsage">
+      <Parameter Name="GiftCardID" Mode="In" Type="Int32" />
+      <Parameter Name="UsageTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="UsedByCustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="OrderNumber" Mode="In" Type="Int32" />
+      <Parameter Name="Amount" Mode="In" Type="Decimal" />
+      <Parameter Name="ExtensionData" Mode="In" Type="String" />
+      <Parameter Name="GiftCardUsageID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insProductType">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="ProductTypeID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insStateTaxRate">
+      <Parameter Name="StateID" Mode="In" Type="Int32" />
+      <Parameter Name="TaxClassID" Mode="In" Type="Int32" />
+      <Parameter Name="TaxRate" Mode="In" Type="Decimal" />
+      <Parameter Name="StateTaxID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_insTaxclass">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="TaxCode" Mode="In" Type="String" />
+      <Parameter Name="DisplayOrder" Mode="In" Type="Int32" />
+      <Parameter Name="TaxClassID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_MoveToShoppingCart">
+      <Parameter Name="ShoppingCartRecId" Mode="In" Type="Int32" />
+      <Parameter Name="CartType" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_NukeProduct">
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_PABPEraseCCInfo">
+      <Parameter Name="CartType" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_ProductInfo">
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="CustomerLevelID" Mode="In" Type="Int32" />
+      <Parameter Name="DefaultVariantOnly" Mode="In" Type="Byte" />
+      <Parameter Name="InvFilter" Mode="In" Type="Int32" />
+      <Parameter Name="AffiliateID" Mode="In" Type="Int32" />
+      <Parameter Name="PublishedOnly" Mode="In" Type="Byte" />
+      <Parameter Name="IsAdmin" Mode="In" Type="Byte" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_ReloadCart">
+      <Parameter Name="CartXML" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_SaveKitGroup">
+      <Parameter Name="KitGroupID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="Summary" Mode="In" Type="String" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="DisplayOrder" Mode="In" Type="Int32" />
+      <Parameter Name="KitGroupTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="IsRequired" Mode="In" Type="Boolean" />
+      <Parameter Name="IsReadOnly" Mode="In" Type="Boolean" />
+      <Parameter Name="SavedID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_SaveKitItem">
+      <Parameter Name="KitItemID" Mode="In" Type="Int32" />
+      <Parameter Name="KitGroupID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="PriceDelta" Mode="In" Type="Decimal" />
+      <Parameter Name="WeightDelta" Mode="In" Type="Decimal" />
+      <Parameter Name="IsDefault" Mode="In" Type="Boolean" />
+      <Parameter Name="DisplayOrder" Mode="In" Type="Int32" />
+      <Parameter Name="InventoryVariantID" Mode="In" Type="Int32" />
+      <Parameter Name="InventoryQuantityDelta" Mode="In" Type="Int32" />
+      <Parameter Name="InventoryVariantColor" Mode="In" Type="String" />
+      <Parameter Name="InventoryVariantSize" Mode="In" Type="String" />
+      <Parameter Name="SavedID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_SecurityLogInsert">
+      <Parameter Name="SecurityAction" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="CustomerUpdated" Mode="In" Type="Int32" />
+      <Parameter Name="UpdatedBy" Mode="In" Type="Int32" />
+      <Parameter Name="CustomerSessionID" Mode="In" Type="Int32" />
+      <Parameter Name="logid" Mode="InOut" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_SessionAge">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="storeId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_SessionInsert">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="SessionValue" Mode="In" Type="String" />
+      <Parameter Name="ipaddr" Mode="In" Type="String" />
+      <Parameter Name="CustomerSessionID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="aspdnsf_UpdateIndexes" />
+    <FunctionImport Name="aspdnsf_UpdateStatistics" />
+    <FunctionImport Name="aspdnsf_updOrders">
+      <Parameter Name="OrderNumber" Mode="In" Type="Int32" />
+      <Parameter Name="ParentOrderNumber" Mode="In" Type="Int32" />
+      <Parameter Name="StoreVersion" Mode="In" Type="String" />
+      <Parameter Name="QuoteCheckout" Mode="In" Type="Byte" />
+      <Parameter Name="IsNew" Mode="In" Type="Byte" />
+      <Parameter Name="ShippedOn" Mode="In" Type="DateTime" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="CustomerGUID" Mode="In" Type="Guid" />
+      <Parameter Name="Referrer" Mode="In" Type="String" />
+      <Parameter Name="SkinID" Mode="In" Type="Int32" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Notes" Mode="In" Type="String" />
+      <Parameter Name="BillingEqualsShipping" Mode="In" Type="Byte" />
+      <Parameter Name="BillingLastName" Mode="In" Type="String" />
+      <Parameter Name="BillingFirstName" Mode="In" Type="String" />
+      <Parameter Name="BillingCompany" Mode="In" Type="String" />
+      <Parameter Name="BillingAddress1" Mode="In" Type="String" />
+      <Parameter Name="BillingAddress2" Mode="In" Type="String" />
+      <Parameter Name="BillingSuite" Mode="In" Type="String" />
+      <Parameter Name="BillingCity" Mode="In" Type="String" />
+      <Parameter Name="BillingState" Mode="In" Type="String" />
+      <Parameter Name="BillingZip" Mode="In" Type="String" />
+      <Parameter Name="BillingCountry" Mode="In" Type="String" />
+      <Parameter Name="BillingPhone" Mode="In" Type="String" />
+      <Parameter Name="ShippingLastName" Mode="In" Type="String" />
+      <Parameter Name="ShippingFirstName" Mode="In" Type="String" />
+      <Parameter Name="ShippingCompany" Mode="In" Type="String" />
+      <Parameter Name="ShippingResidenceType" Mode="In" Type="Int32" />
+      <Parameter Name="ShippingAddress1" Mode="In" Type="String" />
+      <Parameter Name="ShippingAddress2" Mode="In" Type="String" />
+      <Parameter Name="ShippingSuite" Mode="In" Type="String" />
+      <Parameter Name="ShippingCity" Mode="In" Type="String" />
+      <Parameter Name="ShippingState" Mode="In" Type="String" />
+      <Parameter Name="ShippingZip" Mode="In" Type="String" />
+      <Parameter Name="ShippingCountry" Mode="In" Type="String" />
+      <Parameter Name="ShippingMethodID" Mode="In" Type="Int32" />
+      <Parameter Name="ShippingMethod" Mode="In" Type="String" />
+      <Parameter Name="ShippingPhone" Mode="In" Type="String" />
+      <Parameter Name="ShippingCalculationID" Mode="In" Type="Int32" />
+      <Parameter Name="Phone" Mode="In" Type="String" />
+      <Parameter Name="RegisterDate" Mode="In" Type="DateTime" />
+      <Parameter Name="AffiliateID" Mode="In" Type="Int32" />
+      <Parameter Name="CouponCode" Mode="In" Type="String" />
+      <Parameter Name="CouponType" Mode="In" Type="Int32" />
+      <Parameter Name="CouponDescription" Mode="In" Type="String" />
+      <Parameter Name="CouponDiscountAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="CouponDiscountPercent" Mode="In" Type="Decimal" />
+      <Parameter Name="CouponIncludesFreeShipping" Mode="In" Type="Byte" />
+      <Parameter Name="OkToEmail" Mode="In" Type="Byte" />
+      <Parameter Name="Deleted" Mode="In" Type="Byte" />
+      <Parameter Name="CardType" Mode="In" Type="String" />
+      <Parameter Name="CardName" Mode="In" Type="String" />
+      <Parameter Name="CardNumber" Mode="In" Type="String" />
+      <Parameter Name="CardExpirationMonth" Mode="In" Type="String" />
+      <Parameter Name="CardExpirationYear" Mode="In" Type="String" />
+      <Parameter Name="OrderSubtotal" Mode="In" Type="Decimal" />
+      <Parameter Name="OrderTax" Mode="In" Type="Decimal" />
+      <Parameter Name="OrderShippingCosts" Mode="In" Type="Decimal" />
+      <Parameter Name="OrderTotal" Mode="In" Type="Decimal" />
+      <Parameter Name="PaymentGateway" Mode="In" Type="String" />
+      <Parameter Name="AuthorizationCode" Mode="In" Type="String" />
+      <Parameter Name="AuthorizationResult" Mode="In" Type="String" />
+      <Parameter Name="AuthorizationPNREF" Mode="In" Type="String" />
+      <Parameter Name="TransactionCommand" Mode="In" Type="String" />
+      <Parameter Name="OrderDate" Mode="In" Type="DateTime" />
+      <Parameter Name="LevelID" Mode="In" Type="Int32" />
+      <Parameter Name="LevelName" Mode="In" Type="String" />
+      <Parameter Name="LevelDiscountPercent" Mode="In" Type="Decimal" />
+      <Parameter Name="LevelDiscountAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="LevelHasFreeShipping" Mode="In" Type="Byte" />
+      <Parameter Name="LevelAllowsQuantityDiscounts" Mode="In" Type="Byte" />
+      <Parameter Name="LevelHasNoTax" Mode="In" Type="Byte" />
+      <Parameter Name="LevelAllowsCoupons" Mode="In" Type="Byte" />
+      <Parameter Name="LevelDiscountsApplyToExtendedPrices" Mode="In" Type="Byte" />
+      <Parameter Name="LastIPAddress" Mode="In" Type="String" />
+      <Parameter Name="PaymentMethod" Mode="In" Type="String" />
+      <Parameter Name="OrderNotes" Mode="In" Type="String" />
+      <Parameter Name="PONumber" Mode="In" Type="String" />
+      <Parameter Name="DownloadEmailSentOn" Mode="In" Type="DateTime" />
+      <Parameter Name="ReceiptEmailSentOn" Mode="In" Type="DateTime" />
+      <Parameter Name="DistributorEmailSentOn" Mode="In" Type="DateTime" />
+      <Parameter Name="ShippingTrackingNumber" Mode="In" Type="String" />
+      <Parameter Name="ShippedVIA" Mode="In" Type="String" />
+      <Parameter Name="CustomerServiceNotes" Mode="In" Type="String" />
+      <Parameter Name="RTShipRequest" Mode="In" Type="String" />
+      <Parameter Name="RTShipResponse" Mode="In" Type="String" />
+      <Parameter Name="TransactionState" Mode="In" Type="String" />
+      <Parameter Name="AVSResult" Mode="In" Type="String" />
+      <Parameter Name="CaptureTXCommand" Mode="In" Type="String" />
+      <Parameter Name="CaptureTXResult" Mode="In" Type="String" />
+      <Parameter Name="VoidTXCommand" Mode="In" Type="String" />
+      <Parameter Name="VoidTXResult" Mode="In" Type="String" />
+      <Parameter Name="RefundTXCommand" Mode="In" Type="String" />
+      <Parameter Name="RefundTXResult" Mode="In" Type="String" />
+      <Parameter Name="CardinalLookupResult" Mode="In" Type="String" />
+      <Parameter Name="CardinalAuthenticateResult" Mode="In" Type="String" />
+      <Parameter Name="CardinalGatewayParms" Mode="In" Type="String" />
+      <Parameter Name="AffiliateCommissionRecorded" Mode="In" Type="Byte" />
+      <Parameter Name="OrderOptions" Mode="In" Type="String" />
+      <Parameter Name="OrderWeight" Mode="In" Type="Decimal" />
+      <Parameter Name="CarrierReportedRate" Mode="In" Type="String" />
+      <Parameter Name="CarrierReportedWeight" Mode="In" Type="String" />
+      <Parameter Name="LocaleSetting" Mode="In" Type="String" />
+      <Parameter Name="FinalizationData" Mode="In" Type="String" />
+      <Parameter Name="ExtensionData" Mode="In" Type="String" />
+      <Parameter Name="AlreadyConfirmed" Mode="In" Type="Byte" />
+      <Parameter Name="CartType" Mode="In" Type="Int32" />
+      <Parameter Name="THUB_POSTED_TO_ACCOUNTING" Mode="In" Type="String" />
+      <Parameter Name="THUB_POSTED_DATE" Mode="In" Type="DateTime" />
+      <Parameter Name="THUB_ACCOUNTING_REF" Mode="In" Type="String" />
+      <Parameter Name="Last4" Mode="In" Type="String" />
+      <Parameter Name="ReadyToShip" Mode="In" Type="Byte" />
+      <Parameter Name="IsPrinted" Mode="In" Type="Byte" />
+      <Parameter Name="AuthorizedOn" Mode="In" Type="DateTime" />
+      <Parameter Name="CapturedOn" Mode="In" Type="DateTime" />
+      <Parameter Name="RefundedOn" Mode="In" Type="DateTime" />
+      <Parameter Name="VoidedOn" Mode="In" Type="DateTime" />
+      <Parameter Name="InventoryWasReduced" Mode="In" Type="Int32" />
+      <Parameter Name="MaxMindFraudScore" Mode="In" Type="Decimal" />
+      <Parameter Name="MaxMindDetails" Mode="In" Type="String" />
+      <Parameter Name="CardStartDate" Mode="In" Type="String" />
+      <Parameter Name="CardIssueNumber" Mode="In" Type="String" />
+      <Parameter Name="TransactionType" Mode="In" Type="Int32" />
+      <Parameter Name="Crypt" Mode="In" Type="Int32" />
+      <Parameter Name="VATRegistrationID" Mode="In" Type="String" />
+      <Parameter Name="FraudedOn" Mode="In" Type="Byte" />
+      <Parameter Name="RefundReason" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_ActivityLog_CustomerId" ReturnType="Collection(SalesforceConnectorModel.USP_ActivityLog_CustomerId_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_ActivityLog_OrderId" ReturnType="Collection(SalesforceConnectorModel.USP_ActivityLog_OrderId_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_ActivityLog_SelectAll" ReturnType="Collection(SalesforceConnectorModel.USP_ActivityLog_SelectAll_Result)" />
+    <FunctionImport Name="USP_Address_Insert">
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+      <Parameter Name="Address1" Mode="In" Type="String" />
+      <Parameter Name="Address2" Mode="In" Type="String" />
+      <Parameter Name="Country" Mode="In" Type="String" />
+      <Parameter Name="State" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="PostalCode" Mode="In" Type="String" />
+      <Parameter Name="PhoneNumber" Mode="In" Type="String" />
+      <Parameter Name="AddressType" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Address_SelectByBillingAddressId" ReturnType="Collection(SalesforceConnectorModel.USP_Address_SelectByBillingAddressId_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Address_SelectByShippingAddressId" ReturnType="Collection(SalesforceConnectorModel.USP_Address_SelectByShippingAddressId_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Address_Update">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+      <Parameter Name="Address1" Mode="In" Type="String" />
+      <Parameter Name="Address2" Mode="In" Type="String" />
+      <Parameter Name="Country" Mode="In" Type="String" />
+      <Parameter Name="State" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="PostalCode" Mode="In" Type="String" />
+      <Parameter Name="PhoneNumber" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Configuration_Delete">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Configuration_Insert">
+      <Parameter Name="Id" Mode="InOut" Type="String" />
+      <Parameter Name="ConsumerId" Mode="In" Type="String" />
+      <Parameter Name="ConsumerSecretKey" Mode="In" Type="String" />
+      <Parameter Name="SalesForceUserName" Mode="In" Type="String" />
+      <Parameter Name="SalesForceUserPassword" Mode="In" Type="String" />
+      <Parameter Name="SecurityToken" Mode="In" Type="String" />
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+      <Parameter Name="LeadSettings" Mode="In" Type="Boolean" />
+      <Parameter Name="CampaignSettings" Mode="In" Type="Boolean" />
+      <Parameter Name="SalesforceTokenURL" Mode="In" Type="String" />
+      <Parameter Name="CallBackURL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Configuration_Salesforce" ReturnType="Collection(SalesforceConnectorModel.USP_Configuration_Salesforce_Result)">
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Configuration_SelectAll" ReturnType="Collection(SalesforceConnectorModel.USP_Configuration_SelectAll_Result)" />
+    <FunctionImport Name="USP_Configuration_SelectByApplicationId" ReturnType="Collection(SalesforceConnectorModel.USP_Configuration_SelectByApplicationId_Result)">
+      <Parameter Name="ApplicationId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Configuration_SelectByCustomerId" ReturnType="Collection(SalesforceConnectorModel.USP_Configuration_SelectByCustomerId_Result)">
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Configuration_SelectById" ReturnType="Collection(SalesforceConnectorModel.USP_Configuration_SelectById_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Configuration_Update">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+      <Parameter Name="ConsumerId" Mode="In" Type="String" />
+      <Parameter Name="ConsumerSecretKey" Mode="In" Type="String" />
+      <Parameter Name="SalesForceUserName" Mode="In" Type="String" />
+      <Parameter Name="SalesForceUserPassword" Mode="In" Type="String" />
+      <Parameter Name="SecurityToken" Mode="In" Type="String" />
+      <Parameter Name="SalesforceTokenURL" Mode="In" Type="String" />
+      <Parameter Name="LeadSettings" Mode="In" Type="Boolean" />
+      <Parameter Name="CallBackURL" Mode="In" Type="String" />
+      <Parameter Name="CampaignSettings" Mode="In" Type="Boolean" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Custmer_Delete">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Customer_Insert">
+      <Parameter Name="Id" Mode="InOut" Type="String" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Company" Mode="In" Type="String" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="SaltKey" Mode="In" Type="String" />
+      <Parameter Name="ApplicationId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Customer_Login">
+      <Parameter Name="Id" Mode="InOut" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Customer_SelectAll" ReturnType="Collection(SalesforceConnectorModel.USP_Customer_SelectAll_Result)" />
+    <FunctionImport Name="USP_Customer_SelectById" ReturnType="Collection(SalesforceConnectorModel.USP_Customer_SelectById_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Customer_Update">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Company" Mode="In" Type="String" />
+      <Parameter Name="BillingAddressId" Mode="In" Type="Int64" />
+      <Parameter Name="ShippingAddressId" Mode="In" Type="Int64" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="SaltKey" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_CustomerActivity_Insert">
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+      <Parameter Name="ActivityLog" Mode="In" Type="String" />
+      <Parameter Name="ActivityStatus" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_CustomerName_SelectAll" ReturnType="Collection(SalesforceConnectorModel.USP_CustomerName_SelectAll_Result)" />
+    <FunctionImport Name="USP_FBConfiguration_Delete">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_FBConfiguration_Insert">
+      <Parameter Name="Id" Mode="InOut" Type="String" />
+      <Parameter Name="FBDataSource" Mode="In" Type="String" />
+      <Parameter Name="FBInitialCatalog" Mode="In" Type="String" />
+      <Parameter Name="FBClientId" Mode="In" Type="String" />
+      <Parameter Name="FBClientPassword" Mode="In" Type="String" />
+      <Parameter Name="FBPort" Mode="In" Type="String" />
+      <Parameter Name="FBConnection" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_FBConfiguration_SelectAll" ReturnType="Collection(SalesforceConnectorModel.USP_FBConfiguration_SelectAll_Result)" />
+    <FunctionImport Name="USP_FBConfiguration_SelectById" ReturnType="Collection(SalesforceConnectorModel.USP_FBConfiguration_SelectById_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_FBConfiguration_Update">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+      <Parameter Name="FBDataSource" Mode="In" Type="String" />
+      <Parameter Name="FBInitialCatalog" Mode="In" Type="String" />
+      <Parameter Name="FBClientId" Mode="In" Type="String" />
+      <Parameter Name="FBClientPassword" Mode="In" Type="String" />
+      <Parameter Name="FBPort" Mode="In" Type="String" />
+      <Parameter Name="FBConnection" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_GetCustomerId" ReturnType="Collection(Int64)">
+      <Parameter Name="SalesForceUserName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Request_SelectAll" ReturnType="Collection(SalesforceConnectorModel.USP_Request_SelectAll_Result)" />
+    <FunctionImport Name="USP_Request_SelectById" ReturnType="Collection(SalesforceConnectorModel.USP_Request_SelectById_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Responce_SelectAll" ReturnType="Collection(SalesforceConnectorModel.USP_Responce_SelectAll_Result)" />
+    <FunctionImport Name="USP_Responce_SelectById" ReturnType="Collection(SalesforceConnectorModel.USP_Responce_SelectById_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_SalesforceConnectorRequestLog_Insert">
+      <Parameter Name="RequestId" Mode="InOut" Type="Int32" />
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+      <Parameter Name="RequestModel" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_SalesforceConnectorResponseLog_GetApiByAdmin" ReturnType="Collection(SalesforceConnectorModel.USP_SalesforceConnectorResponseLog_GetApiByAdmin_Result)" />
+    <FunctionImport Name="USP_SalesforceConnectorResponseLog_GetApiByCustomerId" ReturnType="Collection(SalesforceConnectorModel.USP_SalesforceConnectorResponseLog_GetApiByCustomerId_Result)">
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="USP_SalesforceConnectorResponseLog_Insert">
+      <Parameter Name="SFOrderResponse" Mode="In" Type="String" />
+      <Parameter Name="CustomerId" Mode="In" Type="Int64" />
+      <Parameter Name="RequestId" Mode="In" Type="Int32" />
+      <Parameter Name="StatusCode" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Address1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Address2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Country" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PostalCode" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Customers" Relationship="SalesforceConnectorModel.FK__Customer__Billin__1273C1CD" FromRole="Address" ToRole="Customer" />
+    <NavigationProperty Name="Customers1" Relationship="SalesforceConnectorModel.FK__Customer__Shippi__1367E606" FromRole="Address" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Configuration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int64" Nullable="false" />
+    <Property Name="ConsumerId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ConsumerSecretKey" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SalesForceUserName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SalesForceUserPassword" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SecurityToken" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LeadSettings" Type="Boolean" Nullable="false" />
+    <Property Name="CampaignSettings" Type="Boolean" Nullable="false" />
+    <Property Name="SalesforceTokenURL" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CallBackURL" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Company" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BillingAddressId" Type="Int64" />
+    <Property Name="ShippingAddressId" Type="Int64" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Admin" Type="Boolean" Nullable="false" />
+    <Property Name="ApplicationId" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Address" Relationship="SalesforceConnectorModel.FK__Customer__Billin__1273C1CD" FromRole="Customer" ToRole="Address" />
+    <NavigationProperty Name="Address1" Relationship="SalesforceConnectorModel.FK__Customer__Shippi__1367E606" FromRole="Customer" ToRole="Address" />
+    <NavigationProperty Name="ErrorLogs" Relationship="SalesforceConnectorModel.FK__ErrorLog__Custom__2E1BDC42" FromRole="Customer" ToRole="ErrorLog" />
+    <NavigationProperty Name="MemberShipLogins" Relationship="SalesforceConnectorModel.FK__MemberShi__Custo__164452B1" FromRole="Customer" ToRole="MemberShipLogin" />
+    <NavigationProperty Name="SalesforceConnectorRequestLogs" Relationship="SalesforceConnectorModel.FK__Salesforc__Custo__300424B4" FromRole="Customer" ToRole="SalesforceConnectorRequestLog" />
+    <NavigationProperty Name="SalesforceConnectorResponseLogs" Relationship="SalesforceConnectorModel.FK__Salesforc__Custo__30F848ED" FromRole="Customer" ToRole="SalesforceConnectorResponseLog" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int64" />
+    <Property Name="OrderId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MethodName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityStatus" Type="Int32" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Customer" Relationship="SalesforceConnectorModel.FK__ErrorLog__Custom__2E1BDC42" FromRole="ErrorLog" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="FBConfiguration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FBDataSource" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FBInitialCatalog" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FBClientId" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FBClientPassword" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FBPort" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FBConnection" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="MemberShipLogin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int64" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SaltKey" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LastLoginDate" Type="DateTime" Precision="3" />
+    <Property Name="LastPasswordChangedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Customer" Relationship="SalesforceConnectorModel.FK__MemberShi__Custo__164452B1" FromRole="MemberShipLogin" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="SalesforceConnectorRequestLog">
+    <Key>
+      <PropertyRef Name="RequestId" />
+    </Key>
+    <Property Name="RequestId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int64" />
+    <Property Name="RequestModel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Customer" Relationship="SalesforceConnectorModel.FK__Salesforc__Custo__300424B4" FromRole="SalesforceConnectorRequestLog" ToRole="Customer" />
+    <NavigationProperty Name="SalesforceConnectorResponseLogs" Relationship="SalesforceConnectorModel.FK_SalesforceConnectorRequest_SalesforceConnectorResponse" FromRole="SalesforceConnectorRequestLog" ToRole="SalesforceConnectorResponseLog" />
+  </EntityType>
+  <EntityType Name="SalesforceConnectorResponseLog">
+    <Key>
+      <PropertyRef Name="ResponseId" />
+    </Key>
+    <Property Name="ResponseId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SFOrderResponse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerId" Type="Int64" />
+    <Property Name="StatusCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="RequestId" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="SalesforceConnectorModel.FK__Salesforc__Custo__30F848ED" FromRole="SalesforceConnectorResponseLog" ToRole="Customer" />
+    <NavigationProperty Name="SalesforceConnectorRequestLog" Relationship="SalesforceConnectorModel.FK_SalesforceConnectorRequest_SalesforceConnectorResponse" FromRole="SalesforceConnectorResponseLog" ToRole="SalesforceConnectorRequestLog" />
+  </EntityType>
+  <Association Name="FK__Customer__Billin__1273C1CD">
+    <End Type="SalesforceConnectorModel.Address" Role="Address" Multiplicity="0..1" />
+    <End Type="SalesforceConnectorModel.Customer" Role="Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="BillingAddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__Shippi__1367E606">
+    <End Type="SalesforceConnectorModel.Address" Role="Address" Multiplicity="0..1" />
+    <End Type="SalesforceConnectorModel.Customer" Role="Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="ShippingAddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ErrorLog__Custom__2E1BDC42">
+    <End Type="SalesforceConnectorModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="SalesforceConnectorModel.ErrorLog" Role="ErrorLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ErrorLog">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MemberShi__Custo__164452B1">
+    <End Type="SalesforceConnectorModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="SalesforceConnectorModel.MemberShipLogin" Role="MemberShipLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MemberShipLogin">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Salesforc__Custo__300424B4">
+    <End Type="SalesforceConnectorModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="SalesforceConnectorModel.SalesforceConnectorRequestLog" Role="SalesforceConnectorRequestLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SalesforceConnectorRequestLog">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Salesforc__Custo__30F848ED">
+    <End Type="SalesforceConnectorModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="SalesforceConnectorModel.SalesforceConnectorResponseLog" Role="SalesforceConnectorResponseLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SalesforceConnectorResponseLog">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesforceConnectorRequest_SalesforceConnectorResponse">
+    <End Type="SalesforceConnectorModel.SalesforceConnectorRequestLog" Role="SalesforceConnectorRequestLog" Multiplicity="0..1" />
+    <End Type="SalesforceConnectorModel.SalesforceConnectorResponseLog" Role="SalesforceConnectorResponseLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesforceConnectorRequestLog">
+        <PropertyRef Name="RequestId" />
+      </Principal>
+      <Dependent Role="SalesforceConnectorResponseLog">
+        <PropertyRef Name="RequestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="USP_ActivityLog_CustomerId_Result">
+    <Property Type="Int64" Name="CustomerId" Nullable="true" />
+    <Property Type="String" Name="OrderId" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MethodName" Nullable="true" />
+    <Property Type="String" Name="ErrorMessage" Nullable="true" />
+    <Property Type="Int32" Name="ActivityStatus" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_ActivityLog_OrderId_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="OrderId" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MethodName" Nullable="true" />
+    <Property Type="String" Name="ErrorMessage" Nullable="true" />
+    <Property Type="Int32" Name="ActivityStatus" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="USP_ActivityLog_SelectAll_Result">
+    <Property Type="Int64" Name="CustomerId" Nullable="true" />
+    <Property Type="String" Name="OrderId" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MethodName" Nullable="true" />
+    <Property Type="String" Name="ErrorMessage" Nullable="true" />
+    <Property Type="Int32" Name="ActivityStatus" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_Address_SelectByBillingAddressId_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="Int64" Name="CustomerId" Nullable="false" />
+    <Property Type="String" Name="Address1" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Address2" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Country" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="State" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="City" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="PostalCode" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="PhoneNumber" Nullable="false" MaxLength="25" />
+  </ComplexType>
+  <ComplexType Name="USP_Address_SelectByShippingAddressId_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Address1" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Address2" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Country" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="State" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="City" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="PostalCode" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="PhoneNumber" Nullable="false" MaxLength="25" />
+  </ComplexType>
+  <ComplexType Name="USP_Configuration_Salesforce_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="ConsumerId" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="ConsumerSecretKey" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserPassword" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SecurityToken" Nullable="false" MaxLength="50" />
+    <Property Type="Int64" Name="CustomerId" Nullable="false" />
+    <Property Type="Boolean" Name="IsActive" Nullable="false" />
+    <Property Type="String" Name="SalesforceTokenURL" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="LeadSettings" Nullable="false" />
+    <Property Type="Boolean" Name="CampaignSettings" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="USP_Configuration_SelectAll_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="ConsumerId" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="ConsumerSecretKey" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserPassword" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SecurityToken" Nullable="false" MaxLength="50" />
+    <Property Type="Int64" Name="CustomerId" Nullable="false" />
+    <Property Type="Boolean" Name="IsActive" Nullable="false" />
+    <Property Type="Boolean" Name="LeadSettings" Nullable="false" />
+    <Property Type="Boolean" Name="CampaignSettings" Nullable="false" />
+    <Property Type="String" Name="SalesforceTokenURL" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="CallBackURL" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="USP_Configuration_SelectByApplicationId_Result">
+    <Property Type="Int64" Name="CustomerId" Nullable="false" />
+    <Property Type="Int64" Name="Id" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="USP_Configuration_SelectByCustomerId_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="ConsumerId" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="ConsumerSecretKey" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserPassword" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SecurityToken" Nullable="false" MaxLength="50" />
+    <Property Type="Int64" Name="CustomerId" Nullable="false" />
+    <Property Type="Boolean" Name="IsActive" Nullable="false" />
+    <Property Type="Boolean" Name="LeadSettings" Nullable="false" />
+    <Property Type="Boolean" Name="CampaignSettings" Nullable="false" />
+    <Property Type="String" Name="CallBackURL" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="SalesforceTokenURL" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="USP_Configuration_SelectById_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="ConsumerId" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="ConsumerSecretKey" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SalesForceUserPassword" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SecurityToken" Nullable="false" MaxLength="50" />
+    <Property Type="Int64" Name="CustomerId" Nullable="false" />
+    <Property Type="Boolean" Name="IsActive" Nullable="false" />
+    <Property Type="Boolean" Name="LeadSettings" Nullable="false" />
+    <Property Type="Boolean" Name="CampaignSettings" Nullable="false" />
+    <Property Type="String" Name="SalesforceTokenURL" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="CallBackURL" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="USP_Customer_SelectAll_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="Company" Nullable="false" MaxLength="50" />
+    <Property Type="Int64" Name="BillingAddressId" Nullable="true" />
+    <Property Type="Int64" Name="ShippingAddressId" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Boolean" Name="Admin" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="USP_Customer_SelectById_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="Company" Nullable="false" MaxLength="50" />
+    <Property Type="Int64" Name="BillingAddressId" Nullable="true" />
+    <Property Type="Int64" Name="ShippingAddressId" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="ApplicationId" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_CustomerName_SelectAll_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_FBConfiguration_SelectAll_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FBDataSource" Nullable="false" />
+    <Property Type="String" Name="FBInitialCatalog" Nullable="false" />
+    <Property Type="String" Name="FBClientId" Nullable="false" />
+    <Property Type="String" Name="FBClientPassword" Nullable="false" />
+    <Property Type="String" Name="FBPort" Nullable="false" />
+    <Property Type="String" Name="FBConnection" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="USP_FBConfiguration_SelectById_Result">
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FBDataSource" Nullable="false" />
+    <Property Type="String" Name="FBInitialCatalog" Nullable="false" />
+    <Property Type="String" Name="FBClientId" Nullable="false" />
+    <Property Type="String" Name="FBClientPassword" Nullable="false" />
+    <Property Type="String" Name="FBPort" Nullable="false" />
+    <Property Type="String" Name="FBConnection" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="USP_Request_SelectAll_Result">
+    <Property Type="Int32" Name="RequestId" Nullable="false" />
+    <Property Type="Int64" Name="CustomerId" Nullable="true" />
+    <Property Type="String" Name="RequestModel" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_Request_SelectById_Result">
+    <Property Type="Int32" Name="RequestId" Nullable="false" />
+    <Property Type="Int64" Name="CustomerId" Nullable="true" />
+    <Property Type="String" Name="RequestModel" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_Responce_SelectAll_Result">
+    <Property Type="Int32" Name="ResponseId" Nullable="false" />
+    <Property Type="String" Name="SFOrderResponse" Nullable="true" />
+    <Property Type="Int64" Name="CustomerId" Nullable="true" />
+    <Property Type="String" Name="StatusCode" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Message" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_Responce_SelectById_Result">
+    <Property Type="Int32" Name="ResponseId" Nullable="false" />
+    <Property Type="String" Name="SFOrderResponse" Nullable="true" />
+    <Property Type="Int64" Name="CustomerId" Nullable="true" />
+    <Property Type="String" Name="StatusCode" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Message" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedOn" Nullable="true" Precision="23" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_SalesforceConnectorResponseLog_GetApiByAdmin_Result">
+    <Property Type="Int32" Name="Response" Nullable="true" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="USP_SalesforceConnectorResponseLog_GetApiByCustomerId_Result">
+    <Property Type="Int32" Name="response" Nullable="true" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>

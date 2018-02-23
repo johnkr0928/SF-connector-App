@@ -1,0 +1,348 @@
+﻿@model IEnumerable<SalesforceCon.Models.CustomerModels>
+@using Kendo.Mvc.UI
+
+@{
+    ViewBag.Title = "List";
+    var count = 0;
+    long counter = 1;
+}
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<script src="~/Scripts/Directive.js"></script>
+<script src="~/Scripts/SalesForce.js"></script>
+<link href="~/Content/SaleaforceCustomerlist.css" rel="stylesheet" />
+<link href="~/Content/SalesForceAddress.css" rel="stylesheet" />
+<link href="~/Content/SalesforceCustomer.css" rel="stylesheet" />
+<div ng-controller="myCntrl">
+    <div ng-show="listcustomer">
+        <p>
+            <h2>Customer List</h2>
+        </p>
+        <p class="productlink">
+            @Html.ActionLink("Create", "Index")
+        </p>
+
+        @(Html.Kendo().Grid(Model)
+.Name("DataGrid")
+.Columns(column =>
+{
+    column.Template(@<text> <span>@counter @{ counter++; }</span></text>).Title("S.No");
+    column.Bound(al => al.FirstName).HtmlAttributes(new { title = "#=FirstName#" });
+    column.Bound(al => al.LastName).HtmlAttributes(new { title = "#=LasiName#" });
+    column.Bound(al => al.Email).HtmlAttributes(new { title = "#=Email#" });
+    column.Bound(al => al.Company).HtmlAttributes(new { title = "#=Company#" });
+    column.Bound(al => al.IsActive).HtmlAttributes(new { title = "#=Active#" }).Template(@<text>@(item.IsActive ? "True" : "False")</text>).Title("Active");
+    column.Template(@<text><span ng-click="editAddress(id=@item.Id  )" class="btn btn-info">Address</span> |<span ng-click="editCustomer(id=@item.Id)" class="btn btn-primary">Edit</span>  | <span ng-click="deleteCustomer(id=@item.Id  )" class="btn btn-danger">Delete</span></text>).Title("Action");
+
+})
+
+                                                              .Pageable(x => x.PageSizes(new[] { 100, 200, 500, 1000 }).Refresh(true).Info(true))
+                                                              .Sortable()
+                                                              .Filterable()
+                //.Scrollable()
+                                                              .ColumnMenu()
+                                                              .Resizable(x => x.Columns(false))
+                                                              .DataSource(dataSource => dataSource
+                                                                  .Ajax()
+                                                                  .Read(read => read.Action("List", "Customer"))
+                                                                  .PageSize(100)
+                                                                  .ServerOperation(false)
+                                                              )
+                //.Events(ev => ev.DataBound("resetRowNumber"))
+                // .Reorderable(reorder => reorder.Columns(true))
+            )
+    </div>
+    <div ng-show="update">
+        <form ng-submit="submitForm()" name="frmCustomer">
+            <div class="registration_form" ng-controller="myCntrl">
+                <h2>Registration</h2>
+                <div class="validationErrors">
+                    <ul>
+                        <li class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required</li>
+                        <li class="error" ng-show="frmCustomer.fName.$error.pattern">use characters only</li>
+                        <li class="error" ng-show="frmCustomer.lName.$touched && frmCustomer.lName.$invalid">The Last Name is required</li>
+                        <li class="error" ng-show="frmCustomer.lName.$error.pattern">use characters only</li>
+                        <li class="error" ng-show="frmCustomer.uEmail.$touched && frmCustomer.uEmail.$invalid">The Email is required</li>
+                        <li class="error" ng-show="frmCustomer.uEmail.$error.email">Not valid email !</li>
+                        <li class="error" ng-show="frmCustomer.uCompany.$touched && frmCustomer.uCompany.$invalid">The Company is required</li>
+                        <li class="error" ng-show="frmCustomer.uCompany.$error.pattern">use characters only</li>
+                        <li class="error" ng-show="frmCustomer.upassword.$touched && frmCustomer.upassword.$invalid">The Password is required.</li>
+                        <li class="error" ng-show="frmCustomer.upassword.$error.pattern">password contain atleast 8 characters and some special characters</li>
+                        <li class="error" ng-show="frmCustomer.uconfirmpassword.$touched && frmCustomer.uconfirmpassword.$invalid">The Confirm Password is required.</li>
+                        <li class="error" ng-show="frmCustomer.uconfirmpassword.$error.compareTo">Passwords don't match and contains special chracters</li>
+                    </ul>
+                </div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">First Name</font>
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        <input type="text" class="form-control" placeholder="First Name" name="fName" ng-model="FirstName" ng-pattern="/^[a-zA-Z\s]*$/" required />
+                    </div>
+                    <div class="clearStyle"></div>
+                    <div class="formRowContainer">
+                        <div class="labelContainer">
+                            <font style="float:left">Last Name</font>
+                            <span class="important-mark">*</span>
+                        </div>
+                        <div class="valueContainer">
+                            <input type="text" class="form-control" placeholder="Last Name" name="lName" ng-model="LastName" ng-pattern="/^[a-zA-Z\s]*$/" required />
+                        </div>
+                    </div>
+
+
+                    <div class="clearStyle"></div>
+                    <div class="formRowContainer">
+                        <div class="labelContainer">
+                            <font style="float:left">Email</font>
+                            <span class="important-mark">*</span>
+                        </div>
+                        <div class="valueContainer">
+                            <input type="email" class="form-control" placeholder="User's Email" name="uEmail" ng-model="Email" required />
+                        </div>
+                    </div>
+                    <div class="clearStyle"></div>
+                    <div class="formRowContainer">
+                        <div class="labelContainer">
+                            <font style="float:left">Company</font>
+                            <span class="important-mark">*</span>
+                        </div>
+                        <div class="valueContainer">
+                            <input type="text" class="form-control" placeholder="Company" name="uCompany" ng-model="Company" ng-pattern="/^[a-zA-Z\s]*$/" required />
+                        </div>
+                    </div>
+
+                    <div class="clearStyle"></div>
+                    <div class="formRowContainer">
+                        <div class="labelContainer">
+                            <font style="float:left">Password</font>
+                            <span class="important-mark">*</span>
+                        </div>
+                        <div class="valueContainer">
+                            <input type="password" class="form-control" placeholder="Password" name="upassword" ng-model="Password" required />
+                        </div>
+                    </div>
+
+                    <div class="clearStyle"></div>
+                    <div class="formRowContainer">
+                        <div class="labelContainer">
+                            <font style="float:left">ConfirmPassword</font>
+                            <span class="important-mark">*</span>
+                        </div>
+                        <div class="valueContainer">
+                            <input type="password" class="form-control" placeholder="ConfirmPassword" name="uconfirmpassword" ng-model="ConfirmPassword" compare-to="Password" required />
+                        </div>
+                    </div>
+                    <div class="clearStyle"></div>
+                    <div class="buttonContainerReg">
+                        <input type="submit" value="Save" ng-click="updateUser();" class="btn btn-success" ng-disabled="frmCustomer.$invalid" />
+                        <input type="button" class="btn btn-danger" value="Cancel" ng-click="CreateCancel()" />
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+        <div style="padding:10px;"></div>
+        <div>
+            <form ng-submit="submitForm()" name="frmlistcusaddr">
+                <div class="bodywidth" ng-show="addressedit">
+                    <p>
+                        <h2>Address Update</h2>
+                    </p>
+                    <div class="validationErrorsaddr">
+                        <ul>
+                            <li class="error" ng-show="frmlistcusaddr.billingaddress1.$touched && frmlistcusaddr.billingaddress1.$invalid">The Billing Address1 is required.</li>
+                            <li class="error" ng-show="frmlistcusaddr.billingaddress2.$touched && frmlistcusaddr.billingaddress2.$invalid">The Billing Address2 is required.</li>
+                            <li class="error" ng-show="frmlistcusaddr.billingstate.$touched && frmlistcusaddr.billingstate.$invalid">The Billing State is required.</li>
+                            <li class="error" ng-show="frmlistcusaddr.billingcity.$touched && frmlistcusaddr.billingcity.$invalid">The Billing City is required.</li>
+                            <li class="error" ng-show="frmlistcusaddr.billingcountry.$touched && frmlistcusaddr.billingcountry.$invalid">The Billing Country is required.</li>
+                            <li class="error" ng-show="frmlistcusaddr.billingpostalcode.$touched && frmlistcusaddr.billingpostalcode.$invalid">The Billing Postal Code is required.</li>
+                            <li class="error" ng-show="frmlistcusaddr.billingphonenumber.$touched && frmlistcusaddr.billingphonenumber.$invalid">The Billing Phone Number is required.</li>
+                        </ul>
+                    </div>
+                    <div class="common-c left">
+                        <label class="lblBilling">Billing Address</label>
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">BillingAddress1</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Billing Address1" name="billingaddress1" ng-model="BillingAddress1" id="BillingAddress1" required autofocus />
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer add">
+                            <div class="labelContainer add">
+                                <font style="float:left">Billing Address2</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Billing Address2" name="billingaddress2" ng-model="BillingAddress2" id="BillingAddress2" required autofocus />
+                             </div>
+                        </div>
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Billing State</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Billing States" name="billingstate" ng-model="BillingState" id="BillingState" required autofocus />
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Billing City</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Billing City" name="billingcity" ng-model="BillingCity" id="BillingCity" required autofocus />
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Billing Country</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Billing Country" name="billingcountry" ng-model="BillingCountry" id="BillingCountry" required autofocus />
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Billing Postal Code</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Billing Postal Code" name="billingpostalcode" ng-model="BillingPostalCode" id="BillingPostalCode" required autofocus />
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Billing Phone Number</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Billing Phone Number" name="billingphonenumber" ng-model="BillingPhoneNumber" id="BillingPhoneNumber" required autofocus />
+                                
+                            </div>
+                        </div>
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Same As Billing Address</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="checkbox" name="Same As Billing Address" ng-model="SameAsBillingAddress" id="SameAsBillingAddress" />
+                            </div>
+                        </div>
+                </div>
+
+                    <div class="common-c right">
+                        <label class="lblBilling">Shipping Address</label>
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Shipping Address1</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Shipping Address1" name="shippingaddress1" ng-model="ShippingAddress1" id="ShippingAddress1" required autofocus />
+                                @*<span class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required.</span>*@
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Shipping Address2</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Shipping Address2" name="shippingaddress2" ng-model="ShippingAddress2" id="ShippingAddress2" required autofocus />
+                                @*<span class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required.</span>*@
+                            </div>
+                        </div>
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Shipping State</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Shipping State" name="shippingstate" ng-model="ShippingState" id="ShippingState" required autofocus />
+                                @*<span class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required.</span>*@
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Shipping City</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Shipping City" name="shippingcity" ng-model="ShippingCity" id="ShippingCity" required autofocus />
+                                @*<span class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required.</span>*@
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Shipping Country</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Shipping Country" name="shippingcountry" ng-model="ShippingCountry" id="ShippingCountry" required autofocus />
+                                @*<span class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required.</span>*@
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Shipping Postal Code</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Shipping Postal Code" name="shippingpostalcode" ng-model="ShippingPostalCode" id="ShippingPostalCode" required autofocus />
+                                @*<span class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required.</span>*@
+                            </div>
+                        </div>
+
+                        <div class="clearStyle"></div>
+                        <div class="formRowContainer">
+                            <div class="labelContainer add">
+                                <font style="float:left">Shipping Phone Number</font>
+                                <span class="important-mark">*</span>
+                            </div>
+                            <div class="valueContainer">
+                                <input type="text" class="form-control" placeholder="Shipping Phone Number" name="shippingphonenumber" ng-model="ShippingPhoneNumber" id="ShippingPhoneNumber" required autofocus />
+                                @*<span class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required.</span>*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearStyle"></div>
+                    <div class="buttonContainer">
+                        <input type="submit" value="Save" ng-click="SaveAddrUpdate();" class="btn btn-success" ng-disabled="frmlistcusaddr.$invalid" />
+                        <input type="button" class="btn btn-danger" value="Cancel" ng-click="Cancel()" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>

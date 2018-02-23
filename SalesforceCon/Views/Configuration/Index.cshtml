@@ -1,0 +1,177 @@
+﻿@model IEnumerable<SalesforceCon.Models.ConfigurationModels>
+@using PagedList;
+@using PagedList.Mvc;
+@using System.Linq;
+@using Kendo.Mvc.UI
+
+@{
+    ViewBag.Title = "Index";
+    var count = 0;
+    long counter = 1;
+}
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<link href="~/Content/SalesforceConnectorConfig.css" rel="stylesheet" />
+<link href="~/Content/SaleaforceCustomerlist.css" rel="stylesheet" />
+<div ng-controller="ConfigurationCtrl">
+    <div ng-show="listconfiguration">
+         <p>
+            <h2>SF Configuration List</h2>
+        </p> 
+        <p class="productlink">
+            @Html.ActionLink("Create", "Create")
+        </p>     
+       @(Html.Kendo().Grid(Model)
+.Name("DataGrid")
+.Columns(column =>
+{
+    column.Template(@<text> <span>@counter @{ counter++; }</span></text>).Title("S.No");
+    //column.Bound(al => al.Id).HtmlAttributes(new { title = "#=Id#" });
+    //column.Bound(al => al.ConsumerId).HtmlAttributes(new { title = "#=Consumer Id#" });
+    //column.Bound(al => al.ConsumerSecretKey).HtmlAttributes(new { title = "#=ConsumerSecretKey#" });
+    column.Bound(al => al.SalesForceUserName).HtmlAttributes(new { title = "#=SalesforceUserName#" });
+    column.Bound(al => al.SalesForceUserPassword).HtmlAttributes(new { title = "#=SalesForceUserPassword#" });
+    column.Bound(al => al.SecurityToken).HtmlAttributes(new { title = "#=SecurityToken#" });
+    column.Bound(al => al.IsActive).HtmlAttributes(new { title = "#=Active#" }).Template(@<text>@(item.IsActive ? "True" : "False")</text>);
+    column.Bound(al => al.LeadSettings).HtmlAttributes(new { title = "#=Lead#" }).Template(@<text>@(item.LeadSettings ? "True" : "False")</text>);
+    column.Bound(al => al.CampaignSettings).HtmlAttributes(new { title = "#=Campaign#" }).Template(@<text>@(item.CampaignSettings ? "True" : "False")</text>).Title("Active");
+    column.Template(@<text> <span ng-click="editConfiguration(id=@item.Id)" class="btn btn-primary">Edit</span>  | <span ng-click="deleteConfiguration(id=@item.Id  )" class="btn btn-danger">Delete</span></text>).Title("Action");
+})
+
+
+                                                                                  .Pageable(x => x.PageSizes(new[] { 100, 200, 500, 1000 }).Refresh(true).Info(true))
+                                                                                  .Sortable()
+                                                                                  .Filterable()
+                //.Scrollable()
+                                                                                  .ColumnMenu()
+                                                                                  .Resizable(x => x.Columns(false))
+                                                                                  .DataSource(dataSource => dataSource
+                                                                                      .Ajax()
+                                                                                      .Read(read => read.Action("Index", "Configuration"))
+                                                                                      .PageSize(100)
+                                                                                      .ServerOperation(false)
+                                                                                  )
+                //.Events(ev => ev.DataBound("resetRowNumber"))
+                                                                                   .Reorderable(reorder => reorder.Columns(true))
+             )
+    </div>
+
+    <div ng-show="configurationupdate">
+        <div class="registration_form" ng-controller="ConfigurationCtrl">
+            <h2>Configuration Update</h2>
+            <form ng-submit="submitForm()" name="frmConfiguration">
+                <div class="validationconfig">
+                    <ul>
+                        <li class="error" ng-show="frmConfiguration.consumerid.$touched && frmConfiguration.consumerid.$invalid">The Consumer Id is required.</li>
+                        <li class="error" ng-show="frmConfiguration.consumerid.$error.pattern">Use numbers only</li>
+                        <li class="error" ng-show="frmConfiguration.consumersecretkey.$touched && frmConfiguration.consumersecretkey.$invalid">The Consumer Secret Key is required.</li>
+                        <li class="error" ng-show="frmConfiguration.salesforceusername.$touched && frmConfiguration.salesforceusername.$invalid">The Sales Force UserName is required.</li>
+                        @*<li class="error" ng-show="frmConfiguration.salesforceusername.$error.pattern">Use Sales Force UserName characters only</li>*@
+                        <li class="error" ng-show="frmConfiguration.salesforceuserpassword.$touched && frmConfiguration.salesforceuserpassword.$invalid">The SalesForce UserPassword is required.</li>
+                        <li class="error" ng-show="frmConfiguration.securitytoken.$touched && frmConfiguration.securitytoken.$invalid">The Security Token is required.</li>
+                        <li class="error" ng-show="frmConfiguration.salesforcetokenURL.$touched && frmConfiguration.salesforcetokenURL.$invalid">The Salesforce Token URL is required.</li>
+                        <li class="error" ng-show="frmConfiguration.callbackURL.$touched && frmConfiguration.callbackURL.$invalid">The Call Back URL is required.</li>
+                    </ul>
+                </div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">Consumer Id</font>
+                    </div>
+                    <div class="valueContainerconfig">
+                        <input type="text" class="form-control" placeholder="Consumer Id" name="consumerid" ng-model="ConsumerId" ng-pattern="/^[0-9]{1,7}$/" required />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">Consumer Secret Key</font>
+                    </div>
+                    <div class="valueContainerconfig">
+                        <input type="text" class="form-control" placeholder="Consumer Secret Key" name="consumersecretkey" ng-model="ConsumerSecretKey" required  />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">SalesForce UserName</font>
+                    </div>
+                    <div class="valueContainerconfig">
+                        <input type="text" class="form-control" placeholder="Sales Force User Name" name="salesforceusername" ng-model="SalesForceUserName"  required />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">SalesForce User Password</font>
+                    </div>
+                    <div class="valueContainerconfig">
+                        <input type="text" class="form-control" placeholder="Sales Force User Password" name="salesforceuserpassword" ng-model="SalesForceUserPassword" required  />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">Security Token</font>
+                    </div>
+                    <div class="valueContainerconfig">
+                        <input type="text" class="form-control" placeholder="Security Token " name="securitytoken" ng-model="SecurityToken" required  />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">Salesforce TokenURL</font>
+                    </div>
+                    <div class="valueContainerconfig">
+                        <input type="text" class="form-control" placeholder="Salesforce Token URL" name="salesforcetokenURL" ng-model="SalesforceTokenURL" required  />
+                    </div>
+                </div>
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">CallBack URL</font>
+                    </div>
+                    <div class="valueContainerconfig">
+                        <input type="text" class="form-control" placeholder="Call Back URL" name="callbackURL" ng-model="CallBackURL" required  />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">Lead Settings</font>
+                    </div>
+                    <div class="LeadSettings">
+                        <input type="checkbox"  placeholder="Lead Settings" name="leadsettings" ng-model="LeadSettings"  />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">Campaign Settings</font>
+                    </div>
+                    <div class="LeadSettings">
+                        <input type="checkbox" placeholder="Campaign Settings" name="campaignsettings" ng-model="CampaignSettings"  />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="buttonContainerconfig">
+                    <input type="submit" value="Save" ng-click="updateconfiguration();" class="btn btn-success" ng-disabled="frmConfiguration.$invalid" />
+                    <input type="button" class="btn btn-danger" value="Cancel" ng-click="CreateCancel()" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+

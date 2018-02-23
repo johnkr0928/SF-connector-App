@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SalesforceConnectorModelStoreContainer" CdmEntityContainer="SalesforceConnectorEntities">
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Configurations">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.Configuration">
+        <MappingFragment StoreEntitySet="Configuration">
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CallBackURL" ColumnName="CallBackURL" />
+          <ScalarProperty Name="SalesforceTokenURL" ColumnName="SalesforceTokenURL" />
+          <ScalarProperty Name="CampaignSettings" ColumnName="CampaignSettings" />
+          <ScalarProperty Name="LeadSettings" ColumnName="LeadSettings" />
+          <ScalarProperty Name="SecurityToken" ColumnName="SecurityToken" />
+          <ScalarProperty Name="SalesForceUserPassword" ColumnName="SalesForceUserPassword" />
+          <ScalarProperty Name="SalesForceUserName" ColumnName="SalesForceUserName" />
+          <ScalarProperty Name="ConsumerSecretKey" ColumnName="ConsumerSecretKey" />
+          <ScalarProperty Name="ConsumerId" ColumnName="ConsumerId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="Admin" ColumnName="Admin" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ShippingAddressId" ColumnName="ShippingAddressId" />
+          <ScalarProperty Name="BillingAddressId" ColumnName="BillingAddressId" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ErrorLogs">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.ErrorLog">
+        <MappingFragment StoreEntitySet="ErrorLog">
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ActivityStatus" ColumnName="ActivityStatus" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="MethodName" ColumnName="MethodName" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FBConfigurations">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.FBConfiguration">
+        <MappingFragment StoreEntitySet="FBConfiguration">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="FBConnection" ColumnName="FBConnection" />
+          <ScalarProperty Name="FBPort" ColumnName="FBPort" />
+          <ScalarProperty Name="FBClientPassword" ColumnName="FBClientPassword" />
+          <ScalarProperty Name="FBClientId" ColumnName="FBClientId" />
+          <ScalarProperty Name="FBInitialCatalog" ColumnName="FBInitialCatalog" />
+          <ScalarProperty Name="FBDataSource" ColumnName="FBDataSource" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MemberShipLogins">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.MemberShipLogin">
+        <MappingFragment StoreEntitySet="MemberShipLogin">
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="SaltKey" ColumnName="SaltKey" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesforceConnectorRequestLogs">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.SalesforceConnectorRequestLog">
+        <MappingFragment StoreEntitySet="SalesforceConnectorRequestLog">
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="RequestModel" ColumnName="RequestModel" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="RequestId" ColumnName="RequestId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesforceConnectorResponseLogs">
+      <EntityTypeMapping TypeName="SalesforceConnectorModel.SalesforceConnectorResponseLog">
+        <MappingFragment StoreEntitySet="SalesforceConnectorResponseLog">
+          <ScalarProperty Name="RequestId" ColumnName="RequestId" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="SFOrderResponse" ColumnName="SFOrderResponse" />
+          <ScalarProperty Name="ResponseId" ColumnName="ResponseId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="aspdnsf_AddItemToCart" FunctionName="SalesforceConnectorModel.Store.aspdnsf_AddItemToCart" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_AdjustInventory" FunctionName="SalesforceConnectorModel.Store.aspdnsf_AdjustInventory" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_CloneProduct" FunctionName="SalesforceConnectorModel.Store.aspdnsf_CloneProduct" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_CloneStore" FunctionName="SalesforceConnectorModel.Store.aspdnsf_CloneStore" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_CloneVariant" FunctionName="SalesforceConnectorModel.Store.aspdnsf_CloneVariant" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_CreateFeed" FunctionName="SalesforceConnectorModel.Store.aspdnsf_CreateFeed" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_CreateGiftCard" FunctionName="SalesforceConnectorModel.Store.aspdnsf_CreateGiftCard" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_CreateIndexes" FunctionName="SalesforceConnectorModel.Store.aspdnsf_CreateIndexes" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_Get404Suggestions" FunctionName="SalesforceConnectorModel.Store.aspdnsf_Get404Suggestions" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_GetCustomerByEmail" FunctionName="SalesforceConnectorModel.Store.aspdnsf_GetCustomerByEmail" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_GetCustomerByGUID" FunctionName="SalesforceConnectorModel.Store.aspdnsf_GetCustomerByGUID" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_GetCustomerByID" FunctionName="SalesforceConnectorModel.Store.aspdnsf_GetCustomerByID" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_GetFeaturedProducts" FunctionName="SalesforceConnectorModel.Store.aspdnsf_GetFeaturedProducts" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_getOrder" FunctionName="SalesforceConnectorModel.Store.aspdnsf_getOrder" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_GetProducts" FunctionName="SalesforceConnectorModel.Store.aspdnsf_GetProducts" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_GetShoppingCart" FunctionName="SalesforceConnectorModel.Store.aspdnsf_GetShoppingCart" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_GetUpsellProductsForCart" FunctionName="SalesforceConnectorModel.Store.aspdnsf_GetUpsellProductsForCart" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_ImportProductPricing_XML" FunctionName="SalesforceConnectorModel.Store.aspdnsf_ImportProductPricing_XML" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insAffiliate" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insAffiliate" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insAppconfig" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insAppconfig" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insBadWord" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insBadWord" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insCountryTaxRate" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insCountryTaxRate" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insEventHandler" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insEventHandler" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insGiftCardUsage" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insGiftCardUsage" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insProductType" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insProductType" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insStateTaxRate" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insStateTaxRate" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_insTaxclass" FunctionName="SalesforceConnectorModel.Store.aspdnsf_insTaxclass" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_MoveToShoppingCart" FunctionName="SalesforceConnectorModel.Store.aspdnsf_MoveToShoppingCart" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_NukeProduct" FunctionName="SalesforceConnectorModel.Store.aspdnsf_NukeProduct" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_PABPEraseCCInfo" FunctionName="SalesforceConnectorModel.Store.aspdnsf_PABPEraseCCInfo" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_ProductInfo" FunctionName="SalesforceConnectorModel.Store.aspdnsf_ProductInfo" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_ReloadCart" FunctionName="SalesforceConnectorModel.Store.aspdnsf_ReloadCart" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_SaveKitGroup" FunctionName="SalesforceConnectorModel.Store.aspdnsf_SaveKitGroup" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_SaveKitItem" FunctionName="SalesforceConnectorModel.Store.aspdnsf_SaveKitItem" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_SecurityLogInsert" FunctionName="SalesforceConnectorModel.Store.aspdnsf_SecurityLogInsert" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_SessionAge" FunctionName="SalesforceConnectorModel.Store.aspdnsf_SessionAge" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_SessionInsert" FunctionName="SalesforceConnectorModel.Store.aspdnsf_SessionInsert" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_UpdateIndexes" FunctionName="SalesforceConnectorModel.Store.aspdnsf_UpdateIndexes" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_UpdateStatistics" FunctionName="SalesforceConnectorModel.Store.aspdnsf_UpdateStatistics" />
+    <FunctionImportMapping FunctionImportName="aspdnsf_updOrders" FunctionName="SalesforceConnectorModel.Store.aspdnsf_updOrders" />
+    <FunctionImportMapping FunctionImportName="USP_ActivityLog_CustomerId" FunctionName="SalesforceConnectorModel.Store.USP_ActivityLog_CustomerId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_ActivityLog_CustomerId_Result">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="MethodName" ColumnName="MethodName" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="ActivityStatus" ColumnName="ActivityStatus" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ActivityLog_OrderId" FunctionName="SalesforceConnectorModel.Store.USP_ActivityLog_OrderId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_ActivityLog_OrderId_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="MethodName" ColumnName="MethodName" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="ActivityStatus" ColumnName="ActivityStatus" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ActivityLog_SelectAll" FunctionName="SalesforceConnectorModel.Store.USP_ActivityLog_SelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_ActivityLog_SelectAll_Result">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="MethodName" ColumnName="MethodName" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="ActivityStatus" ColumnName="ActivityStatus" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Address_Insert" FunctionName="SalesforceConnectorModel.Store.USP_Address_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_Address_SelectByBillingAddressId" FunctionName="SalesforceConnectorModel.Store.USP_Address_SelectByBillingAddressId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Address_SelectByBillingAddressId_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Address_SelectByShippingAddressId" FunctionName="SalesforceConnectorModel.Store.USP_Address_SelectByShippingAddressId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Address_SelectByShippingAddressId_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Address_Update" FunctionName="SalesforceConnectorModel.Store.USP_Address_Update" />
+    <FunctionImportMapping FunctionImportName="USP_Configuration_Delete" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_Delete" />
+    <FunctionImportMapping FunctionImportName="USP_Configuration_Insert" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_Configuration_Salesforce" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_Salesforce">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Configuration_Salesforce_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ConsumerId" ColumnName="ConsumerId" />
+          <ScalarProperty Name="ConsumerSecretKey" ColumnName="ConsumerSecretKey" />
+          <ScalarProperty Name="SalesForceUserName" ColumnName="SalesForceUserName" />
+          <ScalarProperty Name="SalesForceUserPassword" ColumnName="SalesForceUserPassword" />
+          <ScalarProperty Name="SecurityToken" ColumnName="SecurityToken" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="SalesforceTokenURL" ColumnName="SalesforceTokenURL" />
+          <ScalarProperty Name="LeadSettings" ColumnName="LeadSettings" />
+          <ScalarProperty Name="CampaignSettings" ColumnName="CampaignSettings" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Configuration_SelectAll" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_SelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Configuration_SelectAll_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ConsumerId" ColumnName="ConsumerId" />
+          <ScalarProperty Name="ConsumerSecretKey" ColumnName="ConsumerSecretKey" />
+          <ScalarProperty Name="SalesForceUserName" ColumnName="SalesForceUserName" />
+          <ScalarProperty Name="SalesForceUserPassword" ColumnName="SalesForceUserPassword" />
+          <ScalarProperty Name="SecurityToken" ColumnName="SecurityToken" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LeadSettings" ColumnName="LeadSettings" />
+          <ScalarProperty Name="CampaignSettings" ColumnName="CampaignSettings" />
+          <ScalarProperty Name="SalesforceTokenURL" ColumnName="SalesforceTokenURL" />
+          <ScalarProperty Name="CallBackURL" ColumnName="CallBackURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Configuration_SelectByApplicationId" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_SelectByApplicationId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Configuration_SelectByApplicationId_Result">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Configuration_SelectByCustomerId" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_SelectByCustomerId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Configuration_SelectByCustomerId_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ConsumerId" ColumnName="ConsumerId" />
+          <ScalarProperty Name="ConsumerSecretKey" ColumnName="ConsumerSecretKey" />
+          <ScalarProperty Name="SalesForceUserName" ColumnName="SalesForceUserName" />
+          <ScalarProperty Name="SalesForceUserPassword" ColumnName="SalesForceUserPassword" />
+          <ScalarProperty Name="SecurityToken" ColumnName="SecurityToken" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LeadSettings" ColumnName="LeadSettings" />
+          <ScalarProperty Name="CampaignSettings" ColumnName="CampaignSettings" />
+          <ScalarProperty Name="CallBackURL" ColumnName="CallBackURL" />
+          <ScalarProperty Name="SalesforceTokenURL" ColumnName="SalesforceTokenURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Configuration_SelectById" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_SelectById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Configuration_SelectById_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ConsumerId" ColumnName="ConsumerId" />
+          <ScalarProperty Name="ConsumerSecretKey" ColumnName="ConsumerSecretKey" />
+          <ScalarProperty Name="SalesForceUserName" ColumnName="SalesForceUserName" />
+          <ScalarProperty Name="SalesForceUserPassword" ColumnName="SalesForceUserPassword" />
+          <ScalarProperty Name="SecurityToken" ColumnName="SecurityToken" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LeadSettings" ColumnName="LeadSettings" />
+          <ScalarProperty Name="CampaignSettings" ColumnName="CampaignSettings" />
+          <ScalarProperty Name="SalesforceTokenURL" ColumnName="SalesforceTokenURL" />
+          <ScalarProperty Name="CallBackURL" ColumnName="CallBackURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Configuration_Update" FunctionName="SalesforceConnectorModel.Store.USP_Configuration_Update" />
+    <FunctionImportMapping FunctionImportName="USP_Custmer_Delete" FunctionName="SalesforceConnectorModel.Store.USP_Custmer_Delete" />
+    <FunctionImportMapping FunctionImportName="USP_Customer_Insert" FunctionName="SalesforceConnectorModel.Store.USP_Customer_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_Customer_Login" FunctionName="SalesforceConnectorModel.Store.USP_Customer_Login" />
+    <FunctionImportMapping FunctionImportName="USP_Customer_SelectAll" FunctionName="SalesforceConnectorModel.Store.USP_Customer_SelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Customer_SelectAll_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="BillingAddressId" ColumnName="BillingAddressId" />
+          <ScalarProperty Name="ShippingAddressId" ColumnName="ShippingAddressId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Admin" ColumnName="Admin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Customer_SelectById" FunctionName="SalesforceConnectorModel.Store.USP_Customer_SelectById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Customer_SelectById_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="BillingAddressId" ColumnName="BillingAddressId" />
+          <ScalarProperty Name="ShippingAddressId" ColumnName="ShippingAddressId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Customer_Update" FunctionName="SalesforceConnectorModel.Store.USP_Customer_Update" />
+    <FunctionImportMapping FunctionImportName="USP_CustomerActivity_Insert" FunctionName="SalesforceConnectorModel.Store.USP_CustomerActivity_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_CustomerName_SelectAll" FunctionName="SalesforceConnectorModel.Store.USP_CustomerName_SelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_CustomerName_SelectAll_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_FBConfiguration_Delete" FunctionName="SalesforceConnectorModel.Store.USP_FBConfiguration_Delete" />
+    <FunctionImportMapping FunctionImportName="USP_FBConfiguration_Insert" FunctionName="SalesforceConnectorModel.Store.USP_FBConfiguration_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_FBConfiguration_SelectAll" FunctionName="SalesforceConnectorModel.Store.USP_FBConfiguration_SelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_FBConfiguration_SelectAll_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FBDataSource" ColumnName="FBDataSource" />
+          <ScalarProperty Name="FBInitialCatalog" ColumnName="FBInitialCatalog" />
+          <ScalarProperty Name="FBClientId" ColumnName="FBClientId" />
+          <ScalarProperty Name="FBClientPassword" ColumnName="FBClientPassword" />
+          <ScalarProperty Name="FBPort" ColumnName="FBPort" />
+          <ScalarProperty Name="FBConnection" ColumnName="FBConnection" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_FBConfiguration_SelectById" FunctionName="SalesforceConnectorModel.Store.USP_FBConfiguration_SelectById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_FBConfiguration_SelectById_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FBDataSource" ColumnName="FBDataSource" />
+          <ScalarProperty Name="FBInitialCatalog" ColumnName="FBInitialCatalog" />
+          <ScalarProperty Name="FBClientId" ColumnName="FBClientId" />
+          <ScalarProperty Name="FBClientPassword" ColumnName="FBClientPassword" />
+          <ScalarProperty Name="FBPort" ColumnName="FBPort" />
+          <ScalarProperty Name="FBConnection" ColumnName="FBConnection" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_FBConfiguration_Update" FunctionName="SalesforceConnectorModel.Store.USP_FBConfiguration_Update" />
+    <FunctionImportMapping FunctionImportName="USP_GetCustomerId" FunctionName="SalesforceConnectorModel.Store.USP_GetCustomerId" />
+    <FunctionImportMapping FunctionImportName="USP_Request_SelectAll" FunctionName="SalesforceConnectorModel.Store.USP_Request_SelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Request_SelectAll_Result">
+          <ScalarProperty Name="RequestId" ColumnName="RequestId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="RequestModel" ColumnName="RequestModel" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Request_SelectById" FunctionName="SalesforceConnectorModel.Store.USP_Request_SelectById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Request_SelectById_Result">
+          <ScalarProperty Name="RequestId" ColumnName="RequestId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="RequestModel" ColumnName="RequestModel" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Responce_SelectAll" FunctionName="SalesforceConnectorModel.Store.USP_Responce_SelectAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Responce_SelectAll_Result">
+          <ScalarProperty Name="ResponseId" ColumnName="ResponseId" />
+          <ScalarProperty Name="SFOrderResponse" ColumnName="SFOrderResponse" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Responce_SelectById" FunctionName="SalesforceConnectorModel.Store.USP_Responce_SelectById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_Responce_SelectById_Result">
+          <ScalarProperty Name="ResponseId" ColumnName="ResponseId" />
+          <ScalarProperty Name="SFOrderResponse" ColumnName="SFOrderResponse" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SalesforceConnectorRequestLog_Insert" FunctionName="SalesforceConnectorModel.Store.USP_SalesforceConnectorRequestLog_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_SalesforceConnectorResponseLog_GetApiByAdmin" FunctionName="SalesforceConnectorModel.Store.USP_SalesforceConnectorResponseLog_GetApiByAdmin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_SalesforceConnectorResponseLog_GetApiByAdmin_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SalesforceConnectorResponseLog_GetApiByCustomerId" FunctionName="SalesforceConnectorModel.Store.USP_SalesforceConnectorResponseLog_GetApiByCustomerId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SalesforceConnectorModel.USP_SalesforceConnectorResponseLog_GetApiByCustomerId_Result">
+          <ScalarProperty Name="response" ColumnName="response" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SalesforceConnectorResponseLog_Insert" FunctionName="SalesforceConnectorModel.Store.USP_SalesforceConnectorResponseLog_Insert" />
+  </EntityContainerMapping>
+</Mapping>

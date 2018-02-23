@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "CustomerView";
+}
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<div ng-controller="myCntrl">
+    <h2>CustomerView</h2>
+    @if (Session["UserName"] != null)
+    {
+        <text>
+            welcome @Session["UserName"].ToString()
+        </text>
+    }
+</div>
+
+

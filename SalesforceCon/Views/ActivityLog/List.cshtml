@@ -1,0 +1,44 @@
+﻿@model IEnumerable<SalesforceCon.Models.ActivityLogModels>
+@using PagedList;
+@using PagedList.Mvc;
+@using System.Linq;
+@{
+    ViewBag.Title = "Index";
+    var count = 0;
+}
+<h2>Activity Log</h2>
+<link href="~/Content/SalesforceConnector.css" rel="stylesheet" />
+@*<p>
+           @Html.ActionLink("Register New", "Register")
+    </p>*@
+@(Html.Kendo().Grid(Model)
+.Name("DataGrid")
+.Columns(column =>
+{
+column.Bound(al => al.UserName).HtmlAttributes(new { title = "#=ErrorMessage#" }).Title("User Name");
+    column.Bound(al => al.ErrorMessage).HtmlAttributes(new { title = "#=ErrorMessage#" }).Title("Active Log");
+    column.Bound(al => al.ActivityStatus).HtmlAttributes(new { title = "#=ActivityStatus#" }).Template(@<text>@(item.ActivityStatus == 1 ? "Error" : "Activaty")</text>);
+    column.Bound(al => al.CreatedOn).HtmlAttributes(new { title = "#=ErrorMessage#" }).Title("Created Date");
+})
+        .ToolBar(toolbar =>
+        {
+
+        })
+                                                      .Pageable(x => x.PageSizes(new[] { 100, 200, 500, 1000 }).Refresh(true).Info(true))
+                                                      .Sortable()
+                                                      .Filterable()
+                                                      //.Scrollable()
+                                                      .ColumnMenu()
+                                                      .Resizable(x => x.Columns(false))
+                                                      .DataSource(dataSource => dataSource
+                                                          .Ajax()
+                                                          .Read(read => read.Action("List", "ActivityLog"))
+                                                          .PageSize(100)
+                                                          .ServerOperation(false)
+                                                      )
+                                                      //.Events(ev => ev.DataBound("resetRowNumber"))
+                                                       .Reorderable(reorder => reorder.Columns(true))
+)
+
+
+

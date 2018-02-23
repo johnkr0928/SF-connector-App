@@ -1,0 +1,79 @@
+﻿.content-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+ footer {
+    height: 56px !important;
+}
+
+
+
+footer {
+   clear: both;
+    background-color: #2d8fcd !important;
+    font-size: .8em;
+    height: 100px;
+    color: #8a9999;
+}
+.float-right {
+    float: right;
+    margin-right: 36% !important;
+}
+.error {
+    color:red;
+}
+
+.footer-content {
+    /*position: absolute;*/
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
+}
+
+.registration_form {
+    max-width:600px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+   font-size: 15px;
+}
+.body-content {
+    min-height: 800px;
+}
+
+
+/*.container.body-content {
+    min-height: 509px;
+}
+
+body {
+    padding-bottom: inherit!important;
+}*/
+
+.help-page-table {
+    margin-bottom: 0px !important;
+}
+
+body {
+    position: relative;
+   
+}
+.containers {
+    background-color: #2d8fcd;
+}
+
+.color {
+    background: #2d8fcd;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #e9e8f5 !important;
+}
+
+.colors{
+   
+    color: #e9e8f5 !important;
+}

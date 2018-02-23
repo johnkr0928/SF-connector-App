@@ -1,0 +1,116 @@
+﻿<div layout="row" layout-padding="100">
+    <div flex="98" flex-xs="100">
+        <md-card>
+            <button class="btn pull-right" style="float:right;" color="primary" md-raised-button [routerLink]="['/register']">Create</button>
+            <div style="float:right;margin-top:6px;width:8%; cursor:pointer">
+                <md-icon class="md-24 plus active" style="width:24px; margin-top: 0px; display:block;margin-left:56px">add_circle</md-icon>
+                <md-icon class="md-24 minus" style="display:none;margin-left:20px">remove_circle</md-icon>
+                <div style="margin-left:65%;margin-top:-16%;color: #3c4784;" id="filter">Filter</div>
+            </div>
+            <md-card-title color="primary">
+                <span>Customer List</span>
+            </md-card-title>
+            <md-card-content>
+                <table layout-fill>
+                    <thead>
+                        <tr>
+                            <th sortable class="md-text-cell" hidden>ID</th>
+                            <th sortable class="md-text-cell'+selectedClass('FirstName') sortorder descending sortorder" (click)="changeSorting('FirstName', false)" style="color: #3c4784; text-align: left; cursor:pointer;">First Name</th>
+                            <th sortable class="md-text-cell'+selectedClass('LastName') sortorder descending sortorder"  (click)="changeSorting('LastName', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Last Name</th>
+                            <th sortable class="md-text-cell'+selectedClass('Email') sortorder descending sortorder" (click)="changeSorting('Email', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Email</th>
+                            <th sortable class="md-text-cell'+selectedClass('Company')sortorder descending sortorder" (click)="changeSorting('Company', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Company</th>
+                            <th sortable class="md-text-cell" (click)="changeSorting('IsActive', false)" style="color: #3c4784;">Active</th>
+                            <th sortable class="md-text-cell" hidden>Admin</th>
+                            <th sortable class="md-text-cell" hidden>BillingAddressId</th>
+                            <th style="color: #3c4784;">Address</th>
+                            <th style="color: #3c4784;">Edit</th>
+                            <th style="float:left;padding-top:14px;color:#3c4784;">Delete</th>
+                        </tr>
+                        <tr class="filter" style="display:none;">
+                            <th sortable class="md-text-cell" hidden></th>
+                            <th sortable class="md-text-cell"><md-input placeholder="Search By First Name" #firstFilter name="FirstName" (keyup)="O"></md-input></th>
+                            <th sortable class="md-text-cell"><md-input placeholder="Search By Last Name" #lastFilter name="LastName" (keyup)="O"></md-input></th>
+                            <th sortable class="md-text-cell"><md-input placeholder="Search By Email" #emailFilter name="Email" (keyup)="O"></md-input></th>
+                            <th sortable class="md-text-cell"><md-input placeholder="Search By Company" #companyFilter name="Company" (keyup)="O"></md-input></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--| orderBy : convertSorting()-->
+                        <tr *ngFor="let material of profiles | orderBy : convertSorting()
+                                    | apiFilter:firstFilter.name:firstFilter.value
+                                    | apiFilter:lastFilter.name:lastFilter.value
+                                    | apiFilter:emailFilter.name:emailFilter.value
+                                    | apiFilter:companyFilter.name:companyFilter.value
+                                    | paginate: { itemsPerPage: 20, currentPage: p } let i of index">
+                            <td class="md-text-cell" hidden>{{ material.Id }}</td>
+                            <td class="md-text-cell">{{ material.FirstName }}</td>
+                            <td class="md-text-cell">{{ material.LastName }}</td>
+                            <td class="md-text-cell">{{ material.Email }}</td>
+                            <td class="md-text-cell">{{ material.Company }}</td>
+                            <td class="md-text-cell">{{ material.IsActive }}</td>
+                            <td class="md-text-cell" hidden>{{ material.Admin }}</td>
+                            <td class="md-text-cell" hidden>{{ material.BillingAddressId }}</td>
+                            <td>
+                                <div class="Create{{material.BillingAddressId == 0 ? true : false}}">
+                                    <a [routerLink]="['/address',material.Id]">
+                                        <i class="material-icons">mode_edit</i>
+                                    </a>
+                                </div>
+                                <div class="Update{{material.BillingAddressId > 0 ? true : false}}">
+                                    <a [routerLink]="['/addressupdate',material.Id]">
+                                        <i class="material-icons">mode_edit</i>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <a [routerLink]="['/update', material.Id]">
+                                    <i class="material-icons">mode_edit</i>
+                                </a>
+                            </td>
+                            <td class="md-text-cell">
+                                <div class="delete{{ material.Admin }}">
+                                    <!--<a (click)="deleteUser(material.Id)" ><i class="material-icons">delete</i></a>-->
+                                    <div style="cursor:pointer;" (click)="deleteUser(material.Id, material.FirstName+' '+material.LastName)"><i class="material-icons">delete</i></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <pagination-controls (pageChange)="p = $event" #api></pagination-controls>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+            </md-card-actions>
+        </md-card>
+    </div>
+</div>
+<style>
+    .deletetrue {
+        display: none;
+    }
+
+    .Createtrue {
+        display: block;
+    }
+
+    .Createfalse {
+        display: none;
+    }
+
+    .Updatetrue {
+        display: block;
+    }
+
+    .Updatefalse {
+        display: none;
+    }
+
+     .sortorder:after {
+            content: '\25b2';
+        }
+
+      .sortorder.descending:after {
+        content: '\25bc';
+    }
+</style>
+
+

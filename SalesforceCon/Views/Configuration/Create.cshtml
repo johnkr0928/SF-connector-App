@@ -1,0 +1,231 @@
+﻿@model SalesforceCon.Models.ConfigurationModels
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<link href="~/Content/SalesforceConnectorConfig.css" rel="stylesheet" />
+<div class="registration_form" ng-controller="ConfigurationCtrl">
+    <h2>Configuration</h2>
+    <form ng-submit="submitForm()" name="frmConfiguration">
+        <div class="validationconfig">
+            <ul>
+                <li class="error" ng-show="frmConfiguration.consumerid.$touched && frmConfiguration.consumerid.$invalid">The Consumer Id is required.</li>
+                <li class="error" ng-show="frmConfiguration.consumerid.$error.pattern">Use numbers only</li>
+                <li class="error" ng-show="frmConfiguration.consumersecretkey.$touched && frmConfiguration.consumersecretkey.$invalid">The Consumer Secret Key is required.</li>
+                <li class="error" ng-show="frmConfiguration.salesforceusername.$touched && frmConfiguration.salesforceusername.$invalid">The Sales Force UserName is required.</li>
+                <li class="error" ng-show="frmConfiguration.salesforceusername.$error.pattern">Use characters only</li>
+                <li class="error" ng-show="frmConfiguration.salesforceuserpassword.$touched && frmConfiguration.salesforceuserpassword.$invalid">The SalesForce UserPassword is required.</li>
+                <li class="error" ng-show="frmConfiguration.securitytoken.$touched && frmConfiguration.securitytoken.$invalid">The Security Token is required.</li>
+                <li class="error" ng-show="frmConfiguration.salesforcetokenURL.$touched && frmConfiguration.salesforcetokenURL.$invalid">The Salesforce Token URL is required.</li>
+                <li class="error" ng-show="frmConfiguration.callbackURL.$touched && frmConfiguration.callbackURL.$invalid">The Call Back URL is required.</li>
+            </ul>
+        </div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.ConsumerId)
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Consumer Id" name="consumerid" ng-model="ConsumerId" ng-pattern="/^[0-9]{1,7}$/" required />
+             </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.ConsumerSecretKey)
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Consumer Secret Key" name="consumersecretkey" ng-model="ConsumerSecretKey" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.SalesForceUserName)
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Sales Force User Name" name="salesforceusername" ng-model="SalesForceUserName" ng-pattern="/^[a-zA-Z\s]*$/" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.SalesForceUserPassword)
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Sales Force User Password" name="salesforceuserpassword" ng-model="SalesForceUserPassword" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.SecurityToken)
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Security Token " name="securitytoken" ng-model="SecurityToken" required />
+             </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.SalesforceTokenURL)
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Salesforce Token URL" name="salesforcetokenURL" ng-model="SalesforceTokenURL" required />
+             </div>
+        </div>
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.CallBackURL)
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Call Back URL" name="callbackURL" ng-model="CallBackURL" required />
+             </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.LeadSettings)
+            </div>
+            <div class="LeadSettings">
+                <input type="checkbox" placeholder="Lead Settings" name="leadsettings" ng-model="LeadSettings" />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.CampaignSettings)
+            </div>
+            <div class="LeadSettings">
+                <input type="checkbox"  placeholder="Campaign Settings" name="campaignsettings" ng-model="CampaignSettings"/>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="buttonContainerconfig">
+            <input type="submit" value="Save" ng-click="SaveConfiguration();" class="btn btn-success" ng-disabled="frmConfiguration.$invalid" />
+            <input type="button" class="btn btn-danger" value="Cancel" ng-click="CreateCancel()" />
+        </div>
+    </form>
+</div>
+
+
+
+@*<p>
+    <h2>SF Configuration Edit</h2>
+</p>
+<form ng-submit="submitForm()" name="frmlistConfig">
+    <div class="registration_form">
+        <link href="~/Content/SalesforceConnectorConfig.css" rel="stylesheet" />
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">Consumer Id</font>
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Consumer Id" name="consumerid" ng-model="ConsumerId" required autofocus />
+                <span class="error" ng-show="frmlistConfig.consumerid.$touched && frmlistConfig.consumerid.$invalid">The Consumer Id is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">Consumer Secret Key</font>
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Consumer Secret Key" name="consumersecretkey" ng-model="ConsumerSecretKey" required autofocus />
+                <span class="error" ng-show="frmlistConfig.consumersecretkey.$touched && frmlistConfig.consumersecretkey.$invalid">The Consumer Secret Key is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">SalesForce UserName</font>
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Sales Force User Name" name="salesforceusername" ng-model="SalesForceUserName" required autofocus />
+                <span class="error" ng-show="frmlistConfig.salesforceusername.$touched && frmlistConfig.salesforceusername.$invalid">The SalesForce UserName is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">SalesForce User Password</font>
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Sales Force User Password" name="salesforceuserpassword" ng-model="SalesForceUserPassword" required autofocus />
+                <span class="error" ng-show="frmlistConfig.salesforceuserpassword.$touched && frmlistConfig.salesforceuserpassword.$invalid">The SalesForce UserPassword is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">Security Token</font>
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Security Token " name="securitytoken" ng-model="SecurityToken" required autofocus />
+                <span class="error" ng-show="frmlistConfig.securitytoken.$touched && frmlistConfig.securitytoken.$invalid">The Security Token is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">Salesforce TokenURL</font>
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Salesforce Token URL" name="salesforcetokenURL" ng-model="SalesforceTokenURL" required autofocus />
+                <span class="error" ng-show="frmlistConfig.salesforcetokenURL.$touched && frmlistConfig.salesforcetokenURL.$invalid">The Salesforce Token URL is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">CallBack URL</font>
+            </div>
+            <div class="valueContainerconfig">
+                <input type="text" class="form-control" placeholder="Call Back URL" name="callbackURL" ng-model="CallBackURL" required autofocus />
+                <span class="error" ng-show="frmlistConfig.callbackURL.$touched && frmlistConfig.callbackURL.$invalid">The Call Back URL is required.</span>
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">Lead Settings</font>
+            </div>
+            <div class="valueContainerconfigcheck">
+                <input type="checkbox" placeholder="Lead Settings" name="leadsettings" ng-model="LeadSettings" />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                <font style="float:left">Campaign Settings</font>
+            </div>
+            <div class="valueContainerconfigcheck">
+                <input type="checkbox" placeholder="Campaign Settings" name="campaignsettings" ng-model="CampaignSettings" />
+             </div>
+        </div>
+
+        <div class="clearStyle" style="padding:5px;"></div>
+        <div class="buttonContainerconfig">
+            <input type="submit" value="Save" ng-click="updateconfiguration();" class="btn btn-success" ng-disabled="frmlistConfig.$invalid" />
+            <input type="button" class="btn btn-danger" value="Cancel" ng-click="Cancel()" />
+        </div>
+    </div>
+</form>*@

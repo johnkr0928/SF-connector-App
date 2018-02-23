@@ -1,0 +1,77 @@
+﻿<form name="registerForm" #registerForm="ngForm" id="myform">
+    <div layout="row" layout-padding="80">
+        <div flex></div>
+        <div flex="60" flex-xs="100">
+            <md-card>
+                <md-card-title color="primary">
+                    <span>Create Customer</span>
+                </md-card-title>
+                <md-card-content>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter First Name" #FirstName="ngModel" pattern="[a-zA-Z]*" [(ngModel)]="register.FirstName" name="FirstName" required FirstName>
+                            <md-hint [hidden]="FirstName.pristine || FirstName.valid">
+                                <span [hidden]="!FirstName.errors?.pattern || FirstName.errors?.required" class="red">Use Characters only</span>
+                                <span [hidden]="!FirstName.errors?.required" class="red">First Name is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter Last Name" #LastName="ngModel" pattern="[a-zA-Z]*" [(ngModel)]="register.LastName" name="LastName" required LastName>
+                            <md-hint [hidden]="LastName.pristine || LastName.valid">
+                                <span [hidden]="!LastName.errors?.pattern || LastName.errors?.required" class="red">Use Characters only</span>
+                                <span [hidden]="!LastName.errors?.required" class="red">Last Name is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" type="email" placeholder="Enter Email" #email="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" [(ngModel)]="register.Email" name="Email" required Email>
+                            <md-hint [hidden]="email.pristine || email.valid">
+                                <span [hidden]="!email.errors?.pattern || email.errors?.required" class="red">Incorrect Email Address</span>
+                                <span [hidden]="!email.errors?.required" class="red">Email is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" type="password" placeholder="Enter Password" id="paswword" #Password="ngModel" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$"
+                         [(ngModel)]="register.Password" name="Password" required Password>
+                            <md-hint [hidden]="Password.pristine || Password.valid">
+                                <span [hidden]="!Password.errors?.pattern || Password.errors?.required" class="red">
+                                    Password should be atleast 8 characters long and should contain one number,one character and one special character
+                                </span>
+                                <span [hidden]="!Password.errors?.required" class="red">Password is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" type="password" id="ConfirmPassword" placeholder="Enter Confirm Password" #ConfirmPassword="ngModel" validateEqual="Password" 
+                                  [(ngModel)]="register.ConfirmPassword" name="ConfirmPassword" required ConfirmPassword>
+                            <md-hint [hidden]="ConfirmPassword.pristine || ConfirmPassword.valid">
+                                <span [hidden]="!ConfirmPassword.errors?.valid ||ConfirmPassword.errors?.required" class="red">Doesn't Match the Password</span>
+                                <span [hidden]="!ConfirmPassword.errors?.required" class="red">Confirm Password is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter Company" #Company="ngModel" pattern="[a-zA-Z]*" [(ngModel)]="register.Company" 
+                            name="Company" required Company>
+                            <md-hint [hidden]="Company.pristine || Company.valid">
+                                <span [hidden]="!Company.errors?.pattern|| Company.errors?.required" class="red">use Characters only</span>
+                                <span [hidden]="!Company.errors?.required" class="red">Company is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <button md-raised-button color="primary" (click)="registerUser(register);" [disabled]="!registerForm.form.valid">Submit</button>
+                    <button md-raised-button [routerLink]="['/profile']">Cancel</button>
+                </md-card-actions>
+            </md-card>
+        </div>
+        <div flex></div>
+    </div>
+</form>
+<style>
+    .red{
+        color:red;
+    }
+</style>

@@ -1,0 +1,109 @@
+﻿<div layout="row" layout-padding="100">
+    <div flex="98" flex-xs="100">
+        <md-card>
+            <div style="float:right;margin-right:16px;margin-top:0px;width:5%; cursor:pointer">
+                <md-icon class="md-24 plus active" style="width:24px; margin-top: 0px; display:block">add_circle</md-icon>
+                <md-icon class="md-24 minus" style="display:none;">remove_circle</md-icon>
+                <div style="margin-left:46%;margin-top:-23%;color: #3c4784;" id="filter">Filter</div>
+            </div>
+            <md-content>
+                <md-card-title color="primary">
+                    <span>Activity Log</span>
+                </md-card-title>
+                <md-tab-group>
+                    <md-tab>
+                        <template md-tab-label>
+                            Error
+                        </template>
+                        <template md-tab-content>
+                            <table layout-fill>
+                                <thead>
+                                    <tr>
+                                        <th sortable class="md-text-cell'+selectedClass('UserName') sortorder descending sortorder" (click)="changeSorting('UserName', false)" style="color: #3c4784; text-align: left; cursor:pointer;">User Name</th>
+                                        <th sortable class="md-text-cell'+selectedClass('ErrorMessage') sortorder descending sortorder" (click)="changeSorting('ErrorMessage', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Activity</th>
+                                        <th sortable class="md-text-cell'+selectedClass('ActivityStatus') sortorder descending sortorder" (click)="changeSorting('ActivityStatus', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Activity Status</th>
+                                        <th sortable class="md-text-cell'+selectedClass('CreatedOn') sortorder descending sortorder" (click)="changeSorting('CreatedOn', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Created Date</th>
+                                    </tr>
+                                    <tr class="filter" style="display:none;">
+                                        <th sortable class="md-text-cell" hidden></th>
+                                        <th sortable class="md-text-cell"><md-input placeholder="Search By User Name" #userFilter name="UserName" (keyup)="O"></md-input></th>
+                                        <th sortable class="md-text-cell"><md-input placeholder="Search By Activity Message" #activityFilter name="ErrorMessage" (keyup)="O"></md-input></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!--| orderBy : convertSorting()-->
+                                    <tr *ngFor="let material of activities | orderBy : convertSorting()
+                                     | apiFilter:userFilter.name:userFilter.value
+                                     | apiFilter:activityFilter.name:activityFilter.value
+                                     | paginate: { itemsPerPage: 20, currentPage: p } let i of index">
+                                        <td class="md-text-cell">{{ material.UserName }}</td>
+                                        <td class="md-text-cell">{{ material.ErrorMessage }}</td>
+                                        <td class="md-text-cell">{{ material.ActivityStatus == 1 ? "Error" : "Activity" }}</td>
+                                        <td class="md-text-cell">{{material.CreatedOn.substr(6).replace(")/","") | date:"yyyy-MM-dd HH:mm" }}</td>
+                                    </tr>
+                                </tbody>
+                                <pagination-controls (pageChange)="p = $event" #api></pagination-controls>
+                            </table>                           
+                        </template>
+                    </md-tab>
+                    <md-tab>
+                        <template md-tab-label>
+                            Request/Response
+                        </template>
+                        <div style="float:right;margin-right:16px;margin-top:0px;width:5%; cursor:pointer">
+                            <md-icon class="md-24 plus" style="width:24px; margin-top: 0px; display:block">add_circle</md-icon>
+                            <md-icon class="md-24 minus" style="display:none;">remove_circle</md-icon>
+                            <div style="margin-left:46%;margin-top:-33%;color: #3c4784;">Filter</div>
+                        </div>
+                        <template md-tab-content>
+                            <table layout-fill style="height:auto;" class="tables">
+                                <thead>
+                                    <tr>
+                                        <th sortable class="md-text-cell'+selectedClass('UserName') sortorder descending sortorder" (click)="changeSorting('UserName', false)" style="color: #3c4784; text-align: left; cursor:pointer;">User Name</th>
+                                        <th sortable class="md-text-cell'+selectedClass('ErrorMessage') sortorder descending sortorder" (click)="changeSorting('ErrorMessage', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Activity</th>
+                                        <th sortable class="md-text-cell'+selectedClass('ActivityStatus') sortorder descending sortorder" (click)="changeSorting('ActivityStatus', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Activity Status</th>
+                                        <th sortable class="md-text-cell'+selectedClass('CreatedOn') sortorder descending sortorder" (click)="changeSorting('CreatedOn', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Created Date</th>
+                                    </tr>
+                                    <tr class="filter" style="display:none;">
+                                        <th sortable class="md-text-cell" hidden></th>
+                                        <th sortable class="md-text-cell"><md-input placeholder="Search By User Name" #userFilter name="UserName" (keyup)="O"></md-input></th>
+                                        <th sortable class="md-text-cell"><md-input placeholder="Search By Activity Message" #activityFilter name="ErrorMessage" (keyup)="O"></md-input></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!--| orderBy : convertSorting()-->
+                                    <tr *ngFor="let list of getactivitiesresponse | orderBy : convertSorting()
+                                        | apiFilter:userFilter.name:userFilter.value 
+                                        | apiFilter:activityFilter.name:activityFilter.value
+                                        | paginate: { itemsPerPage: 5, currentPage: p } let i of index">
+                                        <td class="md-text-cell">{{list.UserName}}</td>
+                                        <td class="md-text-cell">{{list.ErrorMessage}}</td>
+                                        <td class="md-text-cell">{{list.ActivityStatus == 1 ? "Request" : "Response"}}</td>
+                                        <td class="md-text-cell">{{list.CreatedOn.substr(6).replace(")/","") | date:"yyyy-MM-dd HH:mm" }}</td>
+                                    </tr>
+                                </tbody>                              
+                            </table>
+                            <pagination-controls (pageChange)="p = $event" #api></pagination-controls>                       
+                        </template>                                                  
+                    </md-tab>
+                </md-tab-group>
+            </md-content>
+        </md-card>
+    </div>
+</div>
+<style>
+      .sortorder:after {
+            content: '\25b2';
+        }
+
+      .sortorder.descending:after {
+        content: '\25bc';
+    }
+      /*.tables>tr>ul>.ng2-pagination[_ngcontent-ooi-17] {
+    /* margin-left: 0; */
+    margin-right: -335px !important;
+    margin-bottom: 1rem;
+}*/
+</style>
+
+

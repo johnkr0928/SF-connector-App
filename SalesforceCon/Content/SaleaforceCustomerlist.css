@@ -1,0 +1,185 @@
+﻿
+
+.dropdownlist {
+    width: 162px;
+    height: 30px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    font-size: 1.2em;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+}
+
+select.input-validation-error 
+{
+        border: 1px solid #e80c4d;
+
+}
+.error {
+    color:red;
+}
+th {
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 0;
+    color: blue;
+}
+
+
+.pagination li {
+    float: left;
+    list-style: none;
+    color: blue;
+    background: linear-gradient(to bottom, #fff 0%, #dcdcdc 100%);
+    color: #333 !important;
+    border: 1px solid #979797;
+    background-color: white;
+    padding: 10px;
+    width: 10px;
+    margin: 5px;
+}
+
+.body-wrapper {
+    /*width: 80%;*/
+    margin: 0 auto;
+}
+select#pagesizelist {
+    padding: 11px;
+}
+.table-content {
+    width: 100%;
+}
+
+
+.pagination-container {
+    float: right;
+}
+
+
+ul.pagination li.active {
+    background: cyan;
+}
+
+table.table-content th {
+    background: #7fa7b9;
+}
+table.table-content th, .table-content td {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+  
+.login-container {
+    width: 100%;
+    margin: 8% auto;
+  
+}
+.login-image {
+    margin: 0px auto;
+    display: table;
+    padding: 130px;
+    background: url(https://cdn.kastatic.org/images/homepage/background-learner.jpg) no-repeat 10% 10%;
+    background-size: cover;
+}
+input.login-submit {
+    padding: 6px 25px;
+    background: rgb(93, 175, 157);
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+}
+.login-image label {
+    font-size: 19px;
+}
+
+.login-image input[type="text"], .login-image input[type="password"] {
+    padding: 5px 15px;
+}
+
+
+a.register {
+    padding: 10px 10px;
+    background: white;
+    border-radius: 3px;
+    text-decoration: none;
+    float: right;
+}
+.label-container {
+    clear: both;
+    max-width: 480px;
+}
+.label-container .editor-label, .label-container .editor-field {
+    float: left;
+    width: 50%;
+}
+.label-container .editor-label {
+    width: 33%;
+    min-width: 156px;
+}
+.editor-label label {
+    display: initial;
+}
+
+/*span.important-mark {
+    color: red;
+}*/
+
+.Button {
+        text-align: center;
+        margin-right: 378px;
+        margin-top: 13px;
+}
+
+.list {
+    text-align: center;
+    width: 60%;
+}
+
+.h2regi {
+    position: relative;
+    top: -25px;
+}
+
+.validation-summary-errors ul {
+   padding-left: 177px;
+}
+
+
+.emailValidate {
+    position: relative;
+    top: -36px;
+    left: 314px;
+}
+
+.drop_state {
+    height: 30px;
+    width: 160px;
+}
+
+.drop_Country {
+    height: 30px;
+    width: 160px;
+}
+
+.email_input {
+    float: left;
+}
+
+.Scroll {
+    width: 100%;
+    overflow: auto;
+}
+
+.link {
+    float: right;
+    margin-top: 39px;
+    margin-right: 16px;
+}
+
+
+p.productlink {
+    /* float: right; */
+    /* margin-top: 0%; */
+   padding-left:1792px;
+}

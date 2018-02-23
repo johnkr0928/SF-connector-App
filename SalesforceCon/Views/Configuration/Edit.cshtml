@@ -1,0 +1,125 @@
+﻿@model SalesforceCon.Models.ConfigurationModels
+@{
+    ViewBag.Title = "Edit";
+}
+<div class="registration_form">
+    <h2>Edit</h2>
+    @*<link href="~/Content/SalesforceConnector.css" rel="stylesheet" />*@
+    <link href="~/Content/SalesforceConnectorConfig.css" rel="stylesheet" />
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        if (ViewBag.ConfigurationMessage == "Configuration Updated Successfully")
+        {
+            <script type="text/javascript">
+                alert('@ViewBag.ConfigurationMessage');
+            </script>
+        }
+        else if (ViewBag.ConfigurationMessage == "Configuration Updated Unsuccessfully")
+        {
+            <script type="text/javascript">
+                alert('@ViewBag.ConfigurationMessage');
+            </script>
+        }
+        <div>
+            @Html.ValidationSummary()
+
+            @Html.HiddenFor(model => model.Id)
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.ConsumerId)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.TextBoxFor(model => model.ConsumerId, new { @class = "textbox", autofocus = "autofocus" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.ConsumerSecretKey)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.TextBoxFor(model => model.ConsumerSecretKey, new { @class = "textbox" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.SalesForceUserName)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.TextBoxFor(model => model.SalesForceUserName, new { @class = "textbox" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.SalesForceUserPassword)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.PasswordFor(model => model.SalesForceUserPassword, new { value = Model.SalesForceUserPassword, @class = "textbox" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.SecurityToken)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.TextBoxFor(model => model.SecurityToken, new { @class = "textbox" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.SalesforceTokenURL)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.TextAreaFor(model => model.SalesforceTokenURL, new { @style = "height:68px;" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.CallBackURL)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.TextBoxFor(model => model.CallBackURL, new { @class = "textbox" })
+                </div>
+            </div>
+
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.LeadSettings)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.CheckBoxFor(model => model.LeadSettings, new { @class = "texlead", @style = "margin-left: -5%;height:24px;" })
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    @Html.LabelFor(model => model.CampaignSettings)
+                </div>
+                <div class="valueContainerconfig">
+                    @Html.CheckBoxFor(model => model.CampaignSettings, new { @class = "textcamp", @style = "margin-left: -5%;height:24px;" })
+                </div>
+            </div>
+
+            <div class="clearStyle" style="padding:5px;"></div>
+            <div class="buttonContainerconfig">
+                <button>Submit</button>
+                @* @Html.ActionLink("Back to List", "Index")*@
+            </div>
+        </div>
+    }
+</div>

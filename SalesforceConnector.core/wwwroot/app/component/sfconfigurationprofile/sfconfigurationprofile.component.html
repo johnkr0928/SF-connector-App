@@ -1,0 +1,69 @@
+﻿<div layout="row" layout-padding="100">
+    <div flex="98" flex-xs="100">
+        <md-card>
+            <button class="btn pull-right" color="primary" md-raised-button [routerLink]="['/sfconfiguration']" style="float:right;">Create</button>
+            <div style="float:right;margin-right:-8px;margin-top:6px;width:5%; cursor:pointer">
+                <md-icon class="md-24 plus active" style="width:24px; margin-top: 0px; display:block">add_circle</md-icon>
+                <md-icon class="md-24 minus" style="display:none;">remove_circle</md-icon>
+                <div style="margin-left:36%;margin-top:-26%;color: #3c4784;" id="filter">Filter</div>
+            </div>
+            <md-card-title color="primary">
+                <span>List</span>
+            </md-card-title>
+            <md-card-content>
+                <table layout-fill>
+                    <thead>
+                        <tr>  
+                            <th sortable class="md-text-cell'+selectedClass('SalesForceUserName') sortorder descending sortorder" (click)="changeSorting('SalesForceUserName', false)" style="color: #3c4784; text-align: left; cursor:pointer;">SalesForce UserName</th>
+                            <th sortable class="md-text-cell'+selectedClass('SalesForceUserPassword') sortorder descending sortorder" (click)="changeSorting('SalesForceUserPassword', false)" style="color: #3c4784; text-align: left; cursor:pointer;">SalesForce UserPassword</th>
+                            <th sortable class="md-text-cell'+selectedClass('SecurityToken') sortorder descending sortorder" (click)="changeSorting('SecurityToken', false)" style="color: #3c4784; text-align: left; cursor:pointer;">Security Token</th>
+                            <th sortable class="md-text-cell" style="color: #3c4784;">Lead Settings</th>
+                            <th sortable class="md-text-cell" style="color: #3c4784;">Active</th>
+                            <th style="color: #3c4784;">Actions</th>
+                        </tr>
+                        <tr class="filter" style="display:none;">
+                            <th sortable class="md-text-cell" hidden></th>
+                            <th sortable class="md-text-cell"><md-input placeholder="Search By SalesForce UserName" #salesforceusernameFilter name="SalesForceUserName" (keyup)="O"></md-input></th>
+                            <th sortable class="md-text-cell"><md-input placeholder="Search By SalesForce UserPassword" #salesforceuserpasswordFilter name="SalesForceUserPassword" (keyup)="O"></md-input></th>
+                            <th sortable class="md-text-cell"><md-input placeholder="Search By Security Token" #securitytokenFilter name="SecurityToken" (keyup)="O"></md-input></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--| orderBy : convertSorting()-->
+                        <tr *ngFor="let material of sfconfigurationprofiles | orderBy : convertSorting()
+                            | apiFilter:salesforceusernameFilter.name:salesforceusernameFilter.value
+                            | apiFilter:salesforceuserpasswordFilter.name:salesforceuserpasswordFilter.value
+                            | apiFilter:securitytokenFilter.name:securitytokenFilter.value
+                            | paginate: { itemsPerPage: 20, currentPage: p } let i of index">
+                            <td class="md-text-cell">{{ material.SalesForceUserName }}</td>
+                            <td class="md-text-cell">{{ material.SalesForceUserPassword }}</td>
+                            <td class="md-text-cell">{{ material.SecurityToken }}</td>
+                            <td class="md-text-cell">{{ material.LeadSettings }}</td>
+                            <td class="md-text-cell">{{ material.IsActive }}</td>
+                            <td>
+                                <a [routerLink]="['/sfconfigurationupdate', material.Id]">
+                                    <i class="material-icons">mode_edit</i>
+                                </a>
+                            </td>
+                            <td>
+                                <div style="cursor:pointer" (click)="deleteUser(material.Id, material.SalesForceUserName)"><i class="material-icons">delete</i></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <pagination-controls (pageChange)="p = $event" #api></pagination-controls>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+            </md-card-actions>
+        </md-card>
+    </div>
+</div>
+<style>
+     .sortorder:after {
+            content: '\25b2';
+        }
+
+      .sortorder.descending:after {
+        content: '\25bc';
+    }
+</style>

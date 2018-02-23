@@ -1,0 +1,82 @@
+﻿<form name="sfconfigurationupdateForm" #sfconfigurationupdateForm="ngForm" >
+    <div layout="row" layout-padding="80">
+        <div flex></div>
+        <div flex="60" flex-xs="100">
+            <md-card>
+                <md-card-title color="primary">
+                    <span>SF Configuration</span>
+                </md-card-title>
+                <md-card-content>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter Consumer Id" #ConsumerId="ngModel" [(ngModel)]="sfconfigurationupdate.ConsumerId" name="ConsumerId" required ConsumerId>
+                            <md-hint [hidden]="ConsumerId.pristine || ConsumerId.valid">
+                                <span [hidden]="!ConsumerId.errors?.required" class="red">Consumer Id  is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter Consumer Secret Key" #ConsumerSecretKey="ngModel" [(ngModel)]="sfconfigurationupdate.ConsumerSecretKey" name="ConsumerSecretKey" required ConsumerSecretKey>
+                            <md-hint [hidden]="ConsumerSecretKey.pristine || ConsumerSecretKey.valid">
+                                <span [hidden]="!ConsumerSecretKey.errors?.required" class="red">Consumer Secret Key  is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter SalesForce UserName" #SalesForceUserName="ngModel" [(ngModel)]="sfconfigurationupdate.SalesForceUserName" name="SalesForceUserName" required SalesForceUserName>
+                            <md-hint [hidden]="SalesForceUserName.pristine || SalesForceUserName.valid">
+                                <span [hidden]="!SalesForceUserName.errors?.required" class="red">SalesForce UserName is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter SalesForce UserPassword" #SalesForceUserPassword="ngModel" [(ngModel)]="sfconfigurationupdate.SalesForceUserPassword" name="SalesForceUserPassword" required SalesForceUserPassword>
+                            <md-hint [hidden]="SalesForceUserPassword.pristine || SalesForceUserPassword.valid">
+                                <span [hidden]="!SalesForceUserPassword.errors?.required" class="red">SalesForce User Password  is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter Security Token" #SecurityToken="ngModel" [(ngModel)]="sfconfigurationupdate.SecurityToken" name="SecurityToken" required SecurityToken>
+                            <md-hint [hidden]="SecurityToken.pristine || SecurityToken.valid">
+                                <span [hidden]="!SecurityToken.errors?.required" class="red">Security Token is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter Salesforce Token URL" #SalesforceTokenURL="ngModel" [(ngModel)]="sfconfigurationupdate.SalesforceTokenURL" name="SalesforceTokenURL" required SalesforceTokenURL>
+                            <md-hint [hidden]="SalesforceTokenURL.pristine || SalesforceTokenURL.valid">
+                                <span [hidden]="!SalesforceTokenURL.errors?.required" class="red">Salesforce Token URL is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="Enter CallBack URL" #CallBackURL="ngModel" [(ngModel)]="sfconfigurationupdate.CallBackURL" name="CallBackURL" required CallBackURL>
+                            <md-hint [hidden]="CallBackURL.pristine || CallBackURL.valid">
+                                <span [hidden]="!CallBackURL.errors?.required" class="red">CallBack URL is required.</span>
+                            </md-hint>
+                        </md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-checkbox style="width:100%;" [(ngModel)]="sfconfigurationupdate.LeadSettings" name="LeadSettings">Lead Settings</md-checkbox>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-checkbox style="width:100%;" [(ngModel)]="sfconfigurationupdate.CampaignSettings" name="CampaignSettings">Campaign Settings</md-checkbox>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-checkbox *ngIf="IsAdmin()" style="width:100%;" [(ngModel)]="sfconfigurationupdate.IsActive" name="IsActive">Active</md-checkbox>
+                    </div>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <button md-raised-button color="primary" (click)="sfconfigurationupdateUser(sfconfigurationupdate);" [disabled]="!sfconfigurationupdateForm.form.valid">Submit</button>
+                    <button md-raised-button *ngIf="IsAdmin()" [routerLink]="['/sfconfigurationprofile']">Cancel</button>
+                </md-card-actions>
+            </md-card>
+        </div>
+        <div flex></div>
+    </div>
+</form>
+<style>
+    .red{
+        color:red;
+    }
+</style>

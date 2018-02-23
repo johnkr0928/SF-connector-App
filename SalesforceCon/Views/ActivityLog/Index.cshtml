@@ -1,0 +1,82 @@
+﻿@model IEnumerable<SalesforceCon.Models.ActivityLogModels>
+@using PagedList;
+@using PagedList.Mvc;
+@using System.Linq;
+@{
+    ViewBag.Title = "Index";
+
+}
+<h2>Activity Log</h2>
+<link href="~/Content/SalesforceConnector.css" rel="stylesheet" />
+@*<p>
+           @Html.ActionLink("Register New", "Register")
+    </p>*@
+<div id="tab_Section">
+    <div class="clear-fix"></div>
+    @if (Session["UserName"] != null && Convert.ToBoolean(Session["Admin"]))
+    {
+        @(Html.Kendo().Menu()
+      .Name("tab")
+      .Items(items =>
+      {
+          items.Add().Text("Errors").Action("Index", "ActivityLog").HtmlAttributes(new { @class = "k-state-selected logReport", @value = "1", @id = "Error" });
+          items.Add().Text("Request/Responce").Action("requestResponceList", "ActivityLog").HtmlAttributes(new { @class = "logReport", @value = "2", @id = "Request" });
+
+      }).Events(events => events.Select("onSelect"))
+        )
+    }
+    else
+    {
+        @(Html.Kendo().Menu()
+      .Name("tab")
+      .Items(items =>
+      {
+
+          items.Add().Text("Errors").Action("List", "ActivityLog", new { area = "", id = @Session["CustomerId"] }).HtmlAttributes(new { @class = "k-state-selected logReport", @value = "1", @id = "Error" });
+          items.Add().Text("Request/Responce").Action("requestResponceListById", "ActivityLog", new { area = "", id = @Session["CustomerId"] }).HtmlAttributes(new { @class = "logReport", @value = "2", @id = "Request" });
+
+      }).Events(events => events.Select("onSelect"))
+        )
+    }
+</div>
+
+@(Html.Kendo().Grid(Model)
+.Name("DataGrid")
+.Columns(column =>
+{
+column.Bound(al => al.UserName).HtmlAttributes(new { title = "#=ErrorMessage#" }).Title("User Name");
+column.Bound(al => al.ErrorMessage).HtmlAttributes(new { title = "#=ErrorMessage#" }).Title("Activity Log");
+column.Bound(al => al.ActivityStatus).HtmlAttributes(new { title = "#=ActivityStatus#" }).Template(@<text>@(item.ActivityStatus == 1 ? "Error" : "Activity")</text>);
+    column.Bound(al => al.CreatedOn).HtmlAttributes(new { title = "#=ErrorMessage#" }).Title("Created Date");
+})
+        .ToolBar(toolbar =>
+        {
+
+        })
+                                                      .Pageable(x => x.PageSizes(new[] { 100, 200, 500, 1000 }).Refresh(true).Info(true))
+                                                      .Sortable()
+                                                      .Filterable()
+                                                      //.Scrollable()
+                                                      .ColumnMenu()
+                                                      .Resizable(x => x.Columns(false))
+                                                      .DataSource(dataSource => dataSource
+                                                          .Ajax()
+                                                          .Read(read => read.Action("Index", "ActivityLog"))
+                                                          .PageSize(100)
+                                                          .ServerOperation(false)
+                                                      )
+                                                       //.Events(ev => ev.DataBound("resetRowNumber"))
+                                                       .Reorderable(reorder => reorder.Columns(true))
+)
+@Scripts.Render("~/bundles/jquery")
+<script type="text/javascript">
+    $(document).ready(function () {
+        debugger;
+        alert("Test");
+        });
+
+    });
+</script>
+
+
+

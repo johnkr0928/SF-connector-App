@@ -1,0 +1,281 @@
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+H:\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Updated SF\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+G:\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll.config
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.dll
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.dll
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceCon.DataAccessLayer.pdb
+D:\SynergyApps\SF Connector\SalesforceCon.DataAccessLayer\obj\Debug\SalesforceConnector.DataAccessLayer.csprojResolveAssemblyReference.cache

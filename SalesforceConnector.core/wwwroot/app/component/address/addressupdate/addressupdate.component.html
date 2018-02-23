@@ -1,0 +1,127 @@
+﻿<form name="addressupdateForm" #addressupdateForm="ngForm">
+    <div layout="row" layout-padding="80">
+        <div flex="60" flex-xs="100" class="mainmargin">
+            <md-card>
+                <md-card-title color="primary">
+                    <span>Update Billing Address</span>
+                </md-card-title>
+                <md-card-content>
+                    <div class="maincontent">
+                        <div>
+                            <div flex layout-padding="80">
+                                <md-input class="smallin" placeholder="Address1" id="BillingAddress1" #BillingAddress1="ngModel" [(ngModel)]="addressupdate.BillingAddress1" name="BillingAddress1" required BillingAddress1>
+                                    <md-hint [hidden]="BillingAddress1.pristine || BillingAddress1.valid">
+                                        <span [hidden]="!BillingAddress1.errors?.required" class="red">Address1 is required.</span>
+                                    </md-hint>
+                                </md-input>
+                            </div>
+                            <div flex layout-padding="80">
+                                <md-input class="smallin" placeholder="Address2" id="BillingAddress2" #BillingAddress2="ngModel" [(ngModel)]="addressupdate.BillingAddress2" name="BillingAddress2" required BillingAddress2>
+                                    <md-hint [hidden]="BillingAddress2.pristine || BillingAddress2.valid">
+                                        <span [hidden]="!BillingAddress2.errors?.pattern" class="red">Use Characters only</span>
+                                        <span [hidden]="!BillingAddress2.errors?.required" class="red">Address2 is required.</span>
+                                    </md-hint>
+                                </md-input>
+                            </div>
+                            <div flex layout-padding="80">
+                                <md-input class="smallin" placeholder="Country" id="BillingCountry" #BillingCountry="ngModel" pattern="[a-zA-Z]*" [(ngModel)]="addressupdate.BillingCountry" name="BillingCountry" required BillingCountry>
+                                    <md-hint [hidden]="BillingCountry.pristine || BillingCountry.valid">
+                                        <span [hidden]="!BillingCountry.errors?.pattern" class="red">Use Characters only</span>
+                                        <span [hidden]="!BillingCountry.errors?.required" class="red">Country is required.</span>
+                                    </md-hint>
+                                </md-input>
+                            </div>
+                            <div flex layout-padding="80">
+                                <md-input class="smallin" placeholder="State" id="BillingState" #BillingState="ngModel" pattern="[a-zA-Z]*" [(ngModel)]="addressupdate.BillingState" name="BillingState" required BillingState>
+                                    <md-hint [hidden]="BillingState.pristine || BillingState.valid">
+                                        <span [hidden]="!BillingState.errors?.pattern" class="red">Use Characters only</span>
+                                        <span [hidden]="!BillingState.errors?.required" class="red">State is required.</span>
+                                    </md-hint>
+                                </md-input>
+                            </div>
+                            <div flex layout-padding="80">
+                                <md-input class="smallin" placeholder="City" id="BillingCity" #BillingCity="ngModel" pattern="[a-zA-Z]*" [(ngModel)]="addressupdate.BillingCity" name="BillingCity" required BillingCity>
+                                    <md-hint [hidden]="BillingCity.pristine || BillingCity.valid">
+                                        <span [hidden]="!BillingCity.errors?.pattern" class="red">Use Characters only</span>
+                                        <span [hidden]="!BillingCity.errors?.required" class="red">City is required.</span>
+                                    </md-hint>
+                                </md-input>
+                            </div>
+                            <div flex layout-padding="80">
+                                <md-input class="smallin" placeholder="PostalCode" id="BillingPostalCode" #BillingPostalCode="ngModel" pattern="(\d{5}([\-]\d{4})?)" [(ngModel)]="addressupdate.BillingPostalCode" name="BillingPostalCode" required BillingPostalCode>
+                                    <md-hint [hidden]="BillingPostalCode.pristine || BillingPostalCode.valid">
+                                        <span [hidden]="!BillingPostalCode.errors?.pattern" class="red">Use Numbers only and it should be 5 digits</span>
+                                        <span [hidden]="!BillingPostalCode.errors?.required" class="red">Postal Code is required.</span>
+                                    </md-hint>
+                                </md-input>
+                            </div>
+                            <div flex layout-padding="80">
+                                <md-input class="smallin" placeholder="PhoneNumber" id="BillingPhoneNumber" #BillingPhoneNumber="ngModel" pattern="[789][0-9]{9}" [(ngModel)]="addressupdate.BillingPhoneNumber" name="BillingPhoneNumber" required BillingPhoneNumber>
+                                    <md-hint [hidden]="BillingPhoneNumber.pristine || BillingPhoneNumber.valid">
+                                        <span [hidden]="!BillingPhoneNumber.errors?.pattern" class="red">Use Numbers only and it should be in 10 digits</span>
+                                        <span [hidden]="!BillingPhoneNumber.errors?.required" class="red">Phone Number is required.</span>
+                                    </md-hint>
+                                </md-input>
+                            </div>
+                            <!--<div flex-gt-sm="30">
+                                <md-checkbox ng-model="address.SameAsBillingAddress" id="SameAsBillingAddress" aria-label="Checkbox"> </md-checkbox>
+                            </div>-->
+                        </div>
+                        <div>
+                            <div flex layout-padding="80" hidden>
+                                <md-input style="width:60%;" placeholder="Shipping Address1" id="ShippingAddress1" [(ngModel)]="addressupdate.ShippingAddress1" name="ShippingAddress1" value="{{addressupdate.BillingAddress1}}"></md-input>
+                            </div>
+                            <div flex layout-padding="80" hidden>
+                                <md-input style="width:60%;" placeholder="Shipping Address2" id="ShippingAddress2" [(ngModel)]="addressupdate.ShippingAddress2" name="ShippingAddress2" value="{{addressupdate.BillingAddress2}}"></md-input>
+                            </div>
+                            <div flex layout-padding="80" hidden>
+                                <md-input style="width:60%;" placeholder="Shipping Country" id="ShippingCountry" [(ngModel)]="addressupdate.ShippingCountry" name="ShippingCountry" value="{{addressupdate.BillingCountry}}"></md-input>
+                            </div>
+                            <div flex layout-padding="80" hidden>
+                                <md-input style="width:60%;" placeholder="Shipping State" id="ShippingState" [(ngModel)]="addressupdate.ShippingState" name="ShippingState" value="{{addressupdate.BillingState}}"></md-input>
+                            </div>
+                            <div flex layout-padding="80" hidden>
+                                <md-input style="width:60%;" placeholder="Shipping City" id="ShippingCity" [(ngModel)]="addressupdate.ShippingCity" name="ShippingCity" value="{{addressupdate.BillingCity}}"></md-input>
+                            </div>
+                            <div flex layout-padding="80" hidden>
+                                <md-input style="width:60%;" placeholder="Shipping PostalCode" id="ShippingPostalCode" [(ngModel)]="addressupdate.ShippingPostalCode" name="ShippingPostalCode" value="{{addressupdate.BillingPostalCode}}"></md-input>
+                            </div>
+                            <div flex layout-padding="80" hidden>
+                                <md-input style="width:60%;" placeholder="Shipping PhoneNumber" id="ShippingPhoneNumber" [(ngModel)]="addressupdate.ShippingPhoneNumber" name="ShippingPhoneNumber" value="{{addressupdate.BillingPhoneNumber}}"></md-input>
+                            </div>
+                        </div>
+                    </div>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <div style="text-align: left;width: 18%;">
+                        <button md-raised-button color="primary" (click)="addressupdateUser(addressupdate);" [disabled]="!addressupdateForm.form.valid">Update</button>
+                        <button md-raised-button [routerLink]="['/profile']">Cancel</button>
+                    </div>
+                </md-card-actions>
+            </md-card>
+        </div>
+
+    </div>
+</form>
+
+<style>
+    .maincontent {
+        display: table;
+        width: 100%;
+    }
+    .red{
+        color:red;
+    }
+        .maincontent > div {
+            float: left;
+            width: 100%;
+        }
+
+    .smallin {
+        width: 100%;
+    }
+
+    .mainmargin {
+        margin: 0 auto;
+    }
+</style>

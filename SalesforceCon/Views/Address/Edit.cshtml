@@ -1,0 +1,195 @@
+﻿@model SalesforceCon.Models.AddressModels
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Address</h2>
+<link href="~/Content/SalesForceAddress.css" rel="stylesheet" />
+<script src="~/Scripts/SalesForce.js"></script>
+<div class="bodywidth">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div>
+            @Html.ValidationSummary()
+            <div class="common-c left">
+                <label class="lblBilling">Billing Address</label>
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.BillingAddress1)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.BillingAddress1, new { @Id = "BillingAddress1" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer add">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.BillingAddress2)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.BillingAddress2, new { @Id = "BillingAddress2" })
+                    </div>
+                </div>
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.BillingState)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.BillingState, new { @Id = "BillingState" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.BillingCity)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.BillingCity, new { @Id = "BillingCity" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.BillingCountry)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.DropDownListFor(model => model.BillingCountry, new SelectList(ViewBag.Country, "Value", "Text"), "Select", new { @class = "ddcity" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.BillingPostalCode)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.BillingPostalCode, new { @Id = "BillingPostalCode" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.BillingPhoneNumber)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.BillingPhoneNumber, new { @Id = "BillingPhoneNumber" })
+                    </div>
+                </div>
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.SameAsBillingAddress)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.CheckBoxFor(model => model.SameAsBillingAddress, new { @Id = "SameAsBillingAddress", name = "billingtoo" })
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="common-c right">
+                <label class="lblBilling">Shipping Address</label>
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.ShippingAddress1)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.ShippingAddress1, new { @Id = "ShippingAddress1" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.ShippingAddress2)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.ShippingAddress2, new { @Id = "ShippingAddress2" })
+                    </div>
+                </div>
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.ShippingState)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.ShippingState, new { @Id = "ShippingState" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.ShippingCity)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.ShippingCity, new { @Id = "ShippingCity" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.ShippingCountry)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.DropDownListFor(model => model.ShippingCountry, new SelectList(ViewBag.Country, "Value", "Text"), "Select", new { @class = "ddcity" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.ShippingPostalCode)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.ShippingPostalCode, new { @Id = "ShippingPostalCode" })
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer add">
+                        @Html.LabelFor(model => model.ShippingPhoneNumber)
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        @Html.TextBoxFor(model => model.ShippingPhoneNumber, new { @Id = "ShippingPhoneNumber" })
+                    </div>
+                </div>
+            </div>
+            <div class="clearStyle"></div>
+            <div class="buttonContainer">
+                <button class="btnsave">Save</button>
+            </div>
+        </div>
+        <div style="padding: 94px;"></div>
+    }
+    @*<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+
+      
+    </script>*@
+</div>

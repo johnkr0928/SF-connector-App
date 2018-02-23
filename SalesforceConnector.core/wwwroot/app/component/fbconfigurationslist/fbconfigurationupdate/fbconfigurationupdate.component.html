@@ -1,0 +1,38 @@
+﻿<form name="fbconfigurationupdateForm">
+    <div layout="row" layout-padding="80">
+        <div flex></div>
+        <div flex="60" flex-xs="100">
+            <md-card>
+                <md-card-title color="primary">
+                    <span>FB Configuration</span>
+                    
+                </md-card-title>
+                <md-card-content>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="FB DataSource" [(ngModel)]="fbconfigurationupdate.FBDataSource" name="FBDataSource" required></md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="FB InitialCatalog" [(ngModel)]="fbconfigurationupdate.FBInitialCatalog" name="FBInitialCatalog" required></md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="FB ClientId" [(ngModel)]="fbconfigurationupdate.FBClientId" name="FBClientId" required></md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" type="text" placeholder="FB ClientPassword" [(ngModel)]="fbconfigurationupdate.FBClientPassword" name="FBClientPassword" required></md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="FB Port" [(ngModel)]="fbconfigurationupdate.FBPort" name="FBPort" required></md-input>
+                    </div>
+                    <div flex layout-padding="80">
+                        <md-input style="width:100%;" placeholder="FB Connection" [(ngModel)]="fbconfigurationupdate.FBConnection" name="FBConnection" required></md-input>
+                    </div>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <button md-raised-button color="primary" (click)="fbconfigurationupdateUser(fbconfigurationupdate);">Update</button>
+                    <button md-raised-button [routerLink]="['/fbconfigurationlist']">Cancel</button>
+                </md-card-actions>
+            </md-card>
+        </div>
+        <div flex></div>
+    </div>
+</form>

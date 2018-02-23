@@ -1,0 +1,116 @@
+﻿.formRowContainer
+{
+      width: 100%;
+      padding-top: 10px;
+}
+.labelContainer {
+    padding-top: 3px;
+    float: left;
+    min-width: 206px;
+    padding-bottom: 12px;
+    margin-right: -25px;
+}
+.buttonContainerconfig 
+{
+    color:#000;
+       margin-left: 180px;
+}
+.valueContainerconfig >input
+{
+    border:1px solid black;
+    /*float:left;*/
+    width:200px;
+    margin-left:10%;
+}
+.valueContainerconfigcheck {
+    zoom: 1.4;
+}
+.error {
+    color:red;
+}
+textarea 
+{
+    border:1px solid black;
+    font-family: inherit;
+    width: 202px;
+    margin-left: 10%;
+}
+input#IsActive {
+    margin-left: 3px;
+}
+.clearStyle
+{
+    clear: both;
+}
+.buttonContainer
+{
+   padding-top: 10px; 
+}
+button 
+{
+    width: 81px;
+    height: 38px;
+    color: #000;
+    margin-left: 54px;
+}
+.important-mark 
+{
+    color: red;
+    padding: 5px 1px;
+    float: left;
+}
+.labelContainer label {
+    float: left;
+}
+.validation-summary-errors {
+    color: #d25f81;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 179px !important;
+  }
+.float-left 
+{
+    float: right;
+    margin-right: 40%;
+}
+#body
+{
+min-height: 600px;
+}
+input.input-validation-error 
+{
+    border: 1px solid #e80c4d;
+}
+textarea.input-validation-error 
+{
+    border: 1px solid #e80c4d;
+}
+.Emailformat {
+    display: table;
+    margin-left: 26%;
+    margin-top: -24px;
+}
+.LeadSettings {
+    margin-left: 23px;
+}
+.LeadSettings > input {
+     
+    height: 18px;
+}
+.textbox {
+ width: 211px;
+ height:31px;
+}
+.loginbox
+{
+ width: 211px;
+ height:31px;
+}
+.buttonLogin {
+    height: 38px;
+    color: #000;
+    margin-left: -45px;
+}
+.validationconfig {
+    margin-left: 155px;
+}

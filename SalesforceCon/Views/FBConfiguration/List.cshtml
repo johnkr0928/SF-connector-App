@@ -1,0 +1,142 @@
+﻿@model IEnumerable<SalesforceCon.Models.FBConfigurationModels>
+@using Kendo.Mvc.UI
+@{
+    ViewBag.Title = "List";
+    var count = 0;
+}
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<link href="~/Content/SaleaforceCustomerlist.css" rel="stylesheet" />
+<link href="~/Content/SalesforceCustomer.css" rel="stylesheet" />
+<div ng-controller="FBConfigurationCtrl">
+    <div ng-show="listfbconfig">
+        <p>
+            <h2>FB Configuration List</h2>
+        </p>
+        <p class="productlink">
+            @Html.ActionLink("Create", "Index")
+        </p>
+        @(Html.Kendo().Grid(Model)
+.Name("DataGrid")
+.Columns(column =>
+{
+column.Bound(al => al.Id).HtmlAttributes(new { title = "#=Id#" });
+column.Bound(al => al.FBClientId).HtmlAttributes(new { title = "#=FBClientId#" });
+column.Bound(al => al.FBClientPassword).HtmlAttributes(new { title = "#=FBClientPassword#" });
+column.Bound(al => al.FBDataSource).HtmlAttributes(new { title = "#=FBDataSource#" });
+column.Bound(al => al.FBInitialCatalog).HtmlAttributes(new { title = "#=FBInitialCatalog#" });
+column.Bound(al => al.FBPort).HtmlAttributes(new { title = "#=FBPort#" });
+column.Bound(al => al.FBConnection).HtmlAttributes(new { title = "#=FBConnection#" });
+column.Template(@<text> <span ng-click="editFBConfiguration(id=@item.Id)" class="btn btn-primary">Edit</span>  | <span ng-click="deleteFBConfiguration(id=@item.Id  )" class="btn btn-danger">Delete</span></text>).Title("Action");
+})
+                            .ToolBar(toolbar =>
+                            {
+
+                            })
+                                                                          .Pageable(x => x.PageSizes(new[] { 100, 200, 500, 1000 }).Refresh(true).Info(true))
+                                                                          .Sortable()
+                                                                          .Filterable()
+        //.Scrollable()
+                                                                          .ColumnMenu()
+                                                                          .Resizable(x => x.Columns(false))
+                                                                          .DataSource(dataSource => dataSource
+                                                                              .Ajax()
+                                                                              .Read(read => read.Action("List", "FBConfiguration"))
+                                                                              .PageSize(100)
+                                                                              .ServerOperation(false)
+                                                                          )
+                                                                          .Events(ev => ev.DataBound("resetRowNumber"))
+                                                                           .Reorderable(reorder => reorder.Columns(true))
+    )
+    </div>
+    <div ng-show="fbconfigupdate">
+        <form ng-submit="submitForm()" name="frmFBConfig">
+            <h2>FBConfiguration</h2>
+            <div class="registration_form" ng-controller="FBConfigurationCtrl">
+                <div class="validationFBConfig">
+                    <ul>
+                        <li class="error" ng-show="frmFBConfig.fbclientid.$touched && frmFBConfig.fbclientid.$invalid">The FBClientId is required.</li>
+                        <li class="error" ng-show="frmConfiguration.consumerid.$error.pattern">Use numbers only</li>
+                        <li class="error" ng-show="frmFBConfig.fbclientpassword.$touched && frmFBConfig.fbclientpassword.$invalid">The FBClient Password is required.</li>
+                        <li class="error" ng-show="frmFBConfig.fbconnection.$touched && frmFBConfig.fbconnection.$invalid">The FB Connection is required.</li>
+                        <li class="error" ng-show="frmFBConfig.fbdatasource.$touched && frmFBConfig.fbdatasource.$invalid">The FBDataSource is required.</li>
+                        <li class="error" ng-show="frmFBConfig.fbinitialcatalog.$touched && frmFBConfig.fbinitialcatalog.$invalid">The FBInitial Catalog is required.</li>
+                        <li class="error" ng-show="frmFBConfig.fbport.$touched && frmFBConfig.fbport.$invalid">The FB Port is required.</li>
+                    </ul>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">FBData Source</font>
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        <input type="text" class="form-control" placeholder="FB Data Source" name="fbdatasource" ng-model="FBDataSource" required />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">FBInitial Catalog</font>
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        <input type="text" class="form-control" placeholder="FB Initial Catalog" name="fbinitialcatalog" ng-model="FBInitialCatalog" required />
+                    </div>
+                </div>
+
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">FBClient Id</font>
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        <input type="text" class="form-control" placeholder="FB Client Id" name="fbclientid" ng-model="FBClientId" ng-pattern="/^[0-9]{1,7}$/" required />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">FBClient Password</font>
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        <input type="text" class="form-control" placeholder="FB Client Password" name="fbclientpassword" ng-model="FBClientPassword" required />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">FBPort</font>
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        <input type="text" class="form-control" placeholder="FB Port" name="fbport" ng-model="FBPort" required />
+                    </div>
+                </div>
+
+                <div class="clearStyle"></div>
+                <div class="formRowContainer">
+                    <div class="labelContainer">
+                        <font style="float:left">FBConnection</font>
+                        <span class="important-mark">*</span>
+                    </div>
+                    <div class="valueContainer">
+                        <input type="text" class="form-control" placeholder="FB Connection" name="fbconnection" ng-model="FBConnection" required />
+                    </div>
+                </div>                                                    
+
+                <div class="clearStyle"></div>
+                <div class="buttonContainerReg">
+                    <input type="submit" value="Save" ng-click="UpdateFBConfiguration();" class="btn btn-success" ng-disabled="frmFBConfig.$invalid" />
+                    <input type="button" class="btn btn-danger" value="Cancel" ng-click="CreateCancel()" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

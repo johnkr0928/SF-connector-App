@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "angular2-loader@0.1.1",
+      "E:\\Project\\Salesforce Connector\\tfs backup\\SF Connector\\SalesforceConnector.core"
+    ]
+  ],
+  "_from": "angular2-loader@0.1.1",
+  "_id": "angular2-loader@0.1.1",
+  "_inCache": true,
+  "_location": "/angular2-loader",
+  "_nodeVersion": "6.8.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular2-loader-0.1.1.tgz_1476780955276_0.8635844113305211"
+  },
+  "_npmUser": {
+    "email": "felix@stkn.org",
+    "name": "cebor"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angular2-loader",
+    "raw": "angular2-loader@0.1.1",
+    "rawSpec": "0.1.1",
+    "scope": null,
+    "spec": "0.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular2-loader/-/angular2-loader-0.1.1.tgz",
+  "_shasum": "74b0cb8f59c8df0ca97e735d400413d7668e2dda",
+  "_shrinkwrap": null,
+  "_spec": "angular2-loader@0.1.1",
+  "_where": "E:\\Project\\Salesforce Connector\\tfs backup\\SF Connector\\SalesforceConnector.core",
+  "author": {
+    "name": "Felix Itzenplitz"
+  },
+  "bugs": {
+    "url": "https://github.com/cebor/angular2-loader/issues"
+  },
+  "dependencies": {
+    "magic-string": "^0.16.0"
+  },
+  "description": "Angular2 template and styles loader for webpack",
+  "devDependencies": {
+    "rollup": "^0.36.3",
+    "rollup-plugin-buble": "^0.14.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "74b0cb8f59c8df0ca97e735d400413d7668e2dda",
+    "tarball": "https://registry.npmjs.org/angular2-loader/-/angular2-loader-0.1.1.tgz"
+  },
+  "gitHead": "0fce80c90d4a5aa8d74b6fb465b9d23304267e9c",
+  "homepage": "https://github.com/cebor/angular2-loader#readme",
+  "installable": true,
+  "keywords": [
+    "angular2",
+    "loader",
+    "styles",
+    "template",
+    "webpack-loader"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "cebor",
+      "email": "felix@stkn.org"
+    }
+  ],
+  "name": "angular2-loader",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cebor/angular2-loader.git"
+  },
+  "scripts": {},
+  "version": "0.1.1"
+}

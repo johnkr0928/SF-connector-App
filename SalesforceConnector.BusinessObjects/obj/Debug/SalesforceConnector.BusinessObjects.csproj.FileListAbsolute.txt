@@ -1,0 +1,114 @@
+D:\Twilight\product\system\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+H:\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+H:\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+H:\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+H:\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+H:\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Updated SF\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Updated SF\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Updated SF\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Updated SF\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+G:\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+G:\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+D:\share\23-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+D:\Twilight\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+D:\Twilight\Synergy Apps\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.csprojResolveAssemblyReference.cache
+D:\Twilight\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\SynergyApps\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.dll
+D:\SynergyApps\SF Connector\SalesforceConnector.BusinessObjects\bin\Debug\SalesforceConnector.BusinessObjects.pdb
+D:\SynergyApps\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.dll
+D:\SynergyApps\SF Connector\SalesforceConnector.BusinessObjects\obj\Debug\SalesforceConnector.BusinessObjects.pdb

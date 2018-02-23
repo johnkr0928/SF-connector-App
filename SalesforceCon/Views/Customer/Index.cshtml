@@ -1,0 +1,190 @@
+﻿@model SalesforceCon.Models.CustomerModels
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Html.EnableClientValidation(true);
+}
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<script src="~/Scripts/Directive.js"></script>
+<link href="~/Content/SalesforceCustomer.css" rel="stylesheet" />
+<form ng-submit="submitForm()" name="frmCustomer">
+    <div class="registration_form" ng-controller="myCntrl">
+        <h2>Registration</h2>
+        <div class="validationErrors">
+            <ul>
+                <li class="error" ng-show="frmCustomer.fName.$touched && frmCustomer.fName.$invalid">The First Name is required</li>
+                <li class="error" ng-show="frmCustomer.fName.$error.pattern">use characters only</li>
+                <li class="error" ng-show="frmCustomer.lName.$touched && frmCustomer.lName.$invalid">The Last Name is required</li>
+                <li class="error" ng-show="frmCustomer.lName.$error.pattern">use characters only</li>
+                <li class="error" ng-show="frmCustomer.uEmail.$touched && frmCustomer.uEmail.$invalid">The Email is required</li>
+                <li class="error" ng-show="frmCustomer.uEmail.$error.email">Not valid email !</li>
+                <li class="error" ng-show="frmCustomer.uCompany.$touched && frmCustomer.uCompany.$invalid">The Company is required</li>
+                <li class="error" ng-show="frmCustomer.uCompany.$error.pattern">use characters only</li>
+                <li class="error" ng-show="frmCustomer.upassword.$touched && frmCustomer.upassword.$invalid">The Password is required.</li>
+                <li class="error" ng-show="frmCustomer.upassword.$error.pattern">password contain atleast 8 characters and some special characters</li>
+                <li class="error" ng-show="frmCustomer.uconfirmpassword.$touched && frmCustomer.uconfirmpassword.$invalid">The Confirm Password is required.</li>
+                <li class="error" ng-show="frmCustomer.uconfirmpassword.$error.compareTo">Passwords don't match and contains special chracters</li>
+            </ul>
+        </div> 
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.FirstName)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="First Name" name="fName" ng-model="FirstName" ng-pattern="/^[a-zA-Z\s]*$/" required  />
+                </div>
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.LastName)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="Last Name" name="lName" ng-model="LastName" ng-pattern="/^[a-zA-Z\s]*$/" required  />
+            </div>
+        </div>
+
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.Email)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="email" class="form-control" placeholder="User's Email" name="uEmail" ng-model="Email" required />
+            </div>
+        </div>
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.Company)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="text" class="form-control" placeholder="Company" name="uCompany" ng-model="Company" ng-pattern="/^[a-zA-Z\s]*$/" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.Password)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">
+                <input type="password" class="form-control" placeholder="Password" name="upassword" ng-model="Password" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="formRowContainer">
+            <div class="labelContainer">
+                @Html.LabelFor(model => model.ConfirmPassword)
+                <span class="important-mark">*</span>
+            </div>
+            <div class="valueContainer">  
+                <input type="password" class="form-control" placeholder="ConfirmPassword" name="uconfirmpassword" ng-model="ConfirmPassword" compare-to="Password" required />
+            </div>
+        </div>
+
+        <div class="clearStyle"></div>
+        <div class="buttonContainerReg">
+            <input type="submit" value="Save" ng-click="SaveUser();" class="btn btn-success" ng-disabled="frmCustomer.$invalid" />
+            <input type="button" class="btn btn-danger" value="Cancel" ng-click="CreateCancel()" />
+        </div>
+    </div>
+        </div>
+</form>
+
+
+
+
+
+@*<form ng-submit="submitForm()" name="frmlistcus">
+    <div ng-show="update">
+        <p>
+            <h2>Customer Edit</h2>
+        </p>
+        <div class="registration_form">
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    <font style="float:left">FirstName</font>
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="First Name" name="fName" ng-model="FirstName" required autofocus />
+                    <span class="error" ng-show="frmlistcus.fName.$touched && frmlistcus.fName.$invalid">The First Name is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    <font style="float:left">LastName</font>
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Last Name" name="lName" ng-model="LastName" required autofocus />
+                    <span class="error" ng-show="frmlistcus.lName.$touched && frmlistcus.lName.$invalid">The Last Name is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    <font style="float:left">Email</font>
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="email" class="form-control" placeholder="User's Email" name="uEmail" ng-model="Email" required autofocus />
+                    <span class="error" ng-show="frmlistcus.uEmail.$touched && frmlistcus.uEmail.$invalid">The Email is required.</span>
+                </div>
+            </div>
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    <font style="float:left">Company</font>
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Company" name="uCompany" ng-model="Company" required autofocus />
+                    <span class="error" ng-show="frmlistcus.uCompany.$touched && frmlistcus.uCompany.$invalid">The Company is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    <font style="float:left">Password</font>
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="password" class="form-control" placeholder="Password" name="upassword" ng-model="Password" required autofocus />
+                    <span class="error" ng-show="frmlistcus.upassword.$touched && frmlistcus.upassword.$invalid">The Password is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer">
+                    <font style="float:left">ConfirmPassword</font>
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="password" class="form-control" placeholder="ConfirmPassword" name="uconfirmpassword" ng-model="ConfirmPassword" required autofocus />
+                    <span class="error" ng-show="frmlistcus.uconfirmpassword.$touched && frmlistcus.uconfirmpassword.$invalid">The Confirm Password is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="buttonContainerEdit">
+                <input type="submit" value="Save" ng-click="updateUser();" class="btn btn-success" ng-disabled="frmlistcus.$invalid" />
+                <input type="button" class="btn btn-danger" value="Cancel" ng-click="Cancel()" />
+            </div>
+        </div>
+    </div>
+</form>*@

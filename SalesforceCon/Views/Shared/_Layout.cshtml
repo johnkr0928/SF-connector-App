@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv=”Cache-Control” content=”no-cache”>
+    <meta http-equiv=”Pragma” content=”no-cache”>
+    <meta http-equiv=”Expires” content=”0″>
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/masterclass.css" rel="stylesheet" />
+    <script src="~/Scripts/angular.js"></script>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/kendo/2016.3.1028/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+</head>
+<body>
+    <div ng-controller="myCntrl">
+    <div class="navbar navbar-inverse navbar-fixed-top colors">
+        <div class="containers">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Salesforce Connector", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                @if (Session["UserName"] != null && Convert.ToBoolean(Session["Admin"]))
+                {
+                    <ul class="nav navbar-nav">
+                        @*<li id="Profile" ng-click="editCustomerById(Id)">@Html.ActionLink("Profile", "Edit", "Customer", new { area = "", Id = @Session["CustomerId"] }, null)</li>*@
+                        <li id="API">@Html.ActionLink("API", "Index", "Help")</li>
+                        <li id="FBConfiguration">@Html.ActionLink("FB Configuration", "List", "FBConfiguration", new { area = "" }, null)</li>
+                        <li id="Configuration">@Html.ActionLink("SF Configuration", "Index", "Configuration", new { area = "", CustomerId = @Session["CustomerId"] }, null)</li>
+                        @*<li id="Address">@Html.ActionLink("Address", "Index", "Address", new { area = "", CustomerId = @Session["CustomerId"]}, null)</li>*@
+                        <li id="Customer" ng-click="listcustomer()">@Html.ActionLink("Customer", "List", "Customer", new { area = "" }, null)</li>
+                        <li id="ActivityLog">@Html.ActionLink("Activity Log", "Index", "ActivityLog")</li>
+                        <li id="Edit" style="margin-left: 250px;"><a href="@Url.Action("Edit", "Customer", new { area = "" ,Id = @Session["CustomerId"] })">Welcome @Session["UserName"]</a></li>
+                        <li id="Signout" style="float:right; ">@Html.ActionLink("Signout", "Logout", "Login", new { area = "" }, null)</li>
+
+                    </ul>
+
+                }
+                else if (Session["UserName"] != null)
+                {
+                    <ul class="nav navbar-nav">
+                        <li id="Profile">@Html.ActionLink("Profile", "List", "Customer", new { area = "", Id = @Session["CustomerId"] }, null)</li>
+                        <li id="API">@Html.ActionLink("API", "Index", "Help")</li>
+                        <li id="FBConfiguration">@Html.ActionLink("FB Configuration", "Index", "FBConfiguration", new { area = "" }, null)</li>
+                        <li id="Configuration">@Html.ActionLink("SF Configuration", "CustomerEdit", "Configuration", new { area = "", CustomerId = @Session["CustomerId"] }, null)</li>
+                        <li id="Address">@Html.ActionLink("Address", "Index", "Address", new { area = "", CustomerId = @Session["CustomerId"] }, null)</li>
+                        <li id="ActivityLog">@Html.ActionLink("Activity Log", "List", "ActivityLog", new { area = "", CustomerId = @Session["CustomerId"] }, null)</li>
+                        <li id="Edit" style="margin-left: 488px;"><a href="@Url.Action("Edit", "Customer", new {area = "" , Id = @Session["CustomerId"]})">Welcome @Session["UserName"]</a></li>
+                        <li id="Signout" style="float:right; ">@Html.ActionLink("Signout", "Logout", "Login", new { area = "" }, null)</li>
+
+                    </ul>
+                }
+
+                else
+                {
+                    <ul class="nav navbar-nav">
+                        <li id="Home">@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                        <li id="API">@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                        <li id="Register">@Html.ActionLink("Register", "Index", "Customer", new { area = "" }, null)</li>
+                        <li id="Login">@Html.ActionLink("Login", "Login", "Login", new { area = "" }, null)</li>
+                    </ul>
+                }
+
+
+                <div style="margin-left: 1642px;cursor: pointer;">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" style="min-height: 844px;">
+        @RenderBody()
+        
+    </div>
+    <div style="clear: both;"></div>
+    <div class="footer-content">
+        <footer>
+            <p style="color:#e9e8f5 !important;padding-top: 21px;">&copy; @DateTime.Now.Year -Salesforce Connector</p>
+        </footer>
+
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/SalesForce.js"></script>
+        </div>
+</body>
+</html>

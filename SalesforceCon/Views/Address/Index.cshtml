@@ -1,0 +1,201 @@
+﻿@model SalesforceCon.Models.AddressModels
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Address</h2>
+<script src="~/Scripts/Module.js"></script>
+<script src="~/Scripts/Service.js"></script>
+<script src="~/Scripts/Controller.js"></script>
+<link href="~/Content/SalesForceAddress.css" rel="stylesheet" />
+<script src="~/Scripts/SalesForce.js"></script>
+<div class="bodywidth" ng-controller="myCntrl">
+    <form ng-submit="submitForm()" name="frmAddress">
+        <div class="common-c left">
+            <label class="lblBilling">Billing Address</label>
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.BillingAddress1)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Billing Address1" name="billingaddress1" id="BillingAddress1" ng-model="BillingAddress1" required autofocus />
+                    <span class="error" ng-show="frmAddress.billingaddress1.$touched && frmAddress.billingaddress1.$invalid">The Billing Address1 is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer add">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.BillingAddress2)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Billing Address2" name="billingaddress2" id="BillingAddress2" ng-model="BillingAddress2" required autofocus />
+                    <span class="error" ng-show="frmAddress.billingaddress2.$touched && frmAddress.billingaddress2.$invalid">The Billing Address2 is required.</span>
+                </div>
+            </div>
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.BillingState)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Billing State" name="billingstate" id="BillingState" ng-model="BillingState" required autofocus />
+                    <span class="error" ng-show="frmAddress.billingstate.$touched && frmAddress.billingstate.$invalid">The Billing State is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.BillingCity)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Billing City" name="billingcity" ng-model="BillingCity" id="BillingCity" required autofocus />
+                    <span class="error" ng-show="frmAddress.billingcity.$touched && frmAddress.billingcity.$invalid">The Billing City is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.BillingCountry)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Billing Country" name="billingcountry" id="BillingCountry" ng-model="BillingCountry" required autofocus />
+                    <span class="error" ng-show="frmAddress.billingcountry.$touched && frmAddress.billingcountry.$invalid">The Billing Country is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.BillingPostalCode)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Billing Postal Code" name="billingpostalcode" id="BillingPostalCode" ng-model="BillingPostalCode" required autofocus />
+                    <span class="error" ng-show="frmAddress.billingpostalcode.$touched && frmAddress.billingpostalcode.$invalid">The Billing Postal Code is required.</span>
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.BillingPhoneNumber)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Billing Phone Number" name="billingphonenumber" id="BillingPhoneNumber" ng-model="BillingPhoneNumber" required autofocus />
+                    <span class="error" ng-show="frmAddress.billingphonenumber.$touched && frmAddress.billingphonenumber.$invalid">The Billing Phone Number is required.</span>
+                </div>
+            </div>
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.SameAsBillingAddress)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="checkbox" name="sameasbillingaddress" id="SameAsBillingAddress" ng-model="SameAsBillingAddress" required autofocus />
+                </div>
+            </div>
+        </div>
+
+        <div class="common-c right">
+            <label class="lblBilling">Shipping Address</label>
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.ShippingAddress1)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Shipping Address1" name="shippingaddress1" id="ShippingAddress1" ng-model="ShippingAddress1" required autofocus />
+                    @*<span class="error" ng-show="frmCustomer.shippingaddress1.$touched && frmCustomer.shippingaddress1.$invalid">The Shipping Address1 is required.</span>*@
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.ShippingAddress2)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Shipping Address2" name="shippingaddress2" id="ShippingAddress2" ng-model="ShippingAddress2" required autofocus />
+                    @*<span class="error" ng-show="frmCustomer.shippingaddress2.$touched && frmCustomer.shippingaddress2.$invalid">The Shipping Address2 is required.</span>*@
+                </div>
+            </div>
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.ShippingState)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Shipping State" name="shippingstate" id="ShippingState" ng-model="ShippingState" required autofocus />
+                    @*<span class="error" ng-show="frmCustomer.shippingstate.$touched && frmCustomer.shippingstate.$invalid">The Shipping Address2 is required.</span>*@
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.ShippingCity)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Shipping City" name="Shippingcity" id="ShippingCity" ng-model="ShippingCity" required autofocus />
+                    @*<span class="error" ng-show="frmCustomer.Shippingcity.$touched && frmCustomer.Shippingcity.$invalid">The Shipping Address2 is required.</span>*@
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.ShippingCountry)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Shipping Country" name="shippingcountry" id="ShippingCountry" ng-model="ShippingCountry" required autofocus />
+                    @*<span class="error" ng-show="frmCustomer.shippingcountry.$touched && frmCustomer.shippingcountry.$invalid">The Shipping Country is required.</span>*@
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.ShippingPostalCode)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Shipping Postal Code" name="shippingpostalcode" id="ShippingPostalCode" ng-model="ShippingPostalCode" required autofocus />
+                    @*<span class="error" ng-show="frmCustomer.shippingpostalcode.$touched && frmCustomer.shippingpostalcode.$invalid">The Shipping Postal Code is required.</span>*@
+                </div>
+            </div>
+
+            <div class="clearStyle"></div>
+            <div class="formRowContainer">
+                <div class="labelContainer add">
+                    @Html.LabelFor(model => model.ShippingPhoneNumber)
+                    <span class="important-mark">*</span>
+                </div>
+                <div class="valueContainer">
+                    <input type="text" class="form-control" placeholder="Shipping Phone Number" name="shippingphonenumber" id="ShippingPhoneNumber" ng-model="ShippingPhoneNumber" required autofocus />
+                    @*<span class="error" ng-show="frmCustomer.shippingphonenumber.$touched && frmCustomer.shippingphonenumber.$invalid">The Shipping Phone Number is required.</span>*@
+                </div>
+            </div>
+        </div>
+        <div class="clearStyle"></div>
+        <div class="buttonContainer">
+            <input type="button" value="Save" ng-click="SaveAddress();" class="btn btn-success" ng-disabled="frmAddress.$invalid" />
+            <input type="button" class="btn btn-danger" value="Cancel" ng-click="Cancel()" />
+        </div>
+    </form>
+</div>

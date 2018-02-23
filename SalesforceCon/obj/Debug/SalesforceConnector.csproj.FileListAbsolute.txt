@@ -1,0 +1,1868 @@
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\Twilight\product\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\Twilight\product\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\Twilight\product\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\Twilight\product\system\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\Common Share\SF\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+H:\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+H:\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+H:\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+H:\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+H:\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+H:\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+H:\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+H:\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+H:\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+H:\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+H:\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+H:\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+H:\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+H:\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+H:\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+H:\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+H:\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+H:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+H:\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+H:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+H:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+H:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\Updated SF\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\Common Share\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+G:\Project\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+G:\Project\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+G:\Project\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+G:\Project\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+G:\Project\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+G:\Project\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\jagadesan\Desktop\Finalized Code\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\Suganyam\Desktop\jack\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\jagadesan\Desktop\jacck\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\Apptree\Desktop\3nov2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\Twilight\Project\TFS New Location\SalesforceConnect\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+G:\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+G:\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+G:\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+G:\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+G:\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+G:\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+G:\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\Apptree\Desktop\04nov2016\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\Ranjithkumar\Desktop\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\Irushh\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\IIS\Latest\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\IIS\Latest\Kendo\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\IIS\Latest\IIS kendo Version\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\Project\Salesforce Connector\11November2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\Ranjithkumar\Desktop\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\IIS\SFConnector Latest Anjular\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\Project\Salesforce Connector\16-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\Common share\23-11-2016\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\Project Templates\Salesforce Configuration\Salesforce Configuration\Salesforce Connector\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+E:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+E:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+E:\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+E:\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+E:\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+E:\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+E:\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+E:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\Irusappan\Desktop\New folder (3)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+C:\Users\Irusappan\Desktop\New folder (3)\New folder (2)\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+G:\Project\Salesforce Connector\core\New folder\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\EntityFramework.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\PagedList.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\WebGrease.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\EntityFramework.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\PagedList.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\share\Salesforce Connector 9.1.2017\Salesforce Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.dll.config
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.XML
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\EntityFramework.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\PagedList.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\PagedList.Mvc.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Salesforce.Common.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Salesforce.Force.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Swashbuckle.Core.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Helpers.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Http.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Mvc.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Optimization.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Razor.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\WebActivatorEx.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\WebGrease.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\EntityFramework.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\PagedList.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\PagedList.Mvc.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Helpers.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Http.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Mvc.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Optimization.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.Razor.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+G:\TFS\Salesforce connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.XML
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\EntityFramework.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\PagedList.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Swashbuckle.Core.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\WebActivatorEx.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\WebGrease.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\EntityFramework.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\PagedList.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\TFS\Salesforce connector\SaleForce Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.XML
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\EntityFramework.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\PagedList.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Swashbuckle.Core.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\WebActivatorEx.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\WebGrease.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\EntityFramework.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\PagedList.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\Project\Salesforce Connector\tfs backup\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.XML
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\EntityFramework.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\PagedList.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Swashbuckle.Core.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\WebActivatorEx.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\WebGrease.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\EntityFramework.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\PagedList.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\Twilight\Synergy Apps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.XML
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\Twilight\SF Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\EntityFramework.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\PagedList.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\Swashbuckle.Core.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\WebActivatorEx.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\WebGrease.dll
+D:\Twilight\SF Connector\SalesforceCon\bin\EntityFramework.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\PagedList.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\Twilight\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\Twilight\SF Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\Twilight\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\Twilight\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\Twilight\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\Twilight\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\Twilight\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\Twilight\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.dll.config
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.XML
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.pdb
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\EntityFramework.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\PagedList.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\PagedList.Mvc.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Salesforce.Common.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Salesforce.Force.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Swashbuckle.Core.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Helpers.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Http.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Mvc.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Optimization.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Razor.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.WebPages.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\WebActivatorEx.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\WebGrease.dll
+D:\SynergyApps\SF Connector\SalesforceCon\bin\EntityFramework.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\PagedList.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\PagedList.Mvc.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+D:\SynergyApps\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Helpers.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Http.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Mvc.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Optimization.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.Razor.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.WebPages.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+D:\SynergyApps\SF Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+D:\SynergyApps\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+D:\SynergyApps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+D:\SynergyApps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+D:\SynergyApps\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+D:\SynergyApps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+D:\SynergyApps\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.dll.config
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.XML
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.pdb
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Antlr3.Runtime.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\EntityFramework.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Microsoft.Web.Infrastructure.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Newtonsoft.Json.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\PagedList.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\PagedList.Mvc.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Salesforce.Common.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Salesforce.Force.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Swashbuckle.Core.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Helpers.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Http.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Mvc.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Optimization.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Razor.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\WebActivatorEx.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\WebGrease.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\EntityFramework.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\EntityFramework.SqlServer.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Newtonsoft.Json.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\PagedList.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\PagedList.Mvc.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.BusinessAccessLayer.pdb
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceCon.DataAccessLayer.pdb
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\SalesforceConnector.BusinessObjects.pdb
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Net.Http.Formatting.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Helpers.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Http.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Http.WebHost.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Mvc.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Optimization.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.Razor.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Deployment.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\System.Web.WebPages.Razor.xml
+E:\ITech\SF Connector\SF Connector\SalesforceCon\bin\Antlr3.Runtime.pdb
+E:\ITech\SF Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csprojResolveAssemblyReference.cache
+E:\ITech\SF Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.Messages.resources
+E:\ITech\SF Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.Helper.StatusCode.resources
+E:\ITech\SF Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceConnector.csproj.GenerateResource.Cache
+E:\ITech\SF Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.dll
+E:\ITech\SF Connector\SF Connector\SalesforceCon\obj\Debug\SalesforceCon.pdb
